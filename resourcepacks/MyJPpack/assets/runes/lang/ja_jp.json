@@ -1,0 +1,11 @@
+{
+  "gui.runes.rune_crafting": "ルーンクラフト",
+  "block.runes.crafting_altar": "ルーンクラフト祭壇",
+  "block.runes.crafting_altar.hint": "よりコスト効率よくルーンを作成します。",
+  "item.runes.arcane_stone": "アーケインルーン",
+  "item.runes.fire_stone": "火のルーン",
+  "item.runes.frost_stone": "フロストルーン",
+  "item.runes.healing_stone": "ヒーリングルーン",
+  "item.runes.lightning_stone": "ライトニングルーン",
+  "item.runes.soul_stone": "ソウルルーン"
+}

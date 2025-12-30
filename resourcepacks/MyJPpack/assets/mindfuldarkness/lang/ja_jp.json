@@ -1,0 +1,15 @@
+{
+  "screen.daytime_switcher.algorithm": "アルゴリズム",
+  "screen.daytime_switcher.algorithm.grayscale_and_hsl": "グレースケールとHSL",
+  "screen.daytime_switcher.algorithm.grayscale_and_hsp": "グレースケールとHSP",
+  "screen.daytime_switcher.algorithm.grayscale_and_hsv": "グレースケールとHSV",
+  "screen.daytime_switcher.algorithm.grayscale_and_linear": "グレースケールとリニア",
+  "screen.daytime_switcher.algorithm.hsl": "HSL",
+  "screen.daytime_switcher.algorithm.hsp": "HSP",
+  "screen.daytime_switcher.algorithm.hsv": "HSV",
+  "screen.daytime_switcher.algorithm.linear": "リニア",
+  "screen.daytime_switcher.front_brightness": "フォントの明るさ",
+  "screen.daytime_switcher.interface_darkness": "インターフェースの闇",
+  "screen.debug.identifier": "画面識別子: %s",
+  "screen.debug.menuType": "メニュータイプ: %s"
+}

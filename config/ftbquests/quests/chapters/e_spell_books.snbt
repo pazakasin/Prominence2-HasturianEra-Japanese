@@ -1,0 +1,375 @@
+{
+	autofocus_id: "3D769BC0E31CF27B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "e_spell_books"
+	group: "5EA21B61C2E147CB"
+	id: "0A5ED3FF6297E59E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&e呪文束縛台は、Tier I の呪文書を作成するための源です。また、Tier に関係なく、すべての呪文書に呪文を付与することもできます。"
+				""
+				"&7呪文束縛台のパフォーマンスを最大限に高め、すべての呪文をアンロックするには、エンチャント台と同様に、&e本棚&7 で周囲を囲む必要があります。"
+			]
+			id: "2ACBF734342376E6"
+			shape: "hexagon"
+			subtitle: "&8[クリックして説明を読む]"
+			tasks: [{
+				id: "27A316975F783582"
+				item: "spell_engine:spell_binding"
+				type: "item"
+			}]
+			title: "&e呪文束縛テーブル"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ACBF734342376E6"]
+			description: [
+				"&e最初の呪文書の作成に取り掛かる前に、Tier とはどういう意味なのかを知りたいと思うかもしれません。"
+				"&8Tier の横に表示されている難易度は、各呪文書の複雑さ、つまり習得の難しさを表しています。"
+				""
+				"&eTier I: &7呪文束縛表から入手できる基本クラスの呪文書。"
+				"&6Tier II: &7Tier I の呪文書を使ったクラフトレシピを使って入手するハイブリッドクラスの呪文書。"
+				"&cTier III: &7Tier II の呪文書を拡張/進化させたり、高度なゲームプレイを備えた上級クラスの呪文書。作成にはシンダーストーン・トロフィーが必要です。"
+				""
+				"&7Tier の高い呪文書は&c強力であるという意味ではなく&7、入手方法が異なるという意味です。"
+			]
+			id: "3D769BC0E31CF27B"
+			rewards: [{
+				count: 8
+				id: "63E0801C38149B0D"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[クリックして説明を読む]"
+			tasks: [{
+				id: "5C2381C13E96EC72"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			title: "あなたの中にある力"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eWarrior's Codex"
+				"&7ブルーザーやプロテクター向けの基本書。物理ダメージ重視のビルドに最適な中間層向け。"
+			]
+			id: "680CDC0CDDB2A1E7"
+			shape: "diamond"
+			subtitle: "&eTier I&7- &a簡単"
+			tasks: [{
+				id: "0CC8838FD229F0D3"
+				item: "rogues:warrior_spell_book"
+				type: "item"
+			}]
+			title: "&eA バーサーカーキングパス"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eローグハンドブック"
+				"&7スタックダメージ増加からテレポート、スタン、素早いステルスまで、ローグビルドに必要なユーティリティを提供することに特化したスペルブックです。"
+			]
+			id: "78944A4B5A1CD1EA"
+			shape: "diamond"
+			subtitle: "&eTier I &7- &a簡単"
+			tasks: [{
+				id: "420A3C82E6373505"
+				item: "rogues:rogue_spell_book"
+				type: "item"
+			}]
+			title: "致命的な影"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &eアーチェリーマニュアル"
+				"&7アーチャーのための基本呪文書。追加能力でアーチェリーのゲームプレイを向上させることに重点を置いています。射撃のパッシブ強化から、群衆制御、矢の連射まで。"
+			]
+			id: "39463E71A1709CE8"
+			shape: "diamond"
+			subtitle: "&eTier I &7- &a簡単"
+			tasks: [{
+				id: "659C0887A14C58E8"
+				item: "archers:archer_spell_book"
+				type: "item"
+			}]
+			title: "&eブルズアイ"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &e聖なる書"
+				"&7原初の聖なる力を行使して味方を回復する。"
+			]
+			id: "420BD41EBB2FCBF2"
+			shape: "diamond"
+			subtitle: "&eTier I &7- &a簡単"
+			tasks: [{
+				id: "4A76EA93FA7EBA05"
+				item: "paladins:priest_spell_book"
+				type: "item"
+			}]
+			title: "聖なるヒーラー"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D769BC0E31CF27B"]
+			description: [
+				"- &e秘術の書"
+				"&7秘術魔法を用いて、高いクリティカルダメージを伴う非常に強力な攻撃を行う遠隔詠唱呪文書。"
+				""
+				"- &e氷結の書"
+				"&7氷結魔法を用いて、群集制御や防御呪文といったユーティリティを用いて、持続的かつ迅速なダメージを与える遠隔詠唱呪文書。"
+				""
+				"- &e火炎の書"
+				"&7火炎魔法を用いて、高いクリティカル率を伴う強力な攻撃を行う遠隔詠唱呪文書。"
+			]
+			id: "2FE046702FE7E363"
+			shape: "diamond"
+			subtitle: "&eTier I &7- &a簡単"
+			tasks: [
+				{
+					id: "767C8498E6F73BF4"
+					item: "wizards:arcane_spell_book"
+					type: "item"
+				}
+				{
+					id: "1645A1DF79B0CC8F"
+					item: "wizards:frost_spell_book"
+					type: "item"
+				}
+				{
+					id: "0AC2E4E46CF093ED"
+					item: "wizards:fire_spell_book"
+					type: "item"
+				}
+			]
+			title: "エレメンタルマジック"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"680CDC0CDDB2A1E7"
+				"420BD41EBB2FCBF2"
+			]
+			description: [
+				"- &eパラディン・リブラム（タンク）"
+				"&7戦士と僧侶の融合体。聖なる力を召喚して味方を守る守護者。"
+				"- &e反逆の誓い（タンク）"
+				"&7タンクと僧侶の融合体。背後を守る守護者であり、立ちはだかる者には果敢に挑発する。"
+				"- &e復讐の誓い（タンク）"
+				"&7古の僧侶が用いた術をタンクにいくつか加えた組み合わせ。敵を挑発し、鎧の堅牢さを誇示することで、味方の守りを容易にする。"
+			]
+			id: "55D2E1055E762E33"
+			shape: "pentagon"
+			subtitle: "&6Tier II &7- &e中級"
+			tasks: [
+				{
+					id: "1B0545C60E16399F"
+					item: "paladins:paladin_spell_book"
+					type: "item"
+				}
+				{
+					id: "4EC5F01ABFBED7BA"
+					item: "spellbladenext:defiance_spell_book"
+					type: "item"
+				}
+				{
+					id: "0F29E2EE6A65CD5B"
+					item: "spellbladenext:vengeance_spell_book"
+					type: "item"
+				}
+			]
+			title: "聖戦士"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["680CDC0CDDB2A1E7"]
+			description: [
+				"&7デスナイトには3つのタイプがあります。"
+				""
+				"- &e永遠の冬の書（フロスト - DPS）"
+				"&7複数の対象にダメージを与えることに特化したタイプで、理解は容易ですが、習得は3つの中で最も困難です。"
+				""
+				"- &e不浄の教えの書（不浄、DPS）"
+				"&7単一の対象に高ダメージを与えることに特化したタイプで、特にフェイトタレント「衰退の献身」との相性が抜群です。"
+				""
+				"- &e吸血鬼の知識の書（ブラッド - タンク）"
+				"&7自己回復に特化しており、最大体力に応じて自己回復に特化した呪文を唱えます。"
+			]
+			id: "12369F6ACB62CBC1"
+			shape: "pentagon"
+			subtitle: "&6Tier II &7- &e中級"
+			tasks: [
+				{
+					id: "7F6EA37603A11140"
+					item: "death_knights:blood_spell_book"
+					type: "item"
+				}
+				{
+					id: "4A010BC27744790E"
+					item: "death_knights:unholy_spell_book"
+					type: "item"
+				}
+				{
+					id: "5022B3CA9933DD1B"
+					item: "death_knights:frost_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eDeath's Knights"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2FE046702FE7E363"
+				"78944A4B5A1CD1EA"
+			]
+			description: [
+				"&eスペルブレードは、致命的なローグと魔法の使用を組み合わせたものです。"
+				""
+				"- &eテクニックブック"
+				"&7属性の近接呪文を収録した書籍シリーズ。"
+			]
+			id: "2D6DC01DD507C1EC"
+			shape: "pentagon"
+			subtitle: "&6Tier II &7- &a簡単"
+			tasks: [
+				{
+					id: "17F3314D40F30CEE"
+					item: "spellbladenext:frost_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "7BABA4105E09F7BE"
+					item: "spellbladenext:fire_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "6CFA154E9DDFAF6B"
+					item: "spellbladenext:arcane_battlemage_spell_book"
+					type: "item"
+				}
+			]
+			title: "スペルブレード"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2FE046702FE7E363"]
+			description: [
+				"&eアストラル魔法は、秘術、炎、氷の魔法を組み合わせたものです。"
+				""
+				"- &eアストラル・インヴォケーション"
+				"&7アストラルエレメントの力を用いて、各エレメントの3種類の呪文を唱えます。使用するエレメントに応じて変化する究極呪文を使用することもできます。"
+				""
+				"&c合計&l39&r&cの呪文が使用可能で、最も難しい呪文書です。"
+			]
+			id: "6EBA56E6576665E2"
+			shape: "hexagon"
+			subtitle: "&cTier III &7- &cハード"
+			tasks: [{
+				id: "6FF598197E4A5471"
+				item: "invoke:invoker_spell_book"
+				type: "item"
+			}]
+			title: "＆アストラルマジック"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39463E71A1709CE8"]
+			description: [
+				"- &eミンタカの恐怖"
+				"&7弓術と氷結魔法を組み合わせ、スタンによる群集制御に特化した弓術書。"
+				""
+				"- &eアルニラムの視線"
+				"&7高速ゲームプレイに特化した、致命的なローグアーチャー向けの弓術書。"
+				""
+				"- &eアルニタクの力"
+				"&7弓術と火炎魔法を組み合わせ、燃焼と爆発による高ダメージに特化した弓術書。"
+			]
+			id: "24588E0C17F50C15"
+			shape: "pentagon"
+			subtitle: "&cTier III &7- &e中"
+			tasks: [
+				{
+					id: "362CF726EC9049D2"
+					item: "archers_expansion:tundra_hunter_spell_book"
+					type: "item"
+				}
+				{
+					id: "3BDCCF2AA3A70E04"
+					item: "archers_expansion:deadeye_spell_book"
+					type: "item"
+				}
+				{
+					id: "09E48B2921BFBA96"
+					item: "archers_expansion:war_archer_spell_book"
+					type: "item"
+				}
+			]
+			title: "三人のハンター"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2D6DC01DD507C1EC"]
+			description: [
+				"&e技巧書の進化形。やや上級。"
+				""
+				"- &eEchoes Unleashed"
+				"&7秘術の神秘的な進化形。"
+				""
+				"- &eDeathchill Tome"
+				"&7氷の技巧の凍てつく進化形。"
+				""
+				"- &ePhoenix Rites"
+				"&7炎の技巧の紅蓮術的進化形。"
+			]
+			id: "54865C68BCE9863A"
+			shape: "hexagon"
+			subtitle: "&cTier III &7- &e中"
+			tasks: [
+				{
+					id: "0C0195D29CA499EE"
+					item: "spellbladenext:runic_echoes_spell_book"
+					type: "item"
+				}
+				{
+					id: "1822DD768F03A89D"
+					item: "spellbladenext:deathchill_spell_book"
+					type: "item"
+				}
+				{
+					id: "61E0031395517090"
+					item: "spellbladenext:phoenix_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eMagisterの知識"
+			x: -3.0d
+			y: -5.0d
+		}
+	]
+	title: "能力のロック解除"
+}

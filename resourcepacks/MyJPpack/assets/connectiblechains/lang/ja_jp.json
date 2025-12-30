@@ -1,0 +1,19 @@
+{
+  "entity.connectiblechains.chain_knot": "チェーンノット",
+  "message.connectiblechains.connectible_chain": "カテナリー対応[シフト]",
+  "message.connectiblechains.connectible_chain_detailed": "フェンス/壁をクリックして懸垂線を作成しましょう。",
+  "entity.connectiblechains.chain_collision": "チェーン衝突",
+  "text.autoconfig.connectiblechains.option.chainHangAmount": "チェーンドリップ",
+  "text.autoconfig.connectiblechains.option.maxChainRange": "最大チェーン距離",
+  "text.autoconfig.connectiblechains.option.quality": "チェーンの品質",
+  "text.autoconfig.connectiblechains.option.chainHangAmount.@Tooltip[0]": "チェーンがどれだけ垂れ下がるかに影響します。",
+  "text.autoconfig.connectiblechains.option.chainHangAmount.@Tooltip[1]": "数字が小さいほど、曲線は大きくなります。",
+  "text.autoconfig.connectiblechains.option.chainHangAmount.@Tooltip[2]": "衝突は新しいチェーンまたはワールドのロード時に更新されます。",
+  "text.autoconfig.connectiblechains.option.showToolTip": "カテナリー互換性ツールチップを表示",
+  "text.autoconfig.connectiblechains.option.showToolTip.@Tooltip": "この MOD と互換性のあるチェーン アイテムにツールチップを表示します。",
+  "text.autoconfig.connectiblechains.option.maxChainRange.@Tooltip[0]": "チェーンの長さに影響します。",
+  "text.autoconfig.connectiblechains.option.maxChainRange.@Tooltip[1]": "§n警告§r: 長いチェーンは見えなくなる場合があります。",
+  "text.autoconfig.connectiblechains.option.quality.@Tooltip": "チェーンの視覚的な品質に影響を与えます。",
+  "text.autoconfig.connectiblechains.title": "接続可能なチェーン構成",
+  "tag.item.connectiblechains.catenary_items": "カテナリーアイテム"
+}

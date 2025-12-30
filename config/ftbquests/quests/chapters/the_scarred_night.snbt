@@ -1,0 +1,481 @@
+{
+	autofocus_id: "6CEAFB0EBF711698"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_scarred_night"
+	group: "1E972F135ACD3687"
+	hide_quest_until_deps_complete: true
+	icon: "chipped:anguished_carved_pumpkin"
+	id: "5F3F02C289CF3BA2"
+	images: [
+		{
+			color: 16718321
+			dependency: "078928DAA8041116"
+			height: 1.2d
+			image: "decorative_blocks:block/bonfire_x_alt"
+			rotation: 0.0d
+			width: 1.4d
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "decorative_blocks:block/bonfire_alt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -3.1892857142857167d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+	"&e10月20日から11月12日までのみ利用可能"
+]
+			hide_until_deps_complete: true
+			id: "2A009494CC293B5B"
+			shape: "hexagon"
+			subtitle: "ハロウィンイベント"
+			tasks: [{
+				advancement: "prominent:halloween_check"
+				criterion: ""
+				id: "5E2F23002B2F4B3B"
+				title: "ハロウィーンイベント中の&ePlay Prominence"
+				type: "advancement"
+			}]
+			title: "空気中に何かを感じます..."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B74F20D9FFC44D4"]
+			description: [
+				"&7カボチャを彫るには、まずカボチャが必要です。"
+				""
+				"&e- かかし退治のカラスガイド、1ページ"
+			]
+			id: "6F84EE0AEF1A3784"
+			rewards: [{
+				id: "3013550C64755383"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "&8[ガイドページを読むにはクリックしてください]"
+			tasks: [{
+				id: "089D8024F1726C3C"
+				item: "minecraft:pumpkin"
+				title: "カボチャを手に入れよう"
+				type: "item"
+			}]
+			title: "彫刻の準備（ページ1）"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A009494CC293B5B"]
+			description: [
+				"&7カカシたちは何百年もの間、私たちの世界を侵略してきました。"
+				""
+				"&7彼らの邪悪なリーダーを召喚して倒してほしいのです。もしそうしてくれたら、素敵な報酬を用意しています。"
+				""
+				"&7私たちの本をお渡しします。そこにはカカシとそのリーダーについて私たちが知っていることすべてが書かれています。きっと、あなたがカカシを召喚して、私たちを彼らの支配から解放してくれるでしょう。"
+				""
+				"&7敬具"
+				"&7カラスより"
+			]
+			icon: "minecraft:paper"
+			id: "2B74F20D9FFC44D4"
+			rewards: [{
+				auto: "enabled"
+				icon: "minecraft:writable_book"
+				id: "101DBC5BFEBA7FDE"
+				title: "かかしを倒すためのカラスのガイド"
+				type: "custom"
+			}]
+			subtitle: "&8[詳細についてはクリックしてください]"
+			tasks: [{
+				id: "6931FBC9B9D34339"
+				title: "受け入れる"
+				type: "checkmark"
+			}]
+			title: "&c賞金首: &eかかしのリーダー"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F84EE0AEF1A3784"]
+			description: [
+				"&7カボチャが手に入ったので、道具、ハサミを用意しましょう。"
+				""
+				"&e- カラス退治ガイド、2ページ"
+			]
+			id: "2368213E35BAB69D"
+			rewards: [{
+				id: "59FFCFE5D364B693"
+				type: "xp"
+				xp: 56
+			}]
+			subtitle: "&8[ガイドページを読むにはクリックしてください]"
+			tasks: [{
+				id: "0EE8DBCFB3154BBA"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&eツール（ページ2）"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2368213E35BAB69D"]
+			description: [
+				"&7ハサミを手に入れたら、カボチャを地面に置いて、もちろんハサミを使って彫りましょう。"
+				""
+				"&e- クロウズ・ガイド・トゥ・デストロイ・ザ・スケアクロウズ、2ページ"
+			]
+			id: "6CEAFB0EBF711698"
+			rewards: [{
+				id: "1E9B13CFB8B71062"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "&8[ガイドページを読むにはクリックしてください]"
+			tasks: [{
+				id: "35F58113F2DC9474"
+				item: "minecraft:carved_pumpkin"
+				type: "item"
+			}]
+			title: "&eCarving! (ページ3)"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69982837AB51D95A"]
+			description: [
+				"&7彫刻をもっとクリエイティブにするには、もっと良い道具が必要です。今のハサミでは、ほとんどきちんと切れません。必要なものは"
+				""
+				"&7植物学者の作業台を作ってください。これを使えば、あのジャック・オー・ランタンをもう一度切り直して、もっと良いデザインを作ることができます。"
+				""
+				"&e- クロウズ・ガイド・トゥ・デストロイ・ザ・スケアクロウズ、6ページ"
+			]
+			id: "3B31610F00660E03"
+			subtitle: "&8[ガイドページを読むにはクリックしてください]"
+			tasks: [{
+				id: "7B80824A90E215D7"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			title: "&eWorkは簡単ではない（6ページ目）"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CB0B02DE7105856"]
+			description: [
+				"&7これまでのところ、これらのものは無生物の構造物から実体化します。構造物の見た目が異なれば、かかしも異なります。"
+				""
+				"&7リーダーの左腕には金属製のフックが付いていることが分かっています。作ったバカが木の柵を使い果たしたからです。信じられますか？とにかく、構造は分かっていますが、顔は分かりません。彫刻を工夫して、うまくいくまであらゆる彫刻を試してみる必要がありますよね？"
+				""
+				"&e- かかし退治ガイド、5ページ"
+			]
+			icon: "minecraft:paper"
+			id: "69982837AB51D95A"
+			subtitle: "&8[ガイドページを読むにはクリックしてください]"
+			tasks: [{
+				id: "41CF251EA1D8AE9C"
+				title: "次のページ"
+				type: "checkmark"
+			}]
+			title: "私たちが知っていること（5ページ）"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CEAFB0EBF711698"]
+			description: [
+				"&7かかしたちが生き返る唯一の方法は、かかしの体に光が当たることです。松明を用意し、くり抜いたかかしと組み合わせれば「ジャック・オー・ランタン」が完成します。"
+				""
+				"&e- かかし退治ガイド、5ページ"
+			]
+			id: "6CB0B02DE7105856"
+			rewards: [{
+				id: "132F55FD69F45E5B"
+				type: "xp"
+				xp: 67
+			}]
+			subtitle: "&8[ガイドページを読むにはクリックしてください]"
+			tasks: [{
+				id: "64633DE25FF7C024"
+				item: "minecraft:jack_o_lantern"
+				type: "item"
+			}]
+			title: "ライトアップ！（4ページ目）"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B31610F00660E03"]
+			description: [
+				"&7作業台を手に入れたら、彫刻を始めましょう！"
+				""
+				"&7好きなデザインを彫って、建物に彫ってみて、リーダーを召喚できるか試してみましょう。"
+				""
+				"&e- クロウズ・ガイド・トゥ・デストロイ・スケアクロウズ、7ページ"
+			]
+			id: "015A49544148F653"
+			rewards: [{
+				id: "6E1396ACD8EC0E58"
+				type: "xp"
+				xp: 53
+			}]
+			tasks: [{
+				id: "3BEAC1491E82917D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "chipped:squished_cute_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:nether_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:kitty_faced_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:overjoyed_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:owo_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:slight_smile_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:smiling_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:suspicious_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:tiny_smug_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:upside_down_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:wide_eyed_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:silly_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:anguished_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:bad_time_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:boo_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:creepy_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:devious_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:end_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:end_purple_jack_o_lantern"
+							}
+							{
+								Count: 1b
+								id: "chipped:horrified_jack_o_lantern"
+							}
+						]
+					}
+				}
+				title: "&e素敵なものを彫る"
+				type: "item"
+			}]
+			title: "&eファンシーカービング（7ページ目）"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["015A49544148F653"]
+			description: [
+				"&7以下の構造物を作りましょう。"
+				""
+				"{image:prominent:textures/quests/halloween_event/halloween_event_book_7_preview.png width:140 height:150 align:center}"
+				""
+				"&7そして、あの野郎が現れるまで、できるだけ多くのジャック・オー・ランタンを彫ってみましょう。"
+				""
+				"&e- クロウズ・ガイド・トゥ・デストロイ・ザ・スケアクロウズ、8ページ"
+			]
+			id: "3D69B78F6275C119"
+			rewards: [{
+				advancement: "prominent:carved_up"
+				auto: "enabled"
+				criterion: ""
+				id: "3C400491D666AF72"
+				type: "advancement"
+			}]
+			subtitle: "&8[ガイドページを読むにはクリックしてください]"
+			tasks: [
+				{
+					id: "64F7BE1E85FCB99E"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5ED4C8292E1CF2B7"
+					item: { Count: 2, id: "minecraft:oak_fence" }
+					type: "item"
+				}
+				{
+					id: "337AEC275737ECA0"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+			]
+			title: "&e野郎の召喚（8ページ）"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D69B78F6275C119"]
+			description: [
+				"&7かかしのリーダー、「サー・スカー・クロウ」。かつてカラスに傷を負わされたことから、そして「かかし」と韻を踏むことから、この名前がついたそうです。"
+				""
+				"&7彼は少し臆病で、プレイヤーから逃げ回り、遠くから攻撃したり、アンデッドを召喚して攻撃したりします。"
+			]
+			id: "48438CDCDFEB0FAE"
+			rewards: [{
+				id: "6BD27EF90B8936F1"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "sbprom:scarecrow"
+				icon: "chipped:devious_jack_o_lantern"
+				id: "0590D18F6093F64C"
+				title: "サー・スカー・クロウを倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &e&lサー・スカー・クロウ"
+			x: 7.5d
+			y: -2.1428571428571423d
+		}
+		{
+			dependencies: ["48438CDCDFEB0FAE"]
+			description: [
+				"&7フレイムボーン、この野郎を倒すのに協力してくれてありがとう。"
+				""
+				"&7報酬として、数年前に運良く奪った彼の武器をあげよう。彼はその武器を使うと非常に危険なので、あんな風に戦わなくて済んだのは幸運だった。"
+				""
+				"&e作物は食べないぞ。"
+				"&e- カラス"
+			]
+			icon: "minecraft:paper"
+			id: "078928DAA8041116"
+			rewards: [{
+				id: "5999BBF92AEB1882"
+				item: {
+					Count: 1
+					id: "prominent:scarred_night"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "760397317E5B8523"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "カラスからの手紙"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["078928DAA8041116"]
+			description: [
+				"&7「もし彼に武器を返したらどうなるだろう？」あなたは思う…"
+				""
+				"&dヴォイドの砂時計に宿るサー・スカー・クロウのエッセンスには、彼の武器「傷だらけの夜」を携えた姿が映し出されている。"
+				""
+				"&c「ヴォイドの侵略」キャンペーンを完了し、このボスと戦うためのミシックボスをアンロックしよう。10月20日から11月14日までの期間限定で入手可能。"
+			]
+			id: "35A0608355D85770"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "prominent:xmog_pumpmourne"
+					tag: {
+						soulboundTo: [I;
+							-509841217
+							1799570245
+							-1395779439
+							-155772242
+						]
+					}
+				}
+				id: "6BBA203A08647F1C"
+				title: "&6「パンプモーン」登場（確率20%）"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "sbprom:scarecrow_mythic"
+				icon: "chipped:devious_jack_o_lantern"
+				id: "4F9655C7CC6973E0"
+				title: "神話級サー・スカー・クロウを倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &d&lサー・スカー・クロウ（神話）"
+			x: 5.0d
+			y: -4.5d
+		}
+	]
+	title: "傷ついた夜"
+}

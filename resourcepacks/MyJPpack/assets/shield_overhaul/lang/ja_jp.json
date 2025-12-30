@@ -1,0 +1,7 @@
+{
+  "enchantment.shield_overhaul.vigor": "活力",
+  "enchantment.shield_overhaul.vigor.desc": "シールドバッシュは追加のノックバックを与え、エンチャントレベルに応じて増加します。",
+  "effect.shield_overhaul.stun": "驚愕",
+  "effect.shield_overhaul.stun_immunity": "スタン耐性",
+  "effect.shield_overhaul.stun.description": "ターゲットは移動したり、アイテムを使用したり、攻撃したりできなくなります。"
+}

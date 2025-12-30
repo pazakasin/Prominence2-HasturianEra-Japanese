@@ -1,0 +1,10 @@
+{
+  "serverbrowser.button.next_page": "次へ: %s",
+  "serverbrowser.button.prev_page": "前へ",
+  "serverbrowser.button.register": "サーバーを登録",
+  "serverbrowser.button.filter": "フィルターサーバー",
+  "serverbrowser.button.history": "歴史（進行中）",
+  "serverbrowser.button.favorite": "お気に入り",
+  "serverbrowser.error.unreachable_website": "現在ウェブサイトにアクセスできません",
+  "serverbrowser.server.official": "正式"
+}

@@ -1,0 +1,4 @@
+{
+  "commands.config.getwithtype": "タイプ %s の %s の設定が %s で見つかりました",
+  "commands.config.noconfig": "タイプ %s の %s の設定が見つかりません"
+}

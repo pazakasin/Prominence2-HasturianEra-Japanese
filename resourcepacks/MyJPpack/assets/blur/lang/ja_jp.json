@@ -1,0 +1,15 @@
+{
+  "blur.midnightconfig.title": "ぼかし設定",
+  "blur.midnightconfig.category.style": "スタイル",
+  "blur.midnightconfig.category.screens": "スクリーン",
+  "blur.midnightconfig.blurExclusions": "ぼかし除外",
+  "blur.midnightconfig.fadeTimeMillis": "フェードタイム（ミリ秒）",
+  "blur.midnightconfig.fadeOutTimeMillis": "フェードアウト時間（ミリ秒）",
+  "blur.midnightconfig.ease": "イーズアニメーション",
+  "blur.midnightconfig.radius": "半径",
+  "blur.midnightconfig.gradientStart": "グラデーション開始色",
+  "blur.midnightconfig.gradientEnd": "グラデーション終了色",
+  "blur.midnightconfig.gradientStartAlpha": "グラデーション開始アルファ",
+  "blur.midnightconfig.gradientEndAlpha": "グラデーション終了アルファ",
+  "blur.midnightconfig.showScreenTitle": "ログ画面のタイトル"
+}

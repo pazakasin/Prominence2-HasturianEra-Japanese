@@ -1,0 +1,2081 @@
+{
+	autofocus_id: "343EF47C470616FF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main_story"
+	group: "3DBADFFDA1FDAD84"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "eldritch_end:textures/icon/corruption.png"
+		}
+	}
+	id: "33AB3D787DE6F0E5"
+	images: [
+		{
+			dependency: "7CBAFED315D614C3"
+			height: 2.5d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 2.5d
+			x: -12.270408163265301d
+			y: -0.07142857142854808d
+		}
+		{
+			dependency: "7CBAFED315D614C3"
+			height: 2.0d
+			image: "minecraft:block/cobweb"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependency: "7CBAFED315D614C3"
+			height: 1.5d
+			image: "betterend:textures/particle/jungle_spore_1.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependency: "7CBAFED315D614C3"
+			height: 2.0d
+			image: "endrem:block/ancient_portal_frame_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependency: "7CBAFED315D614C3"
+			height: 2.5d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -3.6785714285714306d
+			y: 0.05357142857141639d
+		}
+		{
+			dependency: "7CBAFED315D614C3"
+			height: 2.0d
+			image: "betternether:block/blackstone_furnace_front_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependency: "7CBAFED315D614C3"
+			height: 2.5d
+			image: "minecells:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependency: "7CBAFED315D614C3"
+			height: 1.4954166666666664d
+			image: "prominent:textures/text/dimensionalthreats.png"
+			rotation: 0.0d
+			width: 9.7d
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "prominent:textures/text/the_beginning.png"
+			rotation: 0.0d
+			width: 8.06060606060606d
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependency: "63A18694A9470D66"
+			height: 1.7d
+			image: "prominent:textures/other/prominent_logo.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: -2.696428571428555d
+			y: -1.5892857142857153d
+		}
+		{
+			dependency: "7CBAFED315D614C3"
+			height: 2.0d
+			image: "endrem:textures/backgrounds/advance_back.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.6632653061224545d
+			y: 0.0357142857142847d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -35.0d
+			y: -27.5d
+		}
+		{
+			dependency: "18E337BC1F3F75FD"
+			height: 1.0d
+			image: "soulsweapons:item/lord_soul_rose"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.677040816326539d
+			y: 3.1773809523809504d
+		}
+		{
+			dependency: "18E337BC1F3F75FD"
+			height: 1.0d
+			image: "soulsweapons:item/lord_soul_day_stalker"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.085204081632654d
+			y: 4.218197278911568d
+		}
+		{
+			dependency: "18E337BC1F3F75FD"
+			height: 1.0d
+			image: "soulsweapons:item/lord_soul_white"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.677040816326539d
+			y: 5.17738095238095d
+		}
+		{
+			dependency: "18E337BC1F3F75FD"
+			height: 20.0d
+			image: "prominent:textures/other/tear_in_space.png"
+			rotation: 0.0d
+			width: 24.48979591836735d
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependency: "245E77F81FB78B58"
+			height: 4.901960784313726d
+			image: "eldritch_end:textures/icon/faceless_head.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.716836734693871d
+			y: 12.392857142857153d
+		}
+		{
+			dependency: "7CBAFED315D614C3"
+			height: 2.0d
+			image: "prominent:item/demonic_essence"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.948979591836732d
+			y: -1.392857142857146d
+		}
+		{
+			color: 16711680
+			dependency: "214E47AB3004E7D3"
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -5.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"49C9DC2F3D131A14"
+				"5B31D4D4029F1891"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&e推奨レベル: 15"
+				""
+				"&7&oかつてネザーの警戒者であり最初の使者であったガントレットは、今や虚空の闇の抱擁に堕ちた。虚空の使者であることに隷従し、今や自らの領域を滅ぼすことで脅かしている。"
+				""
+				"&7&oガントレットは巨大な牢獄に閉じ込められているかもしれない。その目を砕けば、今や堕落した蜂を解き放つことができるだろう。"
+				""
+				"&eヒント: &7このボスは攻撃力が強く、ノーマルまたはハード難易度では一撃で倒される可能性がある！回避するか、防御ポーションを作成するように！"
+				""
+				"&8英語"
+				"{@pagebreak}"
+				"&e推奨レベル: 15"
+				""
+				"&7&oガントレットは、ネザーの警戒者であり最初の使者であり、今は虚空の闇の抱擁に晒されている。ネザーでの安全な管理を行うため、ヘラルドスの管理を強化します。"
+				""
+				"&7&oPuedes encontrar el Guantelete encerrado dentro de una prisión monolítica.最高のアホラ・コルムピダのような出会いを楽しみましょう。"
+				""
+				"&eTip: &7Este jefetiene ataques fuertes que pueden matarte de un golpe si juegas en dificultad Normal or Difícil!インテンタ・エヴァディル・ロス・アタケス・オ・ハズ・ポシオネス・ディフェンシバス。"
+				""
+				"&8スペイン語"
+			]
+			id: "1B76F8D3B54F3FE6"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "466ECA697E5C8AD1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "19426F4CF9537B2B"
+					item: "adventurez:gilded_netherite_fragment"
+					type: "item"
+				}
+				{
+					id: "7F629FB4A3ADD188"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "7D169777B9E97386"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/guantlet.png"
+					}
+				}
+				id: "0F843C913D775125"
+				title: "ネザーガントレットを倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &cガントレット、ネザーの第一使者"
+			x: -12.234693877551024d
+			y: 0.3214285714285765d
+		}
+		{
+			dependencies: ["7CBAFED315D614C3"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&e推奨レベル: 10"
+				"&c遠距離攻撃向き"
+				""
+				"&7&oライレル王国の歴代王たちの魂は、遥か昔に蘇り、虚無によって穢され、ナイトリッチと呼ばれる怪物として姿を現しました。"
+				""
+				"&7&oナイトリッチはオーバーワールドの地上に棲息しています。寒冷なバイオームにある、壊れた塔の残骸の中で彼を探しましょう。"
+				""
+				"&7&oこの建造物を見つけるには、アンデッドが落とすソウルスターを使いましょう。ソウルスターは塔への道しるべとなります。"
+				""
+				"&eヒント: &7これは遠距離攻撃のボスです。近接攻撃の場合は飛行マウント、補助武器として弓を使いましょう！"
+				""
+				"&8英語"
+				"{@pagebreak}"
+				"&e推奨レベル: 10"
+				"&c弓と魔術師に推奨。"
+				""
+				"&7&oLas almas de los antiguos reyes del Reino de Ly'rell、quienes han fallecido hace muchotiempo、han sido resucitadas y cortoras por el Vacío、formando un gran monstruo ahora conocido como el Liche Nocturno。"
+				""
+				"&7&oEn los biomas mas fríos、en la cima de losrestos de una gran torre rota、yacen ellos atrapados。"
+				""
+				"&7&oPara encontrar esta estructura、usa las Estrellas de Alma、caídas de criaturas no muertas、que te guiarán hasta la torre。"
+				""
+				"&eヒント: &7 エステ ジェフェ エス ランゴ、アメリカ ウナ モンチュラ ボラドーラ サイ エレス メレー、オ ウン アルコ コモ アーマ セクンダリア!"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/boss_icons/night_lich.png"
+				}
+			}
+			id: "49C9DC2F3D131A14"
+			rewards: [
+				{
+					id: "347448D4FD9CD997"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "5F09631C2FF6849A"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+				{
+					advancement: "prominent:level_10"
+					auto: "enabled"
+					criterion: ""
+					id: "578CFD2AAF5AA3C4"
+					title: "レベル11～50のロック解除"
+					type: "advancement"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [
+				{
+					id: "3B40E2130DDD7AD3"
+					item: "bosses_of_mass_destruction:soul_star"
+					title: "少なくとも4つのソウルスターを入手して使用する"
+					type: "item"
+				}
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/boss_icons/night_lich.png"
+						}
+					}
+					id: "1F9BB747D54F1CD1"
+					title: "&9ナイトリッチを倒す"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&f &9すべての王の王、ナイトリッチ"
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48AADA398DC4E940"]
+			description: [
+				"&e推奨レベル: 25"
+				""
+				"&7ネザー最後の使者、ブラックストーン・ゴーレムは、ネザー内で儀式を行うことで召喚できる恐るべき存在です。"
+				""
+				"&7任意のブラックストーンで9×9の台座を構築し、各辺の中央に「彫り込み研磨されたブラックストーンホルダー」を設置します。"
+				"&7各ホルダーに金メッキされたブラックストーンの破片を1つずつ置いて儀式を開始します。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&e推奨レベル: 25"
+				""
+				"&7ネザー最後の使者、ブラックストーン・ゴーレムは、ネザー内で儀式を行うことで召喚できる恐るべきゴーレムです。"
+				""
+				"&7 9x9 のプラットフォームを使用して、ピエドラ ネグラの詳細な情報を確認し、ピエドラ ネグラのプリダ シンセラダの情報を確認します。"
+				"&7コロカ・ウン・フラグメント・デ・ピエドラ・ネグラ・ドラダ・ソブレ・カダ・ソポルテ・パラ・コモンザール・エル・リチュアル。"
+				""
+				"&8スペイン語"
+			]
+			id: "5063E49140A8BB20"
+			rewards: [
+				{
+					id: "12E25C32584091FB"
+					item: "artifacts:panic_necklace"
+					type: "item"
+				}
+				{
+					id: "692FA0E0AC7B298F"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "adventurez:blackstone_golem"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/blackstone_golem.png"
+					}
+				}
+				id: "5663873E5843130D"
+				title: "ブラックストーンゴーレムを倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &cブラックストーンゴーレム"
+			x: -11.979761904761915d
+			y: 2.0059523809523796d
+		}
+		{
+			dependencies: ["383590146CEEB423"]
+			description: [
+				"&e推奨レベル：35"
+				""
+				"&7古いチャンピオンの遺体は、オーバーワールドの地下に隠された墓の中で見つけることができます。かつて偉大なチャンピオンだったこのガイコツのような人物は、今では別の存在に憑依されています。 "
+				""
+				"&8彼の攻撃はガードされている場合を中心に展開し、攻撃に合わせてシールドスタンスを切り替えます。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&eNivel おすすめ度: 35"
+				""
+				"&7ロス レストス デル ビエホは、最高の世界を舞台に、最高の冒険を楽しみます。最高のフィギュア、最高の冒険、最高のパフォーマンスを見せてください。"
+				""
+				"&8Sus ataques giran en torno asi está protegido、alternando entre posturas defensivas y ataques。"
+				""
+				"&8スペイン語"
+			]
+			id: "759AA6DD39277704"
+			rewards: [
+				{
+					id: "09826DC6C54E3B82"
+					item: {
+						Count: 1
+						id: "simplyswords:runic_greataxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E37D66FCBBFD2D7"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "soulsweapons:draugr_boss"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/the_fallen_icon.png"
+					}
+				}
+				id: "2C3EE780FC4E8C0E"
+				title: "&7古きチャンピオンの残骸を倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &9古きチャンピオンの残骸"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["759AA6DD39277704"]
+			description: [
+				"&e推奨レベル：40"
+				""
+				"&7生きたモノリスであるオブシディリスは、ジ・エンドにおけるボイドの影響力の柱です。"
+				""
+				"&7独自のプラットフォームに位置し、最後に浮かんでいる巨大で不気味な構造物。出現させるには、プラットフォームの上部にあるエンダーアイを使用します。"
+				""
+				"&eヒント:&7 つるはしを持ってきてください!"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&eNivel おすすめ度: 40"
+				""
+				"&7Obsidilith、エル・モノリト・ビエンテ、エル・エンドの影響力の拡大。"
+				""
+				"&7Ubicado en su propia plataforma、una estructura gigantesca y extraña、que se encuentra flotando en El End。あなたのプラットフォームを呼び出してください。"
+				""
+				"&eヒント: &7Trae un pico!"
+				""
+				"&8スペイン語"
+			]
+			id: "103203350DABF6BB"
+			rewards: [
+				{
+					id: "0BCA9A9F79729399"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "40F2B08C36A0CE8B"
+					item: "bosses_of_mass_destruction:mob_ward"
+					type: "item"
+				}
+				{
+					id: "0570B3A44D8F91AA"
+					item: "bosses_of_mass_destruction:levitation_block"
+					type: "item"
+				}
+				{
+					id: "2DDF9907F58C329F"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/obsidilith.png"
+					}
+				}
+				id: "722BFEAA5498B1FC"
+				title: "&5オブシディリスを倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &d虚空の柱、オブシディリス"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["103203350DABF6BB"]
+			description: [
+				"&e推奨レベル: 50"
+				""
+				"&7終末の純粋なエッセンス、「エンダーアイ」は、虚空の存在によって穢され、恐ろしい怪物へと変貌を遂げました。荒廃したこの次元に均衡を取り戻すため、虚空の影響から救う必要があります。"
+				""
+				"&7エンダーアイは、祠でのみ召喚できます。祠は5×5の黒曜石の土台と、中央に3×3の泣き黒曜石の層を敷き詰めて構築します。四隅すべてにエンドロッドを設置する必要があります。エンダーアイは終末次元でのみ召喚できます。"
+				""
+				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&e推奨レベル: 50"
+				""
+				"&7終末の純粋なエッセンス、「エンダーアイ」は、虚空の存在によって穢され、恐ろしい生き物へと変貌を遂げました。アホラは、悪性の影響を及ぼし、安定した状態でアホラの状態を維持します。"
+				""
+				"&7El Ojo ソロ プエデ サー インボカド アン サントゥアリオ デル オホ。 El Santuario は、5x5 の黒曜石のプラットフォームと 3x3 の黒曜石の中央のキャパを構成します。 En cada uno de los cuatro bordes se debe colocar una Vara del end.アン・ラ・シマ・デル・サントゥアリオ、デベラス・トゥ・サクリフィカル・エル・ウエボ・デ・ドラゴン。 El Ojo は、最後の次元での呼び出しをソロで実行します。"
+				""
+				"{image:a_overrides:textures/quests/indication/eye_shrine.png width:200 height:120 align:1}"
+				""
+				"&8スペイン語"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "a_overrides:textures/quests/icon/the_eldritch_eye.png"
+				}
+			}
+			id: "0E567E587E669BED"
+			rewards: [
+				{
+					id: "5E60883C821CB3E5"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "73120B643C6ABF1C"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "169BCF5304D7C2A1"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "eldritch_end:eye"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "a_overrides:textures/quests/icon/the_eldritch_eye.png"
+					}
+				}
+				id: "5A3673477EA57892"
+				title: "エルドリッチアイを倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &dエルドリッチ・アイ"
+			x: -3.668367346938794d
+			y: 0.030612244897938012d
+		}
+		{
+			dependencies: ["5063E49140A8BB20"]
+			description: [
+				"&e推奨レベル：30"
+				""
+				"&7この巨大な目は、地獄の牢獄の永遠の監視者として機能し、牢獄の奥深くにある独自の隠れ家に住んでいます。"
+				""
+				"&7それに挑戦するには、まず断罪者の遊歩道からヴァインのルーンを入手する必要があります。このルーンを使用すると、隠れ家にアクセスし、戦闘で目を向けることができます。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&eNivel おすすめ度: 30"
+				""
+				"&7エステは、コンデナドス・デ・ラ・プリシオンの永遠の自警団を監視し、グアリダの保護施設に居住し、プリシオンの広範な管理を行います。"
+				""
+				"&7Para desafiarlo、primero debes obtener una Runa de Vid、obtenida en Paseo de los Condenados。 Con esta runa、accede a su Guarida y enfréntate al ojo en botlla."
+				""
+				"&8スペイン語"
+			]
+			id: "383590146CEEB423"
+			rewards: [
+				{
+					id: "74C32AE494757CF7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "11B72D0A200DD1F1"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F3AF87B2C2E9CB1"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/conjuctivius.png"
+					}
+				}
+				id: "009152F0C0BE39FA"
+				title: "コンジュンクティビウスを倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &9監獄の監視人コンユクティビウス"
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B76F8D3B54F3FE6"]
+			description: [
+				"&e推奨レベル: 20"
+				""
+				"&7&oかつて高貴で偉大なエメラルドドラゴンであったジーンは、虚空の暗黒の触手に屈した。今や虚空の怒りに堕落し、蝕まれた彼女は、終末の中心に住み、エンダードラゴンとして知られるようになった。"
+				""
+				"&7&o彼女の力は決して容易なものではない。虚空は彼女に恐るべき力を授け、その力はエンダーと呼ばれる強く抑えがたい怒りによって駆り立てられているのだ。"
+				""
+				"&7&o終末への古代のポータルを開くには、16個の固有の目のうち12個を見つけ出さなければならない。これらの目は、広大なオーバーワールドとネザーの灼熱の深淵に散らばっている。"
+				""
+				"&8英語"
+				"{@pagebreak}"
+				"&eNivel おすすめ度: 10"
+				""
+				"&7&oジャン、高貴で偉大なドラゴン、エスメラルダ、ラス・オスキュラス・ガラス・デル・ヴァシオの成功。アホラは、イラ デル ミスモで腐敗し、コラソン デル エンドでロンダが、ドラゴナ デル エンダーでアホラ コモが発生します。"
+				""
+				"&7&oElla は、激しい攻撃にさらされ、恐るべき人々の攻撃を受け、不屈のコノシダとエンダーの衝動に駆られます。"
+				""
+				"&7&oPara desbloquear el antiguo portal al End、debesbuscar doce de los dieciséis ojos únicos.オーバーワールドとネザーの奥深い世界を拡張します。"
+				""
+				"&8スペイン語"
+			]
+			id: "48AADA398DC4E940"
+			rewards: [
+				{
+					id: "544D6EE6AB75D837"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3437FBE6631BF571"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "39AAC0CCD8746B5F"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/boss_icons/dragon.png"
+					}
+				}
+				id: "028D2778B20852AA"
+				title: "エンダードラゴンを倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &dジャン、堕ちたドラゴン"
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&7&oすべてが生まれた原始の火山であるヴァーズの深部には、万物の創造主である生きた像、スケラックが住んでいます。"
+				""
+				"&7&o彼はあらゆる次元の微妙なバランスを保ち、王国の破壊を防ぐために数え切れないほどの戦いを繰り広げてきました。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				""
+				"&7&oEn las profundidades de Vaaz、el volcán primordial de donde todo se originó、hauseta la Estatua Viviente、S'kellak、el creador de todo lo que presenta。"
+				""
+				"&7&oÉl mantiene el delicado equilibrio a lo largo de todas las Dimensiones y ha luchado incontables butallas para evitar la destrucción de los reinos."
+				""
+				"&8スペイン語"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/other/skellak.png"
+				}
+			}
+			id: "343EF47C470616FF"
+			shape: "square"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承を読む]"
+			tasks: [{
+				id: "0C6DB9DA67E14C1A"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "創造の始まり"
+			x: -12.234693877551024d
+			y: -7.714285714285708d
+		}
+		{
+			dependencies: ["343EF47C470616FF"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&o&7しかし今、悠久の歳月が過ぎ去り、スケラックはかつてないほど弱体化している。恐ろしい影が芽生え、虚無と呼ばれる不気味な力が芽生えた。"
+				""
+				"&o&7長きに渡りスケラックは虚無を封じ込めてきたが、その力が衰えつつある今、影は勢いを増し、あらゆる領域を侵略し破壊しようと企んでいる。かつて静謐であった者たちは、腐敗がその邪悪な触手を広げるにつれ、恐ろしい異形へと変貌するだろう。審判の時は刻一刻と迫っている。"
+				""
+				"&8英語"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&o&7今、幾世紀も過ぎ去り、スケラックはかつてないほど弱体化している。闇は輝き、祖先の力は、虚無として知られる。"
+				""
+				"&o&7デュランテ時代、スケラックはエステ、ペロ・コン・ス・ポカ・フエルザ、ラ・ソンブラ・セ・アルザ、トラマンド・コロンペルとデストゥルイール・トドス・ロス・レイノス。死の恐怖にさらされた人々は、死の恐怖を乗り越え、腐敗した悪しき犯罪者たちを救い続けます。安全な破壊。"
+				""
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "bosses_of_mass_destruction:void_thorn"
+			id: "7AE1542456418BCD"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承を読む]"
+			tasks: [{
+				id: "64C1384346BEE406"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "影の急上昇"
+			x: -12.234693877551024d
+			y: -5.464285714285708d
+		}
+		{
+			dependencies: ["214E47AB3004E7D3"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&o&7S'ケラックは領域内の不均衡の原因を発見しました。すべての次元が今、ヴォイドの恐ろしい存在の汚れを帯びています。"
+				""
+				"&o&7かつて穏やかだった生き物たちは、その腐敗した接触によって強力な異常へとねじ曲げられました。王国の運命はあなたにかかっています。"
+				""
+				"&8英語"
+				""
+				""
+				"{@pagebreak}"
+				"&o&7S'kellak descubrió una fuente de desequilibrio en los reinos.あなたの人生は、アホラ・レバン・ラ・マンチャ・デ・ラ・ホレンダ・プレセンシア・デル・バシオです。"
+				""
+				"&o&7Las criaturas que antes eran serenas han sido retorcidas en poderosas aberraciones por su toque破損者。エル・デスティーノ・デ・ロス・レイノス・デスカンサ・ソブレ・ティ。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "ftbquests:book"
+			id: "7CBAFED315D614C3"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "444189B4E513644B"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&6&l第1章: &eヴォイドの侵略"
+			x: -12.234693877551024d
+			y: -3.464285714285708d
+		}
+		{
+			dependencies: ["0E567E587E669BED"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7&o次元の脅威が打ち破られ、王国の均衡が回復すると、永遠の炎スケラックはチャンピオンに直接語りかけた。"
+				""
+				"&6「汝の勇気と献身を称え、」&r &7&oスケラックの声が響き渡った。&r &6「我が精髄の欠片、モルテン・コアを汝に授ける。」"
+				""
+				"&7スケラックの力によって照らされたこの贈り物は、英雄の勝利と、王国を守り続けるという誓いの両方を意味する。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&7&o炎の喪失と王国の均衡の回復を受け、永遠の炎スケラックはチャンピオンに直接語りかけた。"
+				""
+				"&6「勇気ある献身的な行動を計画します。」&r &7&oLa voz de S'kellak resonó、&r &6「私は自分自身の断片を破壊し、新しい基金を作ります。」"
+				""
+				"&7エステ・レガーロ、スケラックのイルミナド・ポル・エル・グラン・ポーダー、継続的な保護活動のシンボルです。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "prominent:molten_core"
+			id: "63A18694A9470D66"
+			rewards: [{
+				advancement: "prominent:molten_core"
+				criterion: ""
+				icon: "prominent:molten_core"
+				id: "1D40A53ECB061059"
+				type: "advancement"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&8[クリックして物語を読む]"
+			tasks: [{
+				id: "388209961991648D"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&eS'kellakの報酬"
+			x: -3.6479591836734855d
+			y: -1.5408163265306314d
+		}
+		{
+			dependencies: ["0E567E587E669BED"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7エンダーのエッセンスは倒されましたが、そのエッセンスは虚空から抜け出し、ジ・エンドに亀裂が生じました。何かが来ています。"
+				""
+				"&7終わりの奥深くで、奇妙な声がささやきます&8&o「黄衣の王が近づいています」&r。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&7La Esencia del Ender は、sido derrotada、pero su esencia escapó del vacío vacío、y una grieta se ha formado en el End.アルゴ・セ・アセルカ。"
+				""
+				"&7En lo profundo del End, extrañas voces ahora susurran &8&o「El Rey en Amarillo se aproxima」&r."
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "ftbquests:book"
+			id: "18E337BC1F3F75FD"
+			rewards: [{
+				id: "2C782D1FC3BF8165"
+				item: "prominent:music_disc_festivities"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[クリックして物語を読む]"
+			tasks: [{
+				id: "25E42BD5FCDFACD1"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&6&l第2章:&e新たな終わり"
+			x: -2.4976190476190467d
+			y: 3.377380952380989d
+		}
+		{
+			dependencies: ["18E337BC1F3F75FD"]
+			description: [
+				"&e侵略は今のところ停止しました。&r"
+				""
+				"&6「我々はこれから起こることに備えなければなりません。それは、我々がまだ知らない新たな魔法、腐敗です。私は、それに対抗できる新たな素材を見つけるための探求に赴きます。"
+				""
+				"&6ところで、君にとって、あの溶融核は単なる器に過ぎない。古代の生命体のエッセンスが必要になるだろう。これらのエッセンスを制御すれば、恐るべきアーティファクトを鍛造する力を得るだろう。それを手に入れるのが君の使命だ。」&e&oS'kellakは説明した。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&eLa invasión ha sido detenida, por ahora.&r"
+				""
+				"&6\"デベモスは、新しい状況に直面する前に、新しい状況に直面し、腐敗を引き起こす可能性があります。新しい状況に直面した場合、新しい状況が発生する可能性があります。"
+				""
+				"&6En cuanto a ti, ese Núcleo Fundido no es más que un recruite.必要な、ラス エセンシアス デ セレス アンティグオス。優れた技術を駆使して、優れた武器を開発してください。任務を遂行します。」&e&oexplicó S'kellak。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "spell_power:textures/mob_effect/critical_damage.png"
+				}
+			}
+			id: "777FC868034D4BA5"
+			rewards: [{
+				id: "14BC34CA5ACF9748"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&8[クリックして物語を読む]"
+			tasks: [{
+				id: "308FF619B83911E7"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "未知の力"
+			x: -3.681122448979579d
+			y: 4.250000000000007d
+		}
+		{
+			dependencies: ["777FC868034D4BA5"]
+			description: [
+				"&e推奨レベル: 50"
+				""
+				"&7古代の偉大な魔神バフォメットは、強力な魔のエッセンスを秘めています。"
+				""
+				"&7バフォメットを召喚するには、闇の魔法を用いた複雑な儀式を行う必要があります。儀式は「影の書」で解読できます。初心者が最初の儀式で偉大な魔神を召喚する資格はないため、ある程度の努力が必要です。「影の書」をクリアして、立派な召喚師になりましょう！"
+			]
+			hide_until_deps_visible: true
+			icon: "prominent:demon_essence"
+			id: "45A926EF078F465E"
+			rewards: [
+				{
+					id: "4FF3029DF16C29F1"
+					item: "prominent:demon_essence"
+					type: "item"
+				}
+				{
+					id: "79CB012999BF6FF3"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&7憎しみと腐敗に満ちている。"
+			tasks: [
+				{
+					entity: "bewitchment:baphomet"
+					icon: "bewitchment:demon_heart"
+					id: "277B6B1BC747DB9D"
+					title: "&7サバティック・ゴート、バフォメットを倒す"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1BC30A17132EDB34"
+					item: "bewitchment:book_of_shadows"
+					type: "item"
+				}
+			]
+			title: "&c悪魔のエッセンス"
+			x: -5.216836734693885d
+			y: 3.2857142857142847d
+		}
+		{
+			dependencies: ["777FC868034D4BA5"]
+			description: [
+				"&e推奨レベル：50"
+				""
+				"&7古月の祭壇でイーブンタイドのエッセンスを使用すると、真の継承者を元の体に戻すことができます。これにより、高速で危険な第 2 フェーズを備えた、Returning Knight の強力な強化版である Fallen Icon が召喚されます。召喚されると、近くにいる人に衰弱、吐き気、鈍化の影響を与えます。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&eNivel おすすめ度: 50"
+				""
+				"&7Al usar la Essence of Eventide en el Antiguo Altar Lunar、devolverás al verdadero hereedero a su cuerpo オリジナル。結果として、Ícono Caído の呼び出しが行われ、Antiguo Campeón のバージョンが変更され、迅速な実行が可能になります。アル・サー・インボカド、ダーラ・デビリダード、Náuseas y Lentitud a quienes estén cerca。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_visible: true
+			icon: "prominent:glory_essence"
+			id: "7C7838CB12D2C972"
+			rewards: [
+				{
+					id: "114FBE48AC53C28D"
+					item: "prominent:glory_essence"
+					type: "item"
+				}
+				{
+					id: "301A8E41E98B7A3D"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&7かつてチャンピオンだった人から"
+			tasks: [{
+				entity: "soulsweapons:moonknight"
+				icon: "moretotems:skeletal_totem_of_undying"
+				id: "433CB31E80566625"
+				title: "倒れたアイコンを倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6栄光のエッセンス"
+			x: -5.609693877551017d
+			y: 4.214285714285722d
+		}
+		{
+			dependencies: ["777FC868034D4BA5"]
+			description: [
+				"&e推奨レベル：50"
+				""
+				"&7深凍った海で見つかったシェルホーンを使用する必要があります。水の近くの氷の迷路で彼女を呼んでください。"
+				""
+				"&7 戦うとき、彼女が弱ることはありませんが、そうでなければ彼女は死ぬことはありません。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&eNivel おすすめ度: 50"
+				""
+				"&7Debes は、Cuerno encontrado en el Profundo Océano Congelado を使用します。 Llámala en el Laberinto de Hielo、セルカ デル アグア。"
+				""
+				"&7Al luchar、debe ser debilitada、o de lo contrario no caerá。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_visible: true
+			icon: "prominent:wrath_essence"
+			id: "569B422A5AE03E53"
+			rewards: [
+				{
+					id: "15234597F3615533"
+					item: "prominent:wrath_essence"
+					type: "item"
+				}
+				{
+					id: "4D3FB39B7963C4F1"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&7偉大なリーダーの精神から"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "mythicupgrades:aquamarine"
+				id: "0A7FC00545E75EB6"
+				title: "&7コルネリア船長の幽霊を倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b怒りのエッセンス"
+			x: -5.216836734693871d
+			y: 5.142857142857146d
+		}
+		{
+			dependencies: ["5472D472A72B4DB9"]
+			description: [
+				"&7創造の原始的な種である&9Primordial Abyss&7は、宇宙の恐怖から最も大きな影響を受けています。そこは、&9aberrations&7 として知られる、独自の腐敗した種類の生命が存在する腐敗した土地です。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&7La semilla primitiva de la creación、el &9Abismo Primordial&7、市長が宇宙の恐怖に影響を与える可能性があります。不正行為は、不正な手段で発生し、不正な行為が発生する可能性があります。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_visible: true
+			icon: "eldritch_end:abysmal_fronds"
+			id: "601BDBA6DF073CB0"
+			rewards: [
+				{
+					id: "20AF3FB04172CD7D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7D147DFCB62331BF"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				biome: "eldritch_end:primordial_abyss"
+				icon: "eldritch_end:abysmal_fronds"
+				id: "5849FCE25177F4E9"
+				title: "原初の深淵を訪ねる"
+				type: "biome"
+			}]
+			title: "&9原初の深淵"
+			x: 0.24642857142856656d
+			y: 3.9452380952381034d
+		}
+		{
+			dependencies: ["5472D472A72B4DB9"]
+			description: [
+				"&7ハスタリアの荒野は、&eSpire Spikes&7 として知られるスパイクがたくさんある荒涼とした土地です。これらのスパイクのいくつかには、ハスターによって祝福された未知の金属が含まれています。それが汚職と闘う最良の方法かもしれない。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&7El desierto hasturiano es una tierra desolada llena de picos que Son conocidos como los &ePinchos de Espiral&7.アルグノス デ エストス ピコス コンティネン ウン メタル デスコノシド、ベンデシド ポル ハスター。不正行為に対する重大な不正行為があった。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_visible: true
+			icon: "eldritch_end:hasturian_moss"
+			id: "2500331DBBD67515"
+			rewards: [
+				{
+					id: "652F23E5179D282C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "26BC7C66C6002DA0"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				biome: "eldritch_end:hasturian_wastes"
+				icon: "eldritch_end:hasturian_moss"
+				id: "3C7ECD7B595CB560"
+				title: "ハストゥリアの荒野を訪れる"
+				type: "biome"
+			}]
+			title: "&6ハストリアの荒野"
+			x: 0.2617346938775569d
+			y: 5.034523809523826d
+		}
+		{
+			dependencies: ["18E337BC1F3F75FD"]
+			description: [
+				"&7ザ・アイの敗北により、終末はボイドの高次の力、&d宇宙の恐怖&7の影響を受けました。純粋な腐敗を静脈に持つ異界の存在。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				""
+				"&7エルオホのデロータ、エルエンドは、最高の結果をもたらすものであり、恐怖の宇宙です&7。祖先が腐敗した事件が発生しました。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "eldritch_end:aberration_heart"
+			id: "5472D472A72B4DB9"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&8[クリックして物語を読む]"
+			tasks: [{
+				id: "07CED6DB48113EC0"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&eVoidの影響"
+			x: -1.073979591836732d
+			y: 4.250000000000007d
+		}
+		{
+			dependencies: ["601BDBA6DF073CB0"]
+			description: [
+				"&eThe Aberrations.&7 彼らは原始の深淵に住む恐ろしい生き物です。彼らに注意してください。彼らがあなたに当たると、あなたに&9corruption&7を適用します。これはスタック可能です。彼らに何度も殴られるのは望ましくありません。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&eLas Aberraciones.&7 息子は、原初のアビスモに住む恐ろしい生き物です。 10 件の被害、汚職、不正行為、7 件が発生し、累積可能です。さまざまな問題を解決する必要はありません。"
+				""
+				"&8スペイン語"
+			]
+			id: "250AEC20271670DC"
+			rewards: [
+				{
+					id: "74384560D55D0246"
+					item: "eldritch_end:aberration_heart"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7F7158B6AE0A9C1E"
+					item: "eldritch_end:aberration_limb"
+					type: "item"
+				}
+				{
+					id: "6B18659A64643BC2"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "eldritch_end:aberration"
+				icon: "eldritch_end:aberration_limb"
+				id: "5320BD9556152B9B"
+				title: "&8異常を浄化する"
+				type: "kill"
+				value: 50L
+			}]
+			title: "異常の除去"
+			x: 1.5474489795918345d
+			y: 3.932482993197297d
+		}
+		{
+			dependencies: ["2500331DBBD67515"]
+			description: [
+				"&7スパイアスパイクの金属、&2エテュル&7は独特の属性を持っており、&2腐敗に強い&7です。この金属を使えば、宇宙の恐怖が終末を破壊するのを防ぐことができるだろう。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&7El 金属デ ロス ピコス デ アグハス、&2Etyr&7、安全性を確認: &2 不正行為に抵抗&7。ポドリアモスは、終わりの恐怖の宇宙に金属パラレルエステを提供します。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_visible: true
+			id: "40BF64AA85FF6010"
+			rewards: [
+				{
+					id: "4C9534C42B2996FE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1CDAA49449A21A15"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				id: "3E1F65C1ABAE9FCB"
+				item: "eldritch_end:etyr_ingot"
+				type: "item"
+			}]
+			title: "&2腐敗との戦い"
+			x: 1.5474489795918345d
+			y: 5.054931972789134d
+		}
+		{
+			dependencies: ["6EEFBD329C02E34A"]
+			description: [
+				"&6「召喚の準備を始めましょう。"
+				""
+				"&6まず、召喚台座が必要になります」 &e&oS'kellak は説明した。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&6「呼び出しの準備を始めます。"
+				""
+				"&6プリメロ、呼び出しの台座が必要です。」 &e&oexplicó S'kellak。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "4AEBBAD5C5474582"
+			rewards: [
+				{
+					id: "4FEB878C30483E7D"
+					type: "xp"
+					xp: 175
+				}
+				{
+					id: "0C41207DC801BC52"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				id: "09F7148E11D7AB38"
+				item: "archon:summoning_pedestal"
+				type: "item"
+			}]
+			title: "虚空の監禁"
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4AEBBAD5C5474582"]
+			description: [
+				"&6「ヴァーツの深さから直接鍛造されたシンダーストーンよりも耐久性のあるものはありません。これで本質を閉じ込めるのに十分なはずですが、残念ながら、そのプロセスで何を解き放つことができるかわかりません。」 &e&oS'kellak は言いました"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&6「私は、ピエドラセニザのような長い時間を過ごすことはできません。ヴァーツの豊かな方向への指示はありません。私は、自分のプロセスを理解するために十分な準備を整えています。」 &e&oディジョ・スケラック。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			icon: "prominent:empty_vessel"
+			id: "3FEF5FC9AB6C6AAE"
+			rewards: [{
+				id: "471E486F532A0EEA"
+				item: "prominent:empty_vessel"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				id: "28BE3CCC9574A4ED"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&eThe Vessel"
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3FEF5FC9AB6C6AAE"]
+			description: [
+				"&6「それはあなたを待っています。その台座をジ・エンドに持ってきて、そこで見つけた2つのエンドのエッセンス、エンダーパールとエンドクリスタルを置きます。準備を整えて、それをトラップすることを忘れないでください。あなたには私の祝福があります、子供。」 &e&oS'ケラックは言った"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&6\"Te está esperando. Lleva ese pedestal al End y coloca dos esencias del End, una perla de ender y un cristal del End. Prepárate, y no olvides atraparlo. Tienes mi bendición, mi joven.\" &e&oディジョ・スケラック。"
+				""
+				"&8スペイン語"
+			]
+			id: "173314BDF690683E"
+			rewards: [
+				{
+					id: "0C4C0CE22BAC24C1"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "08148C17CC7568EA"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [
+				{
+					count: 2L
+					id: "1920BD6A823B9D7E"
+					item: "archon:end_essence"
+					type: "item"
+				}
+				{
+					id: "38594AAF825AD872"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					id: "6F816197EE03C601"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			title: "不気味な儀式"
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["173314BDF690683E"]
+			description: [
+				"&7エンドの亀裂の奥深くで、人間サイズの存在が未知の呪文を唱えているのが見えます。あなたの儀式はそれを中断し、強制的にあなたに向かわせることができるでしょう。"
+				""
+				"&7Null は強力で機敏なボスで、あなたが彼を攻撃するたびにテレポートし、あなたを攻撃するミニオンを生成します。攻撃をやめないように注意してください。そうしないと回復します。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&7En lo profundo de la grieta del End、se puede ver una figura del tamaño de un humano lanzando un hechizo desconocido.これは、儀式の準備と実行の義務です。"
+				""
+				"&7Null es un jefe poderoso y ágil;テレトランスポートを利用して、さまざまな情報を確認したり、会議を行ったりすることができます。 Asegurate de no dejar de atacarlo、o de lo contrario se curará。"
+				""
+				"&8スペイン語"
+			]
+			icon: "mcda:upgrade_core_void"
+			id: "67DD847F1737097C"
+			rewards: [
+				{
+					advancement: "prominent:unlock_mythic_challenges"
+					criterion: ""
+					icon: {
+						Count: 1
+						id: "prominent:void_hourglass"
+						tag: {
+							mythicbosses: {
+								bossType: "adventurez:blackstone_golem"
+								mythicLevel: 1
+							}
+						}
+					}
+					id: "0BCF26135D1E3843"
+					title: "神話チャレンジのロックを解除"
+					type: "advancement"
+				}
+				{
+					id: "14CE356155EABB81"
+					item: "prominent_ost:music_disc_time_flows"
+					type: "item"
+				}
+				{
+					id: "4B3C8DF6DCE47A91"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.45d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "archon:null"
+				icon: "powah:ender_core"
+				id: "1A0B9A7E5B466268"
+				title: "&dヌルを召喚して倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &dNull、ヴォイドのエッセンス"
+			x: -11.6d
+			y: 7.975d
+		}
+		{
+			dependencies: ["18E337BC1F3F75FD"]
+			description: [
+				"&6「まだ終わっていない。あれは影に過ぎなかった。そして今、この裂け目によって、残念ながら我々はもう何もできないだろう。"
+				""
+				"&r&6ただし…彼ら自身の力を逆手に取らなければ。虚空の使者の一人を器に閉じ込め、その力を集めることもできる。だがまずは、もっと良い武器を作れ。器は私が作る。」&e&o S'kellakは言った。"
+				""
+				"&eアーティファクト武器の鍛造に関する詳細は、「S'kellakの鍛造」クエストラインをご覧ください。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&6\"Esto aún no ha terminado. Eso noera más que una sombra、y ahora、con esta grieta、temo que no podramos hacerlo。"
+				""
+				"&r&6A menos que... usemos su propio poder contra ellos.ポドリアモスは、受信者、連絡先、情報を受け取ることができます。ペロ・プリメロ、大きな武器を作って、あなたは受信者を受け取ります。」&e&o dijo S'kellak。"
+				""
+				"&cS'kellak's Forge&e は、武器の作成に関する重要な情報を提供します。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "6EEFBD329C02E34A"
+			rewards: [
+				{
+					id: "0C0D89333847D8F0"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "17C60BE7957D6B9B"
+					item: "prominent_ost:music_disc_iv"
+					type: "item"
+				}
+				{
+					id: "3C0A05193B0CF55D"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				id: "27B44E04748B6582"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "prominent:artifacts"
+					}
+				}
+				title: "&6アーティファクトを鍛造する"
+				type: "item"
+			}]
+			title: "&eジ・エンドの裂け目"
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["67DD847F1737097C"]
+			description: [
+				"&7&oヌルが投獄される直前、ヌルは呪文を唱えることに成功した。亀裂から現れた巨大な怪物"
+				""
+				"&6「顔のない者がここにいます、もう一人の虚無の使者、そして腐敗の根源です」 &e&oS'kellak は言った"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&7&oJusto antes antes del encarcelamiento de Null, logró lanzar el hechizo con éxito.大きな危機を乗り越えるのに最適な場所です。"
+				""
+				"&6「El Ignoto está aquí, otro de los heraldos del vacío, y el origen de la Corrupción」&e&oDijo S'kellak。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_visible: true
+			icon: "ftbquests:book"
+			id: "245E77F81FB78B58"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				id: "55B2EEFDAFAC3D0C"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&6&l第3章: &e虚空の顔"
+			x: -14.529931972789107d
+			y: 8.483333333333348d
+		}
+		{
+			dependencies: ["67DD847F1737097C"]
+			description: [
+				"&cレベル50が必要です"
+				""
+				"&dミシックチャレンジ&7は、ヌルを倒すことでアンロックされるエンドゲームのエンカウンターです。これらは、解き放たれたフェイスレスによって作り出された、虚無を宿した悪夢です。"
+				""
+				"&7戦闘に勝利するごとに、レベルの高い新しい砂時計を獲得できます。レベルが高いほど、悪夢の強さも増します。"
+				""
+				"&cミシックボスに倒されるとチャレンジ失敗となり、レベルの低い砂時計が召喚されます。"
+				""
+				"&7これらは&d虚無の砂時計&7で召喚できます。砂時計を紛失した場合は、ヌルから新しい砂時計を入手できますが、レベルは1になります。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&cレベル50が必要です"
+				""
+				"&dミシックチャレンジ&7は、ヌルを倒すことでアンロックされるゲームエンドのエンカウンターです。息子は、自由を得るために、資金を投入し、自由を与えます。"
+				""
+				"&7Cada は、優れたアリーナで新たなリロイ デ アリーナを終了します。クアント市長は海エルニベル、マス・フエルテ・セラ・ラ・ペサディージャ。"
+				""
+				"&cMorir は、劣悪なアリーナで新しい試合をするために、危険な状況に直面します。"
+				""
+				"&7Puedes invocarlos con un &dReloj de Arena del Vacío&7.アリーナでリロイをプレイし、ヌルのヌルヌルを観察し、1 回のペースでプレイします。"
+				""
+				"&8スペイン語"
+			]
+			icon: {
+				Count: 1
+				id: "prominent:void_hourglass"
+				tag: {
+					mythicbosses: {
+						bossType: "adventurez:blackstone_golem"
+						mythicLevel: 1
+					}
+				}
+			}
+			id: "78E3D778D84410AE"
+			shape: "diamond"
+			subtitle: "&8[クリックして指示を読む]"
+			tasks: [{
+				id: "44E571FD07C153AC"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&f &dミシックチャレンジ"
+			x: -11.573979591836732d
+			y: 9.392857142857139d
+		}
+		{
+			dependencies: ["7CD3D2757242817B"]
+			description: [
+				"&e推奨レベル：50"
+				""
+				"&7ボイドの影響力の中心であるPrimordial Abyssで、中央の異常の心臓を破壊することによって、その暗い儀式を持つボイドの使者、不平不満を言う顔のない存在を召喚することができます。"
+				""
+				"&6「気をつけろ、弱らせればいい、ヴァーツに引きずり込んで永遠に罠にはめてやる。王国の運命は君にかかっている。」 &eS'ケラックは言った"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&eNivel おすすめ度: 50"
+				""
+				"&7影響力のあるコラソン、原始のアビズモ、ハラルド・デル・バシオの呼び出し、無罪の宣告、オスクーロの儀式、セントロの異常事態のロンピエンド。"
+				""
+				"&6「10 cuidado、solo debilítalo、y yo wantaré llevarlo a Vaaz para atraparlo por la eternidad。El destino de los reinos está en tus manos」 &eディジョ・スケラック。"
+				""
+				"&8スペイン語"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "eldritch_end:textures/icon/faceless_head.png"
+				}
+			}
+			id: "69574BA63A9F05E8"
+			rewards: [
+				{
+					count: 5
+					id: "1F536D989D554373"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "12A95E19A6DDC894"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21B6E7DC9CD2B786"
+					table_id: 8008058263494883425L
+					title: "ヴォイドタッチトトランスモグ"
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "eldritch_end:the_faceless"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "eldritch_end:textures/icon/faceless_head.png"
+					}
+				}
+				id: "1FC4C638A5DF2AC0"
+				title: "&9「顔のない者」を召喚して戦う"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &9&l顔のない者"
+			x: -4.78826530612244d
+			y: 13.607142857142861d
+		}
+		{
+			dependencies: ["245E77F81FB78B58"]
+			description: [
+				"&e推奨レベル: 50"
+				""
+				"&7ヘックスのリーダーであるメイガスは、虚無がオーバーワールドへ入るための鍵の一つです。彼は堕落していませんが、自身の利益のために虚無と協定を結んでいます。"
+				""
+				"&7彼は強力な魔術師であり、そのバリアは特定の属性に対して弱いかもしれませんが、スマイトのエンチャントによってそれを破ることもできます。"
+				""
+				"&e魔法や能力を使うと、ヘックスの注意を引くことができます。ヘックスブレードをポータルに使用してガラスの海へ行き、プリズマティックパールを使って彼を召喚してください。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&e推奨レベル: 50"
+				""
+				"&7ヘックスのリーダーであるメイガスは、虚無がオーバーワールドへ入るための鍵の一つです。不正な行為はありません。私たちは、契約上の合意を得る必要があります。"
+				""
+				"&7Es un poderoso mago, su barrera puede ser débil ante ciertos elementos, pero el encantamiento Golpeo también ayudará a romperla."
+				""
+				"&eUsar magia o habilidades va atraer la atención de los Hex.オセアノ デ クリスタルを介してヘクスブレードのポータルを使用し、呼び出して Perla Prismatica を使用します。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "spellbladenext:item/magus_chest"
+				}
+			}
+			id: "3A8C4B633BAF1EFF"
+			rewards: [
+				{
+					count: 3
+					id: "16E3270F0CFB0F91"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "7E5B66C9E08C7507"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [
+				{
+					entity: "spellbladenext:magus"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "spellbladenext:item/magus_head"
+						}
+					}
+					id: "0B213F812EBAA325"
+					title: "&b大魔道士メイガスを倒す"
+					type: "kill"
+					value: 1L
+				}
+				{
+					dimension: "spellbladenext:glassocean"
+					icon: "archon:water_essence"
+					id: "781DD5C7F6F464F1"
+					title: "ガラスの海を訪れる"
+					type: "dimension"
+				}
+			]
+			title: "&f &b大魔術師メイガス"
+			x: -13.216836734693878d
+			y: 10.714285714285708d
+		}
+		{
+			dependencies: [
+				"3A8C4B633BAF1EFF"
+				"34479B95BF592101"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6「最後の使者を召喚するには、彼ら自身の闇の魔法を経なければなりません。真の腐敗から生まれた武器、ドレッドタイドを作り、狂気に陥って虚空から闇の思考、全視の目を引き寄せなければなりません。儀式にはそれが4つ必要です。"
+				""
+				"&6その間に、私は儀式に関するさらなる知識を見つけます。ただし、狂気に陥らないように気を付けてください。後戻りはできませんから。」 &e&oS'ケラックは言った"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&6\"Para invocar al último heraldo, tendrás que utilizar su propia magia oscura. Deberías forjar un armma nacida de la verdadera Corrupción, la Dreadtide, para enloquecer y atraer lospensamientos más oscuros del vacío, los Ojos Omniscientes;必要な儀式は 4 デ エロスです。"
+				""
+				"&6Mientras haces esto、バスカレ・マス・コノシミエント・ソブレ・エル・リチュアル。ソロ テン クイダード、ロクラでのカイガなし、アトラスでの干し草なし。」 &e&oDijo S'kellak。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			id: "0A5F7ABD54251511"
+			rewards: [{
+				id: "50729E9131DFED4A"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [
+				{
+					id: "0EA07F48C91B6FBF"
+					item: "eldritch_end:ominous_eye"
+					title: "万物を見通す目から不吉な目4個を入手する"
+					type: "item"
+				}
+				{
+					id: "43FE16B7924AD804"
+					item: {
+						Count: 1
+						id: "simplyswords:dreadtide"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "腐敗への道：すべてを見通す目"
+			x: -10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0A5F7ABD54251511"]
+			description: [
+				"&6「ネクロノミコンの失われたページの 1 つを見つけました。これは儀式に役立つはずです。ネクロノミコンには、この儀式は原始の深淵で行われなければならないとも書かれています。」 &e&oS'ケラックは言った"
+				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&6「彼はネクロノミコンのページを作成し、儀式を実行します。ネクロノミコンは、原初の現実的な儀式を確立します。」 &e&oディジョ・スケラック。"
+				"{image:eldritch_end:textures/pages/ritual.png width:250 height:175 align:1}"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			id: "7CD3D2757242817B"
+			rewards: [{
+				id: "5ADEB6806C96F673"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [
+				{
+					id: "1415FEE0A0DB5355"
+					item: "eldritch_end:eldritch_pedestal"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "49221E02C7030B22"
+					item: "eldritch_end:abysmal_pedestal"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "184864F46C22A6B7"
+					item: "minecraft:black_candle"
+					type: "item"
+				}
+			]
+			title: "堕落への道：破滅の儀式"
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["69574BA63A9F05E8"]
+			description: [
+				"&7顔のない者はヴァーズの中に捕らえられ、閉じ込められている、とスケラックは尋問した。"
+				""
+				"&9「C' mgepmgah, llll h', c'den ephaiagl ot e'enhe, ymg' ahorna mgah ahf''s nog, ymg' ahorna mgah uh'eog ph'nglui turor」&e&o顔のない者は未知の言語で言った。"
+				""
+				"&6「我が子よ、もしそれが真実なら、我々の戦いは始まったばかりだ。」&e&oスケラックは心配そうに言った。"
+				""
+				"&8&o終末の奥深くで、裂け目が閉じ、暗黒のポータルが開く。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&7顔のない者はヴァーズの中に捕らえられ、閉じ込められている、とスケラックは尋問した。"
+				""
+				"&9「C' mgepmgah、llll h'、c'den ephaiagl ot e'enhe、ymg' ahorna mgah ahf''s nog、ymg' ahorna mgah u'eog ph'nglui turor」&e&oDijo el Ignoto、en una lengua desconocida。"
+				""
+				"&6「私は、あなたの人生は最高です。あなたは、新しいコミュニティを訪れます。」 &e&oDijo S'kellak、プレオクパド。"
+				""
+				"&8&oEn lo fundo del End、la grieta se cierra、y un portal oscuro se abre。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:writable_book"
+			id: "04AF2E026BB918AE"
+			rewards: [
+				{
+					id: "6E74EE6FA0B3D926"
+					item: "prominent_ost:music_disc_convergence"
+					type: "item"
+				}
+				{
+					advancement: "prominent:end_of_voids_invasion"
+					criterion: ""
+					id: "085A183D10962F5D"
+					type: "advancement"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&8[クリックして物語を読む]"
+			tasks: [{
+				id: "6CD2D01CFB2304DD"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "侵略の終結"
+			x: -3.0382653061224545d
+			y: 13.678571428571402d
+		}
+		{
+			dependencies: ["7CBAFED315D614C3"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&e推奨レベル：10"
+				"&c近接攻撃に適しています。"
+				""
+				"&7ネザーで発見された彼は、仲間だと思っていた人々によって呪われていました。王国は包囲され、溶岩の海に沈み、王は心と体が徐々に衰えていくのを無力に見守ることしかできませんでした。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&eNivel おすすめ度: 10"
+				"&c近接攻撃に推奨。"
+				""
+				"&7Encontrado en el Nether、fue maldecido por quienes、pensaba queeran sus aliados。レイは、溶岩の溶岩を越えて、レイのソロで無力な観察者を監視し、モロナバンの子供たちを監視します。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "soulsweapons:withered_demon_heart"
+			id: "5B31D4D4029F1891"
+			rewards: [
+				{
+					id: "79B0D3F4FFF9781D"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+				{
+					id: "46825316B1A4F7BC"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+				{
+					advancement: "prominent:level_10"
+					auto: "enabled"
+					criterion: ""
+					id: "0C140E150DFB6C5D"
+					title: "レベル11～50のロック解除"
+					type: "advancement"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [
+				{
+					entity: "soulsweapons:accursed_lord_boss"
+					icon: "soulsweapons:withered_demon_heart"
+					id: "1E53C2B640C2CED4"
+					title: "衰退の王を倒す"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0132A0C646879E11"
+					item: "soulsweapons:boss_compass"
+					optional_task: true
+					title: "月長石のコンパスを使って衰退王国を探し出せ"
+					type: "item"
+				}
+			]
+			title: "&f &c衰退する王"
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7AE1542456418BCD"]
+			description: [
+				"&eキャンペーンのボスには独自のレベルがあり、インベントリの上部に表示されているように、あなたのレベルと同じです。"
+				""
+				"&cつまり、あなたのレベルが十分でなければ、ボスを倒すのに十分なダメージを与えることができません。"
+				""
+				"&7合計で、&cレベル差ごとに10%ダメージが減少します&7。つまり、あなたのレベルが45でボスのレベルが50の場合、本来与えるべきダメージの50%しか与えません。"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info_gray"
+				}
+			}
+			id: "214E47AB3004E7D3"
+			rewards: [{
+				auto: "enabled"
+				icon: "ftbquests:book"
+				id: "73B06E8111436D07"
+				title: "第1章のロックを解除"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[クリックして情報を読む]"
+			tasks: [{
+				id: "3A4B95414CAC2233"
+				title: "わかりました！"
+				type: "checkmark"
+			}]
+			title: "&c重要情報: &eBossレベル"
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A8C4B633BAF1EFF"]
+			description: [
+	"&7 125体中1体程度の異常体が何らかの変異を起こしているという情報を得た。可能性は低いが、もしかしたらこれが不吉な目を手に入れるもう一つの方法になるかもしれない。"
+]
+			hide_until_deps_complete: true
+			icon: "eldritch_end:aberration_spawn_egg"
+			id: "34479B95BF592101"
+			rewards: [
+				{
+					count: 4
+					id: "6E55BC85931576DC"
+					item: {
+						Count: 1
+						id: "eldritch_end:ominous_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					id: "09CFD9FF34E4A082"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [
+				{
+					biome: "eldritch_end:primordial_abyss"
+					id: "602D20630E252EC0"
+					optional_task: true
+					title: "彼らの巣穴を訪ねてみましょう。"
+					type: "biome"
+				}
+				{
+					entity: "eldritch_end:aberration"
+					id: "36BF1A161A1782FC"
+					title: "この惨めな生き物を殺せ"
+					type: "kill"
+					value: 500L
+				}
+			]
+			title: "&eThese Eyes でもいいでしょう..."
+			x: -11.0d
+			y: 12.5d
+		}
+	]
+	title: "&d&lヴォイドの侵略"
+}

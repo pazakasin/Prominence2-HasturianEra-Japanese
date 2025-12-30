@@ -1,0 +1,15 @@
+{
+  "block.magnumtorch.diamond_magnum_torch": "ダイヤモンドマグナムトーチ",
+  "block.magnumtorch.emerald_magnum_torch": "エメラルドマグナムトーチ",
+  "block.magnumtorch.amethyst_magnum_torch": "アメジストマグナムトーチ",
+  "block.magnumtorch.magnum_torch.info": "広大なエリアでのMobの出現を防ぎます。",
+  "block.magnumtorch.magnum_torch.info.more": "詳細については%sまでお問い合わせください",
+  "block.magnumtorch.magnum_torch.info.shift": "シフト",
+  "block.magnumtorch.magnum_torch.info.mob_types": "Mobタイプ: %s",
+  "block.magnumtorch.magnum_torch.info.blacklist": "ブラックリスト: %s",
+  "block.magnumtorch.magnum_torch.info.whitelist": "ホワイトリスト: %s",
+  "block.magnumtorch.magnum_torch.info.shape_type": "図形の種類: %s",
+  "block.magnumtorch.magnum_torch.info.horizontal_range": "水平範囲: %s",
+  "block.magnumtorch.magnum_torch.info.vertical_range": "垂直範囲: %s",
+  "itemGroup.magnumtorch.main": "マグナムトーチ"
+}

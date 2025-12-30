@@ -1,0 +1,11 @@
+{
+  "mavapi.mod.minecraft": "マインクラフト",
+  "mavapi.variant.minecraft.lucy": "ルーシー",
+  "mavapi.variant.minecraft.wild": "野生",
+  "mavapi.variant.minecraft.gold": "金",
+  "mavapi.variant.minecraft.cyan": "シアン",
+  "mavapi.variant.minecraft.blue": "青",
+  "mavapi.bucket.format": "%s %s (%s)",
+  "mavapi.bucket.translation.baby": "赤ちゃん",
+  "mavapi.bucket.translation.adult": "アダルト"
+}

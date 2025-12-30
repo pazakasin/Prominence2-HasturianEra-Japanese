@@ -1,0 +1,9 @@
+{
+  "config.kleeslabs.title": "クリースラブ",
+  "config.kleeslabs.mode": "モード",
+  "config.kleeslabs.mode.tooltip": "KleeSlabs が ALWAYS、ONLY_WHEN_SNEAKING、または ONLY_WHEN_NOT_SNEAKING のいずれでトリガーされるかを制御します",
+  "config.kleeslabs.disabledCompat": "無効な互換性",
+  "config.kleeslabs.disabledCompat.tooltip": "互換性を無効にする必要がある MOD の ID。",
+  "config.kleeslabs.dumpSlabs": "デバッグダンプスラブ",
+  "config.kleeslabs.dumpSlabs.tooltip": "開発目的。trueに設定すると、KleeSlabsはワールドロード時に名前に「slab」という単語を含むアイテムのリストをダンプします。"
+}

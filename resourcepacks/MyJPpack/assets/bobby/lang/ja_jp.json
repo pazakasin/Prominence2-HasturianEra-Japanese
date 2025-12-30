@@ -1,0 +1,22 @@
+{
+  "bobby.upgrade.required": "[ボビー] このワールドには古いバージョンのMinecraftのデータが含まれています。アップグレードするには「/bobby upgrade」を実行してください。",
+  "bobby.upgrade.fallback_world": "[ボビー] フォールバックワールドには古いバージョンのMinecraftのデータが含まれています。「シングルプレイヤー」メニューの「編集」→「ワールドを最適化」オプションからアップグレードしてください。",
+  "bobby.upgrade.not_enabled": "ボビーはこの世界では有効ではありません。",
+  "bobby.upgrade.begin": "[ボビー] ワールドデータを現在のMinecraftバージョンにアップグレードしています。数分かかる場合があります。",
+  "bobby.upgrade.progress": "[Bobby] %d 個のチャンク (推定) のうち %d 個をアップグレードしました。",
+  "bobby.upgrade.done": "[ボビー] ワールドデータのアップグレードが完了しました。以前のチャンクが再び表示されるようになりました。",
+  "title.bobby.config": "ボビー・コンフィグ",
+  "option.bobby.enabled": "有効",
+  "option.bobby.no_block_entities": "ブロックエンティティを無効にする",
+  "tooltip.option.bobby.no_block_entities": "ブロックエンティティ（例：チェスト）をフェイクチャンクにロードしないでください。\nこれらは毎ティック更新する必要があり、累積的に更新量が増える可能性があります。\n\nブロックエンティティのレンダリング距離は通常、サーバービューからの距離よりも短いため、デフォルトで有効になっています。",
+  "option.bobby.taint_fake_chunks": "偽のチャンクを汚染する",
+  "tooltip.option.bobby.taint_fake_chunks": "偽のチャンクの光レベルを下げて、本物のチャンクとの違いを識別できるようにします。",
+  "option.bobby.unload_delay": "チャンクアンロード遅延（秒）",
+  "tooltip.option.bobby.unload_delay": "視界外にあるチャンクのアンロードを遅らせます。\n短時間エリアを離れる際（例：カットシーン）に、全てのチャンクを再ロードする必要がなくなります。\n次元をまたいで動作しません。",
+  "option.bobby.delete_unused_regions_after_days": "未使用領域のクリーンアップ（日数）",
+  "tooltip.option.bobby.delete_unused_regions_after_days": "X日間読み込まれていないリージョンをキャッシュから削除します。\n\n特定のワールドのキャッシュは、サーバーから切断するたびに消去されます。\nゲーム起動時にX日間アクセスしていないワールド全体が消去されます。\n\n-1に設定すると無効になります。\n0に設定すると、切断するたびにすべて消去されます。",
+  "option.bobby.max_render_distance": "最大レンダリング距離",
+  "tooltip.option.bobby.max_render_distance": "レンダリング距離の設定可能な最大値を変更します。\n\nSodium が必要です。",
+  "option.bobby.view_distance_overwrite": "シングルプレイヤーサーバービュー距離",
+  "tooltip.option.bobby.view_distance_overwrite": "統合サーバーの視界距離を上書きします。\nこれにより、ボビーはシングルプレイヤーで活躍できるようになります。\n\n0の時は無効になります。\nボビーは、この設定が有効になっている場合にのみシングルプレイヤーでアクティブになります。\n有効/無効を切り替えるには再ログインが必要です。"
+}

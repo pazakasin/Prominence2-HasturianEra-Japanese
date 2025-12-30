@@ -1,0 +1,4754 @@
+{
+	autofocus_id: "61C05AE305488DF5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "einformation_7new_mechanics"
+	group: "5EA21B61C2E147CB"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "tiered:textures/gui/anvil_tab_icon.png"
+		}
+	}
+	id: "701CA1F978CFB569"
+	images: [
+		{
+			height: 1.0d
+			image: "simplyswords:item/emberblade_layer"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/blank"
+			rotation: 0.0d
+			width: 0.1d
+			x: -13.0d
+			y: 14.5d
+		}
+		{
+			dependency: "5728EF143DC9B7DB"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: 5.017857142857146d
+			y: 0.142857142857153d
+		}
+		{
+			dependency: "080F23071FA8CFC9"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: 4.017857142857139d
+			y: -1.357142857142847d
+		}
+		{
+			dependency: "01F49526727B35F1"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: 0.017857142857153008d
+			y: 6.142857142857153d
+		}
+		{
+			dependency: "0DFD6849156C0709"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -4.124999999999993d
+			y: 3.285714285714292d
+		}
+		{
+			dependency: "1079F098AE98FCF6"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -4.982142857142854d
+			y: 0.10714285714286831d
+		}
+		{
+			dependency: "1F1202929D2C5195"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -4.1678571428571445d
+			y: -2.892857142857146d
+		}
+		{
+			dependency: "53391B7A86496FCB"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -5.017857142857132d
+			y: 1.8571428571428683d
+		}
+		{
+			dependency: "6A594976300D5DCC"
+			height: 0.84d
+			image: "decorative_blocks:block/bonfire_x"
+			rotation: 0.0d
+			width: 0.84d
+			x: -4.982142857142847d
+			y: -1.6428571428571317d
+		}
+		{
+			dependency: "74BA5C6954FEFCE8"
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5107142857142932d
+			y: 2.3214285714285694d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6930C77988A640AF"]
+			description: [
+				"&7全てのシールドは&eShield Overhaul&7 MODの新しいメカニクスを備えています。"
+				""
+				"- &e&lバッシング &r&7ブロック中に攻撃するとシールドバッシュを実行します。&7ボスでない限り、ターゲットを1秒間スタンさせます。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "51595E88AF1F475E"
+			rewards: [{
+				id: "73FEF9863E4C5F38"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "7AAEF7553C3616AE"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "新しい防御メカニクス"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6930C77988A640AF"]
+			description: [
+				"&7戦闘メカニクスは「Better Combat」MODによって変更されました。"
+				""
+				"- &6&l武器 &r&7各武器には独自の攻撃アニメーションと攻撃時間があります。"
+				""
+				"- &6&lコンボ &r&7連続攻撃でコンボが発動します。"
+				""
+				"- &6&l長押し攻撃 &r&7攻撃ボタンを押し続けると連続攻撃できます。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B8B4323E13AB3E9"
+			rewards: [{
+				id: "475CDA6694C41230"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "3589A9BB969BA94E"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "新しい戦闘メカニクス"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&7このチュートリアルクエストラインでは、戦闘の仕組み、変更されたメカニクスからビルド方法までを解説します。"
+				""
+				"&eこれはゲーム序盤向けのチュートリアルですが、エンドゲームのビルドまで網羅しています。ゲームを進めるにつれて、より多くのクエストが登場します。"
+				""
+				"&7このクエストラインの大部分は読むだけです。&c重要な情報なので、真に理解したい場合は必ず&7をお読みください。"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/info_gray"
+				}
+			}
+			id: "6930C77988A640AF"
+			shape: "hexagon"
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "4B87D5A81113B3B8"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&e戦闘準備はどのように機能しますか?"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"51595E88AF1F475E"
+				"6B8B4323E13AB3E9"
+			]
+			description: [
+				"&7以下のガイドは、特定のビルドタイプに応じて何を探すべきかを指示します。これらは完全なビルドではなく、ゲームプレイに応じてどの装備を選ぶべきかについてのガイドです。"
+				""
+				"&e表示されている難易度は、プレイの難易度とビルドの作成の難易度の両方に適用されます&7（ただし、ゲームプレイの難易度の方が優先されます）&7。"
+				""
+				"&6ティアはどのように機能しますか？"
+				""
+				"&7ティアI：&e開始ギア&8（オーバーワールド）"
+				"&eティアII：&eゲーム序盤&8（ネザー後）"
+				"&6ティアIII：&eゲーム中盤&8（エンド後）"
+				"&cティアIV：&eゲーム終盤&8（アーティファクト後）"
+				"&dティアV：&e&k原始&8（不明）"
+				""
+				"&eこのクエストラインは複雑になる可能性があります！スキルブックの入手方法について詳しくは、呪文詠唱クエストラインをご覧ください。"
+				""
+				"&6特定のビルドに関する完全なガイドについては、公式 wiki を確認してください。"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "tiered:textures/gui/anvil_tab_icon.png"
+				}
+			}
+			id: "61C05AE305488DF5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "317E2316EEFC9AAE"
+					table_id: 3737891217858354553L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44F8556F47340107"
+					table_id: 5228678659320885423L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "22AD24EC0678727A"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&eどのギアを入手すればよいかどうすればわかりますか?"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6930C77988A640AF"]
+			description: [
+				"&7ステータス（属性とも呼ばれる）は、キャラクターに関連付けられた一連の数値で、他の要素の調整基準となります。"
+				""
+				"&7例えば、ヘイストは攻撃速度を、体力は体力などを定義します。"
+				""
+				"&7次のクエストでは、主要なステータスと、それぞれの用途における重要性について説明します。"
+				""
+				"&eステータスは装備の中核を成す要素です。どのように装備を編成したいかによって、必要なステータスと不要なステータスを把握することが重要です。"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "fwaystones:item/empty_waystone_scroll"
+				}
+			}
+			id: "44D9519561FE2D1B"
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "30BD1DF965773137"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&e統計はどのように機能しますか?"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["44D9519561FE2D1B"]
+			description: [
+				"&eコアステータスは、誰もがある程度使用するステータスです。"
+				""
+				"&7体力など、既にデフォルトの数値が設定されている場合や、加速や装甲など、装備品からステータスが得られる場合などです。"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/sprites/hud/heart/frozen_hardcore_full.png"
+				}
+			}
+			id: "3F794C7D175F14C0"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "6F23FA02C5CA4AD2"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&eCore 統計"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["44D9519561FE2D1B"]
+			description: [
+				"&e遠距離攻撃向けに設計された様々なステータス。"
+				""
+				"&7物理ダメージは誰もが使用しますが、遠距離ビルドでは、選択するスキルに応じて他のステータスが優先されます。&e弓術&7（遠距離物理）または&e呪文詠唱&7（遠距離魔法）"
+				""
+				"&7魔法は、スペルブレードビルドでは近接攻撃でも使用できます。"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ranged_weapon:textures/mob_effect/damage.png"
+				}
+			}
+			id: "479F0EDD5681A06D"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "5C9AFBF0E99AE7AC"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&eRanged \\& 魔法ステータス"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"&eヘイスト：物理攻撃速度を上昇させます。"
+				""
+				"&7：攻撃や武器の切り替え速度を上昇させます。また、特定の武器やアイテムによって効果も変化します。特に「ローグ」ビルドや、攻撃速度の速いビルドに適しています。"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/attack_speed.png"
+				}
+			}
+			id: "3EFD57AABC3D44EF"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "696BC3B958325A55"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&eHaste"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"&e スイング/パンチのダメージ量を増加させます。"
+				""
+				"&7 近接ビルドの主要ステータスで、与えるダメージを増加させ、近接武器や近接アビリティなど、物理ダメージを与えるものすべてに比例します。"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/attack.png"
+				}
+			}
+			id: "401B24F826A490C3"
+			shape: "circle"
+			size: 0.754d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "019217B93D9FE657"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&6物理ダメージ"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"- &eArmor"
+				"&7受ける&6物理ダメージ&7を軽減します。"
+				""
+				"&7これは防具から得られますが、敵やボスもデフォルトで一定量の防具を持っています。"
+				""
+				"- &eArmor Toughness"
+				"&7遠距離から受ける&6物理ダメージ&7を軽減します。高ダメージの攻撃に特に効果的であるため、「アンチワンショット」ステータスと呼ばれています。"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/defense.png"
+				}
+			}
+			id: "2B31C767E6C37F28"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "4B50250B4FEBFB6B"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&eArmor \\& タフネス"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"- &eヘルス"
+				"&7 死亡するまでに受けられるダメージの最大量が増加します。"
+				""
+				"- &eスタミナ"
+				"&7 パッシブ効果で失われるエネルギー（空腹度）の量が減少します。"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/health.png"
+				}
+			}
+			id: "07C8B808DB85CC35"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "716906C7C1D596AA"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&c体力 \\& スタミナ"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"&eエレメンタルパワーは3番目に強いパワーで、&otertiary&r&eパワーとも呼ばれます。"
+				""
+				"&7他にも三次パワーは存在しますが、エレメンタルパワーは創造、聖、魂から生まれます。"
+				""
+				"&eアーケイン、フロスト、ファイア&7は、様々なスペルブックで単独でも組み合わせても使用できます。これら3つはすべて&eアストラル&7ハイブリッドパワーの一部です。"
+				""
+				"&eライトニング&7は、サンダーレイスアーティファクトなどの一部の武器で使用され、ヴァルキリーにとって重要なパワーを構成します。"
+			]
+			id: "5CF52770623E5963"
+			size: 0.75d
+			subtitle: "&8[続きを読む]"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/arcane.png"
+						}
+					}
+					id: "27531CFF0334076B"
+					item: "runes:arcane_stone"
+					title: "アーケインルーンを入手する"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/fire.png"
+						}
+					}
+					id: "6346BAE143CD3A00"
+					item: "runes:fire_stone"
+					title: "火のルーンを入手する"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/frost.png"
+						}
+					}
+					id: "1D167D542A786C4A"
+					item: "runes:frost_stone"
+					title: "フロストルーンを入手する"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/lightning.png"
+						}
+					}
+					id: "43DBCF7B9A526165"
+					item: "runes:lightning_stone"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&bエレメンタルパワー"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"&ePrimordial Powers は2番目に強力なパワーで、Secondary Powers とも呼ばれます。"
+				""
+				"&eHoly&7 はプリーストやパラディンが味方をサポートするために使用します。"
+				""
+				"&eSoul&7 はエレメンタルパワーと組み合わせて使用され、&eSoulfire&7 や &eSoulfrost&7 などのハイブリッドパワーを形成します。これらは主に一部のアーティファクトで使用されます。"
+			]
+			id: "59E36C0233C961CA"
+			size: 0.75d
+			subtitle: "&8[続きを読む]"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/holy.png"
+						}
+					}
+					id: "177735B2E5DEF39C"
+					item: "runes:healing_stone"
+					title: "治癒ルーンを入手する"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/soul.png"
+						}
+					}
+					id: "34B70513418F7A19"
+					item: "runes:soul_stone"
+					optional_task: true
+					title: "ソウルルーンを入手する"
+					type: "item"
+				}
+			]
+			title: "&6原始の力"
+			x: 2.510714285714286d
+			y: -4.482142857142854d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"&eDecaying の力は、死の力です。"
+				""
+				"&eBlood&7 は、自力で生き延びるタンク特化の Blood Death Knight によって使用されます。"
+				""
+				"&eUnholy&7 は、敵に病気をもたらす Bruiser である Unholy Death Knight によって使用されます。"
+			]
+			id: "7613069D73E7B2A3"
+			size: 0.75d
+			subtitle: "&8[続きを読む]"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/unholy.png"
+						}
+					}
+					id: "58AADDF3A7EE5E43"
+					item: "death_knights:unholy_stone"
+					title: "不浄のルーンを入手する"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "prominent:textures/icon/talent_tree/magic_type/blood.png"
+						}
+					}
+					id: "1D53ECD1AE853804"
+					item: "death_knights:blood_stone"
+					title: "ブラッドルーンを入手する"
+					type: "item"
+				}
+			]
+			title: "衰退する力"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"401B24F826A490C3"
+				"5CF52770623E5963"
+				"3F794C7D175F14C0"
+				"479F0EDD5681A06D"
+			]
+			description: [
+	"&eハイブリッド ステータスは、2 つのステータスを組み合わせたもの、または近接クラスと遠隔クラスの両方にグローバルに適用されるステータスです。"
+]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "simplyskills:textures/mob_effect/magic_circle.png"
+				}
+			}
+			id: "085E3F53A333AA9F"
+			shape: "hexagon"
+			size: 1.1d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "6C6C8542F3C9ED71"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&eHybrid 統計"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"085E3F53A333AA9F"
+				"401B24F826A490C3"
+			]
+			description: [
+				"&e致死性と魔法貫通性は、名前が違うだけで同じステータスです。これらは対象のアーマーまたは魔法防御の一定割合を無視します。"
+				""
+				"&7例えば、あなたの致死性が16%で、敵のアーマーが100の場合、アーマーが84であるかのように攻撃します（アーマーが16%減少するため）。"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/lethality.png"
+				}
+			}
+			id: "597F9C69DBB37F71"
+			size: 0.75d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "0CDC6263F513E17C"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&c致死性 &7\\& &b魔法貫通"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"085E3F53A333AA9F"
+				"5CF52770623E5963"
+			]
+			description: [
+				"&eアストラルパワーは、&dアーケイン、&cファイア、&bフロストの3つの属性の力を組み合わせたものです。"
+				""
+				"&7この複合的な力は、アストラルメイジやアストラル・スペルブレードによって使用されます。&dシンギュラリティ&8（エカヴァル製）&7や&dスーパーノヴァ&7などのアーティファクトは、これらのステータスに応じてスケーリングされます。"
+				""
+				"&7アストラルパワーを使用する呪文書も存在します。例えば、「&dルーン召喚&7」などです。"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "simplyskills:icons/prom_compat/rune_of_stars"
+				}
+			}
+			id: "13907450E40B1069"
+			size: 0.75d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "593697F7F7CB984A"
+				item: {
+					Count: 1
+					id: "wizards:staff_wizard"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "ウィザードスタッフを入手する"
+				type: "item"
+			}]
+			title: "&dアストラルパワー"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["085E3F53A333AA9F"]
+			description: [
+				"- &e攻撃力をX（呪文パワー）に増加"
+				"&7指定した呪文パワーを物理ダメージの一定割合だけ増加します。"
+				""
+				"- &eX（呪文パワー）を攻撃に増加"
+				"&7指定した呪文パワーの量に応じて物理ダメージを一定割合だけ増加します。"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/supernova/speed.png"
+				}
+			}
+			id: "2078987E5DF94CE7"
+			size: 0.75d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "5848C781F4984B12"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "物理魔法の力"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"&e遠距離ダメージ"
+				""
+				"&7このステータスは、弓、クロスボウ、銃などの弾丸を発射する遠距離武器のダメージを上昇させます。このステータスは、タレント、宝飾品、または遠距離武器自体から獲得できます。"
+				""
+				"&eドロー速度"
+				""
+				"&7このステータスは、弓/クロスボウのドロー速度、または銃/大砲の発射速度を上昇させます。"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/archery.png"
+				}
+			}
+			id: "332E1D21030C2367"
+			size: 0.75d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "537674E6436DC13B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "archers:auto_fire_hook_attachables"
+					}
+				}
+				title: "任意の遠距離武器を入手する"
+				type: "item"
+			}]
+			title: "&a遠距離ダメージ \\& ドロー速度"
+			x: 2.546428571428571d
+			y: -5.517857142857139d
+		}
+		{
+			dependencies: ["479F0EDD5681A06D"]
+			description: [
+				"&eこれらのパワーは、スペルキャスターメイジの呪文詠唱プロセスを強化します。"
+				""
+				"&e呪文クリティカル確率&7は、呪文がクリティカルダメージを与える確率を高めます。"
+				""
+				"&e呪文クリティカルダメージ&7は、クリティカル呪文のダメージを一定割合増加させます。"
+				""
+				"&e呪文ヘイスト&7は、呪文詠唱速度を上昇させ、詠唱時間を短縮します。"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/spell_critical.png"
+				}
+			}
+			id: "7F974354502FF51C"
+			size: 0.75d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "630C257E4DE95118"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&b呪文クリティカル \\& ヘイスト"
+			x: 2.4750000000000014d
+			y: -6.517857142857146d
+		}
+		{
+			dependencies: ["3F794C7D175F14C0"]
+			description: [
+				"&e移動速度が上昇します。"
+				""
+				"&7ローリングなどの他の効果にも比例します。"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:textures/icon/talent_tree/boot.png"
+				}
+			}
+			id: "513B18C3E0E74C91"
+			shape: "circle"
+			size: 0.75d
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "79F2CDF32DF422CE"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "移動速度(&e)"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6930C77988A640AF"
+				"61C05AE305488DF5"
+			]
+			description: [
+				"&eエンチャントは装備の核となる部分で、装備の効率を大幅に向上させます。"
+				""
+				"&7エンチャントに関する完全なガイドはWikiで確認できます。エンチャントチュートリアルは現在作成中です <3"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "bewitchment:textures/mob_effect/enchanted.png"
+				}
+			}
+			id: "7CFDF35E5158679E"
+			rewards: [{
+				id: "0B449E6D557CA067"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			shape: "hexagon"
+			subtitle: "&8[続きを読む]"
+			tasks: [{
+				id: "261E71FE0BF26DD9"
+				item: "minecraft:enchanting_table"
+				title: "エンチャントテーブルを作る"
+				type: "item"
+			}]
+			title: "エンチャント(&e)"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"085E3F53A333AA9F"
+				"59E36C0233C961CA"
+				"13907450E40B1069"
+				"332E1D21030C2367"
+				"401B24F826A490C3"
+				"3EFD57AABC3D44EF"
+				"44D9519561FE2D1B"
+				"7613069D73E7B2A3"
+				"513B18C3E0E74C91"
+				"479F0EDD5681A06D"
+				"7F974354502FF51C"
+				"07C8B808DB85CC35"
+				"597F9C69DBB37F71"
+				"5CF52770623E5963"
+				"2078987E5DF94CE7"
+				"3F794C7D175F14C0"
+				"2B31C767E6C37F28"
+				"7CFDF35E5158679E"
+				"073F2420FA2EF9B1"
+				"0A1F7985832C6DB2"
+				"71EDD24DAB210B44"
+				"6399A78B0AF2BCAE"
+				"43C641771CB69C88"
+				"1079F098AE98FCF6"
+				"76196F8D435E0E5A"
+				"0F83B1AC3CB766C9"
+				"0DFD6849156C0709"
+				"57B71888F2B87995"
+				"0002A96D1F886FB3"
+				"09CE7EB3045D5136"
+				"32AF5CAD14B2C8A7"
+				"01F49526727B35F1"
+				"2D18A81E45594603"
+				"4DEDEC176C36CFD0"
+				"61C05AE305488DF5"
+				"74B7050CA824F281"
+				"36B7ACAA73589366"
+				"4B450D0E26363D54"
+				"080F23071FA8CFC9"
+				"5728EF143DC9B7DB"
+				"4250485195720E02"
+				"18899F26D6DB2F47"
+				"59C45FA337989B0C"
+				"2A4B84F063C78B09"
+				"3D78B8D241B53C2A"
+				"22E0D946A9D81F02"
+				"42068E429EB7B74F"
+				"5814C5C80022A343"
+				"51595E88AF1F475E"
+				"4CF644BC0920C177"
+				"0A4309730B50D9FF"
+				"3B1F2D1CFA02F922"
+				"1F1202929D2C5195"
+				"6930C77988A640AF"
+				"53391B7A86496FCB"
+				"75E616FE0AAF9EF5"
+				"4898E3ED8141DAFC"
+				"34D8C4E35FD1D7A4"
+				"40C4C4072277E160"
+				"5F05B907376828B4"
+				"3A72E538D2A5B20C"
+				"6A594976300D5DCC"
+				"6B8B4323E13AB3E9"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:item/essence/knowing"
+				}
+			}
+			id: "5F2C69EC6928676F"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "the_bumblezone:item/essence/knowing"
+					}
+				}
+				id: "71028E3F756D85C9"
+				title: "&d永遠の知識の一部"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&8秘密の知識"
+			tasks: [{
+				id: "7E66AB385C03B775"
+				title: "知識を学びました。"
+				type: "checkmark"
+			}]
+			title: "&d永遠の知識: &e戦闘装備の"
+			x: 9.0d
+			y: -21.75d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6難易度:&a 簡単 &7/ &e中"
+				""
+				"&eプロテクター（タンクとも呼ばれます）は、敵からのダメージを吸収することで仲間を守るサポートです。"
+				""
+				"&7プロテクターは、敵に先手を打ったり、&9ボーンアーマー&7などのアクティブタレントを使って挑発したりすることに重点を置いています。"
+				""
+				"- &eプロテクター/タンクのビルドは？"
+				"&7プロテクターとして最優先事項は&c最大体力&7と&eアーマー&7です。これらのステータスを持つ最適な装備は&eダイヤモンドアーマー&7とそのアップグレードです。これらは可能な限り最大のアーマーポイント（およびタフネス）を提供し、後に最大体力も提供します。"
+				""
+				"&eタンクのダメージは他のビルドに比べて平凡であることを覚えておいてください。タンクの目的はダメージを与えることではなく、タンクすることです。"
+			]
+			id: "57B71888F2B87995"
+			rewards: [
+				{
+					count: 8
+					id: "05B3B066FCB41150"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "57134CB7E8FDF0E0"
+					title: "&eUnlock Tier II ガイド"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Tier I &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "0FD8935EA9C1F668"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "171B6CE657EE7A18"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "267A79D48739B564"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B0E79F0989DD746"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "373563C79A1DDD0E"
+					item: {
+						Count: 1
+						id: "paladins:diamond_kite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3CCC18493C98B5E5"
+					item: "rogues:warrior_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "310BF2BA24D12FC1"
+					item: "paladins:paladin_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "保護者として"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6難易度: &aイージー &7/ &eミディアム &7/ &cハード"
+				""
+				"&eウォリアーは、攻撃速度は遅いものの、強力な近接攻撃ビルドです。"
+				""
+				"&7彼らはまさに「バースト」クラスの定義です。攻撃速度は遅いものの、DPSビルドほど安定してダメージを与えることはできません。"
+			]
+			id: "36B7ACAA73589366"
+			rewards: [
+				{
+					id: "00165336640EEECC"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "46C8B41599DEEF3A"
+					title: "&eUnlock Tier II ガイド"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Tier I &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "0312CC52D893C4BE"
+					item: {
+						Count: 1
+						id: "rogues:warrior_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D24437AC6703538"
+					item: {
+						Count: 1
+						id: "rogues:warrior_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "768A5105FC2B8FD8"
+					item: {
+						Count: 1
+						id: "rogues:warrior_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0471DE5E9038FA84"
+					item: {
+						Count: 1
+						id: "rogues:warrior_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72B8245645ACDA0E"
+					item: "rogues:warrior_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E21A277D16B449A"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "戦士として"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6難易度:&a イージー&7 /&e ミドル&7/ &cハード&7"
+				""
+				"&eメイジは、アーケイン、ファイア、フロストといった特定の属性の魔法を使う、汎用性の高い遠距離攻撃ビルドです。"
+				""
+				"&7メイジの役割は、スペルブックから詠唱された魔法を使って遠距離からダメージを与えることです。"
+				""
+				"- &eメイジとして何をビルドするべきか？"
+				"&7優先順位は、どの道を選ぶか、つまりどの属性に重点を置きたいかによって異なります。初期装備として、&eウィザードの杖&7（または特定の属性の杖）と&eウィザードのローブ&7を入手できます。"
+			]
+			id: "32AF5CAD14B2C8A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E55BD0560991CA3"
+					table_id: 3850066978152658360L
+					title: "あなたの選んだルーン"
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "6758587085DB0764"
+					title: "特定のエレメントのTier IIガイドのロックを解除"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "399A90F153F28F25"
+					title: "&eスペルブレードガイド&c(ローグ ティア I が必要)"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Tier I &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "0A2AEE5ACC8E1059"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "465444467D38732D"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FB4C1BD0A49F9E2"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BCD2493ECE81DD2"
+					item: {
+						Count: 1
+						id: "wizards:wizard_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3178F744F0C11E2F"
+					item: {
+						Count: 1
+						id: "wizards:wand_novice"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "魔術師として"
+			x: 0.0d
+			y: 1.875d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6難易度:&e 中 &7/ &cハード"
+				""
+				"&eローグは、素早い攻撃と継続的なダメージを与えることに重点を置いた近接ビルドです。"
+				""
+				"&7彼らはまさに「DPS」クラスの定義です。継続的なダメージを与えることに重点を置いており、バーストビルドは高ダメージを狙うものの、一定ではありません。"
+				""
+				"- &eローグのビルドは何をすべきか？"
+				"&7ステータス面では、&eヘイスト&7が最も重要で、次に&6物理ダメージ&7です。装備面では、両手持ちで使えるように、片手で攻撃速度が速い武器を選ぶべきです。"
+			]
+			id: "4250485195720E02"
+			rewards: [
+				{
+					count: 3
+					id: "184096CBEA061C50"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_poison"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "2ADE97391AC00735"
+					title: "&eUnlock Tier II ガイド"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "36E9C272253470BC"
+					title: "&eスペルブレードガイド&c(メイジレベルIが必要)"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Tier I &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "7FD3F530C813C541"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39B521BBBA93DDE6"
+					item: {
+						Count: 1
+						id: "rogues:rogue_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CC809698CC254EE"
+					item: {
+						Count: 1
+						id: "rogues:rogue_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EFB811C612051F1"
+					item: {
+						Count: 1
+						id: "rogues:rogue_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "399C7A3B5D5526B7"
+					item: {
+						Count: 1
+						id: "rogues:rogue_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C1F0A6134AE788F"
+					item: "rogues:rogue_spell_book"
+					type: "item"
+				}
+			]
+			title: "&eローグとして"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6難易度:&a 簡単 &7/ &e中"
+				""
+				"&eレンジャーは、弓、クロスボウ、銃などの武器を用いて飛び道具でダメージを与える遠距離攻撃ビルドです。"
+				""
+				"&7装備と優先するステータスによって、DPS重視のビルドにもバースト重視のビルドにもできます。"
+				""
+				"- &eレンジャーのビルドは何をすべきか？"
+				"&7最優先事項は、タレントと装備から得られる&2遠距離ダメージ&7です。発射速度を上げたい場合は、&aドロー速度&7も優先する必要があります。"
+				""
+				"&eアーチャーは攻撃力が低いことを覚えておきましょう。"
+			]
+			id: "76196F8D435E0E5A"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "7562B7F450DBA5BA"
+				title: "&eUnlock Tier II ガイド"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&7Tier I &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "16DE019B98CAF8D3"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "793BB7A4760C94DD"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C63C0147F3D6706"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F824AD15BE13D42"
+					item: {
+						Count: 1
+						id: "archers:archer_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E94B5EC060B408A"
+					item: "archers:archer_spell_book"
+					type: "item"
+				}
+				{
+					id: "5157A50DDC652D9F"
+					item: {
+						Count: 1
+						id: "archers:mechanic_shortbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "レンジャーとして"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4250485195720E02"
+				"32AF5CAD14B2C8A7"
+			]
+			description: [
+				"&6難易度:&e 中 &7/ &c 難 &7(アシュ＝エダール)"
+				""
+				"&e ローグとメイジの両方の道を組み合わせたもう一つの道。"
+				""
+				"&7 スペルブレードを使えば、魔法アビリティを使う近接ローグになることができます。好きな属性のスペルブレードと、そのアビリティ用のテクニックスペルブックから始めることができます。"
+				""
+				"&e 才能の選択"
+				"&7 優先順位は、物理ダメージと選択した属性の力の両方を組み合わせる必要があります。運命の選択は、属性の運命、または呪文よりも攻撃に重点を置く場合は&9 シャドウテクニック&7 のいずれかになります。"
+			]
+			hide_until_deps_visible: true
+			id: "09CE7EB3045D5136"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "120E0D545968C087"
+					title: "&eTier III ガイドのロック解除"
+					type: "custom"
+				}
+				{
+					id: "2A8DE7EF0E237285"
+					item: "spellbladenext:runeblaze_ingot"
+					type: "item"
+				}
+				{
+					id: "602F56C398CA3F9D"
+					item: "spellbladenext:runegleam_ingot"
+					type: "item"
+				}
+				{
+					id: "0B8E50A473351F5D"
+					item: "spellbladenext:runefrost_ingot"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eTier II &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "2A530311ACA52655"
+					item: "spellbladenext:frost_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "523F4479E33CBEAC"
+					item: "spellbladenext:fire_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "1E28B8ADF2732666"
+					item: "spellbladenext:arcane_battlemage_spell_book"
+					type: "item"
+				}
+				{
+					id: "6B00CF76A118782A"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7F63DDEA6A420F6E"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7907391AD4491937"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A98B39FF71CA47C"
+					item: {
+						Count: 1
+						id: "spellbladenext:fire_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77C1C17602E87F0A"
+					item: {
+						Count: 1
+						id: "spellbladenext:arcane_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3197451530F7213B"
+					item: {
+						Count: 1
+						id: "spellbladenext:frost_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "スペルブレード"
+			x: -2.625d
+			y: 2.625d
+		}
+		{
+			dependencies: ["0A4309730B50D9FF"]
+			description: [
+				"&6難易度:&c ハード"
+				""
+				"&eルーン召喚は、秘術、火、氷の3つの元素の力であるアストラル魔法を使用します。"
+				""
+				"&7ルーン召喚は正しく使用すれば非常に強力ですが、最も難しい魔法です。"
+				""
+				"- &eタレントの選択"
+				"&7運命のタレントを取得できるレベルに達したので、&eアストラルパワー&7を得られる&9ルーンと星の知識&7を選択しましょう。"
+			]
+			hide_until_deps_visible: true
+			id: "2A4B84F063C78B09"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "7F4526EB70A3DCBF"
+				title: "ティアIVのロックを解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [{
+				id: "4292524ED18FE585"
+				item: "invoke:invoker_spell_book"
+				type: "item"
+			}]
+			title: "＆アストラル知識"
+			x: -1.125d
+			y: 4.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6難易度:&e 中 &7/ &c ハード &7(吟遊詩人)"
+				""
+				"&eヒーラーは、味方を回復し、魔法の一時的シールドを付与することで守るサポートです。"
+				""
+				"- &eヒーラーとしてどのようなビルドを作るべきか？"
+				"&7主な焦点は、才能や装備によって得られる&e聖なる力&7です。&6聖なる書&7を使って回復呪文を唱えることができます。"
+				"&7また、ダメージはそれほど高くないため、最大体力や移動速度など、ターゲットから逃れるための防御力にも少し重点を置くとよいでしょう。"
+				""
+				"&eヒーラーのダメージは他のビルドに比べて平凡であることを覚えておいてください。ヒーラーの目的はダメージを与えることではなく、回復することです。"
+			]
+			id: "073F2420FA2EF9B1"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "34F17089080BE301"
+					title: "&eUnlock Tier II ガイド"
+					type: "custom"
+				}
+				{
+					count: 16
+					id: "3A88662548C17265"
+					item: "runes:healing_stone"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Tier I &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "73D7F38F58340891"
+					item: {
+						Count: 1
+						id: "paladins:diamond_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DE76C4201E0ABCB"
+					item: "paladins:priest_spell_book"
+					type: "item"
+				}
+				{
+					id: "650032F5E71EC47A"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7081002E04CCE384"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19808ADC01DD9E2D"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "191102B94E38E735"
+					item: {
+						Count: 1
+						id: "paladins:priest_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "ヒーラーとして"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["61C05AE305488DF5"]
+			description: [
+				"&6難易度:&e 中 &7/ &c難"
+				""
+				"&e吟遊詩人は、味方にダメージ、ヘイスト、回復などのバフを与えるサポートです。"
+				""
+				"&c仲間にバフを与えるには、仲間とパーティーを組んでいる必要があります！&8(/openpac-parties コマンド)"
+				""
+				"&7吟遊詩人は特別な存在で、特定の装備やステータスを持っていません。必要なのは、&9A 吟遊詩人の物語&7の才能を習得していることだけです。吟遊詩人は、その才能自体に記載されている特定のバフを与えるために、特定の楽器を使用できます。"
+				""
+				"- &e吟遊詩人としてどのようなビルドを作るべきか？"
+				"&7一言で言えば、ハイブリッドです。吟遊詩人を他のビルドと組み合わせたり、好きなように組み合わせたりできます。例えば、アーチェリーの装備を身に着ければダメージを与えるサポートになったり、メイジやヒーラーになったりできます！すべてはあなた次第です。"
+			]
+			id: "0A1F7985832C6DB2"
+			rewards: [
+				{
+					id: "58D18BB26C19FBAF"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "035B72E43504597B"
+					title: "&eティアIIフロスト＆ヒーラーガイドのロックを解除"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Tier I &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "0EF87BC5330A4760"
+					item: {
+						Count: 1
+						id: "immersive_melodies:flute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5C099415129268AA"
+					item: {
+						Count: 1
+						id: "immersive_melodies:bagpipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7F64C7463D5F83C8"
+					item: {
+						Count: 1
+						id: "immersive_melodies:didgeridoo"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "796B72159F06686E"
+					item: {
+						Count: 1
+						id: "immersive_melodies:lute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "09D0B07619A6FAC9"
+					item: {
+						Count: 1
+						id: "immersive_melodies:piano"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "60A440DEC33D7227"
+					item: {
+						Count: 1
+						id: "immersive_melodies:triangle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "65A88890B2679DF5"
+					item: {
+						Count: 1
+						id: "immersive_melodies:trumpet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "108EB0F5CA0F59BC"
+					item: {
+						Count: 1
+						id: "mcdw:crossbow_harp_crossbow"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:multishot"
+								lvl: 2s
+							}]
+						}
+					}
+					optional_task: true
+					title: "&eオプション武器&7: ハープクロスボウ"
+					type: "item"
+				}
+			]
+			title: "吟遊詩人として"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"32AF5CAD14B2C8A7"
+				"0A1F7985832C6DB2"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6難易度:&a 易&7/&e 中&7(吟遊詩人)"
+				""
+				"&eフロストは中程度のダメージを与えることに重点を置いており、敵の動きを遅くするなどのユーティリティも提供します。"
+				""
+				"&7フロストパワーに加えて、&eスペルヘイスト&7で可能な限り速く呪文を唱えることも主な目的です。&eクリティカル率とダメージ&7も優れたステータスですが、優先事項ではありません。"
+			]
+			hide_until_deps_visible: true
+			id: "5814C5C80022A343"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "7B8A00D9A6E321DC"
+				title: "ティアIIIのロックを解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eTier II &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "758C69335DA5851B"
+					item: "wizards:frost_spell_book"
+					type: "item"
+				}
+				{
+					id: "4C2AD845F237C2B6"
+					item: {
+						Count: 1
+						id: "wizards:staff_netherite_frost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61E8F8B8CD2AF605"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "763CB6FE9DE2F74D"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "334E3B659B2CD4EE"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "663E2B44F64512D4"
+					item: {
+						Count: 1
+						id: "wizards:frost_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "霜の中へ"
+			x: 1.125d
+			y: 3.375d
+		}
+		{
+			dependencies: ["32AF5CAD14B2C8A7"]
+			description: [
+				"&6難易度:&a 簡単"
+				""
+				"&eアーケインは、低速ながらも強力な呪文に特化した高ダメージ属性です。"
+				""
+				"&73つの中で最もバースト性が高い属性です。&eクリティカルダメージ&7に重点を置き、クリティカル呪文によるダメージを最大化します。&eクリティカル確率&7も重要なので、両者のバランスを取るのが賢明です。"
+			]
+			hide_until_deps_visible: true
+			id: "74B7050CA824F281"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "009652D33213EA69"
+				title: "ティアIIIのロックを解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eTier II &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "2E1A77BDFBBFA6D4"
+					item: "wizards:arcane_spell_book"
+					type: "item"
+				}
+				{
+					id: "132ACD232230B79B"
+					item: {
+						Count: 1
+						id: "wizards:staff_netherite_arcane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35767BCFF531FD94"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36E36DE73E38C02A"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61AB07E54E960DB0"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77C619D2734ED9C5"
+					item: {
+						Count: 1
+						id: "wizards:arcane_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e秘儀へ"
+			x: -0.375d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4250485195720E02"]
+			description: [
+				"&6難易度:&e 中"
+				""
+				"&7ヘイストローグを選ぶなら、次にアップグレードすべきアイテムです。アサシンセットは装備1つにつきヘイスト+5%の効果があるため、あなたのビルドに最適です。"
+				""
+				"&eタレントの選択"
+				"&7物理ダメージとヘイストのノードは最優先事項です。フェイトには、ヘイストを大幅に上昇させる&9シャドウテクニック&7を選択しましょう。"
+			]
+			hide_until_deps_visible: true
+			id: "0002A96D1F886FB3"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "1F2BC88A66254928"
+				title: "&eTier III ガイドのロック解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eTier II &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "6CBFCA994BCDE8F3"
+					item: {
+						Count: 1
+						id: "rogues:assassin_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60B452A91AB80D2A"
+					item: {
+						Count: 1
+						id: "rogues:assassin_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B3122964C40D5C0"
+					item: {
+						Count: 1
+						id: "rogues:assassin_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6554A462C34F2D01"
+					item: {
+						Count: 1
+						id: "rogues:assassin_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "＆eA 微妙な暗殺者"
+			x: -2.625d
+			y: 1.875d
+		}
+		{
+			dependencies: ["76196F8D435E0E5A"]
+			description: [
+				"&6難易度:&a 簡単"
+				""
+				"&7次のアップグレードはレンジャーアーマーです。最高の遠距離ダメージを与えてくれるので、ビルドに役立ちます。"
+				""
+				"&7ショートボウまたはラピッドクロスボウは、ドロー速度が遅いため、DPSを上げるには最適な選択肢です。"
+				""
+				"&eタレントオプション"
+				"&7遠距離ダメージオプションをすべて選択し、運命で&9シンドレイの遺産を獲得しましょう"
+			]
+			hide_until_deps_visible: true
+			id: "18899F26D6DB2F47"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "0A18E91ECC49CC06"
+				title: "&eTier III ガイドのロック解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eTier II &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "2313360072A422CA"
+					item: {
+						Count: 1
+						id: "archers:netherite_shortbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E8281191A6CF13A"
+					item: {
+						Count: 1
+						id: "archers:netherite_rapid_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "00711CCC7DD7B0B7"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CC053A70ECDE946"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "501ADF7426D3B28B"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E42C1DF6ABAF7D4"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "高速アップグレード"
+			x: -3.0d
+			y: 1.125d
+		}
+		{
+			dependencies: ["76196F8D435E0E5A"]
+			description: [
+				"&6難易度:&e 中"
+				""
+				"&7次のアップグレードはレンジャーアーマーです。最高の遠距離ダメージを誇り、ビルドに役立ちます。"
+				""
+				"&7ロングボウまたはヘビークロスボウは、高いダメージを与えるため、バースト攻撃に最適です。あるいは、ヴェイルドクロスボウを使用すれば、少しだけドロー速度を上げることができます。"
+				""
+				"&eタレントオプション"
+				"&7遠距離ダメージオプションをすべて選択し、フェイトとして&9シンドレイの遺産を獲得しましょう。"
+			]
+			hide_until_deps_visible: true
+			id: "2D18A81E45594603"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "41D13D855A8D00B9"
+				title: "&eTier III ガイドのロック解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eTier II &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "19346C903BB29B45"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B5696718E0BA10E"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29BC538B6D6436F3"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "644442AE295ED11E"
+					item: {
+						Count: 1
+						id: "archers:ranger_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F45D33474D2FC08"
+					item: {
+						Count: 1
+						id: "archers:netherite_longbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11CA4D0FDFF886C8"
+					item: {
+						Count: 1
+						id: "archers:netherite_heavy_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "459D7828B7778F5A"
+					item: {
+						Count: 1
+						id: "mcdw:crossbow_veiled_crossbow"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "mcdw:shadow_shot"
+									lvl: 1s
+								}
+								{
+									id: "mcdw:shadow_barb"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "ゆっくりだが困難なアップグレード"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18899F26D6DB2F47"]
+			description: [
+				"&e次のアップグレードは、ミュータントスケルトンを倒してチェストプレートを入手することです。"
+				""
+				"&7武器に関しては、ショートボウ/ラピッドクロスボウもアップグレードできます。アクセサリーに関しては、それぞれのネックレスと指輪を入手しましょう。"
+			]
+			hide_until_deps_visible: true
+			id: "22E0D946A9D81F02"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "3361E447E08820C7"
+				title: "&eTier IVガイドのロック解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "0A97E4FEECF57F0E"
+					item: {
+						Count: 1
+						id: "mutantmonsters:mutant_skeleton_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32939CDB080A22B8"
+					item: {
+						Count: 1
+						id: "archers:crystal_shortbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "585D70DC4C15A36C"
+					item: {
+						Count: 1
+						id: "archers:ruby_rapid_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28008F9D8EA90506"
+					item: "jewelry:unique_archer_ring"
+					type: "item"
+				}
+				{
+					id: "3CCB709F3C6092A6"
+					item: "jewelry:unique_archer_necklace"
+					type: "item"
+				}
+			]
+			title: "&eMutant アップグレード (DPS)"
+			x: -4.125d
+			y: 1.125d
+		}
+		{
+			dependencies: ["2D18A81E45594603"]
+			description: [
+				"&e次のアップグレードは、より強力なバースト重視の武器を手に入れることです。"
+				""
+				"&7クリスタルロングボウまたはルビーヘビークロスボウにアップグレードしましょう。アクセサリーに関しては、それぞれのネックレスと指輪を入手しましょう。"
+			]
+			hide_until_deps_visible: true
+			id: "43C641771CB69C88"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "36C8B0067D57D0B4"
+				title: "&eTier IVガイドのロック解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "3D597CEF74187A82"
+					item: {
+						Count: 1
+						id: "archers:crystal_longbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26453CB050FF0316"
+					item: {
+						Count: 1
+						id: "archers:ruby_heavy_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "726A625237182553"
+					item: "jewelry:unique_archer_necklace"
+					type: "item"
+				}
+				{
+					id: "4108AA9D320D75B1"
+					item: "jewelry:unique_archer_ring"
+					type: "item"
+				}
+			]
+			title: "&eヘビーアップグレード（バースト）"
+			x: -4.125d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"073F2420FA2EF9B1"
+				"0A1F7985832C6DB2"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6難易度:&e 中 &7/ &c 難 &7(吟遊詩人の場合)"
+				""
+				"&7アップグレードとして、聖なる力を一定ではなく割合で増加させる「プライアーセット」を入手でき、杖の聖なる力を強化します。"
+			]
+			hide_until_deps_visible: true
+			id: "3D78B8D241B53C2A"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "4A533E3437729B92"
+				title: "&eTier III ガイドのロック解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eTier II &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "65FCDBF3D31E3A54"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3578246741F3AF01"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B9D0760A4DE911C"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "359D43F1FDCB0A65"
+					item: {
+						Count: 1
+						id: "paladins:prior_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10C3DF770B3C85BE"
+					item: {
+						Count: 1
+						id: "paladins:netherite_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eThe Prior"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"22E0D946A9D81F02"
+				"43C641771CB69C88"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&d星の導きよ、ハンターよ。"
+				""
+				"&7ティアIVでは、唯一の弓用アーティファクトである&6オリオン&7アーティファクトを入手しましょう。"
+				""
+				"&eスペルブックオプション"
+				"&7オリオンのアップグレードツリーに応じて、オリオンと直接相互作用する3種類のスペルブックを選択することもできます。"
+				"- &bミンタカの恐怖"
+				"- &cアルニラムの視界"
+				"- &6アルニタクの力"
+			]
+			hide_until_deps_visible: true
+			id: "1079F098AE98FCF6"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "23D1791923D2A96C"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cTier IV &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "1B154C7824A4877A"
+					item: {
+						Count: 1
+						id: "archers:netherite_ranger_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "543E865FF18CF317"
+					item: {
+						Count: 1
+						id: "archers:netherite_ranger_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F344081EA393881"
+					item: {
+						Count: 1
+						id: "archers:netherite_ranger_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6605EB1DB10EE660"
+					item: {
+						Count: 1
+						id: "archers:netherite_ranger_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12E8E2647965891C"
+					item: "prominent:orion"
+					title: "&6アーティファクトオプション: &e星の狩人オリオン"
+					type: "item"
+				}
+				{
+					id: "67E86244246E6A0C"
+					item: "archers_expansion:tundra_hunter_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E9F222F8A68F062"
+					item: "archers_expansion:deadeye_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "702A8F0BFE4AF1E2"
+					item: "archers_expansion:war_archer_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&6ハンターの遺産"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32AF5CAD14B2C8A7"]
+			description: [
+				"&6難易度:&a 簡単"
+				""
+				"&eFireは高ダメージ属性ですが、実用性は高くありません。しかし、高いクリティカル率を重視することで、非常に高いダメージを与えることができます。"
+				""
+				"&7Fireメイジは高いコンスタントダメージを与えますが、バースト効果を得る手段が不足しています。これを緩和するために&eCritical Damage&7に重点を置くこともできますが、クリティカル率を可能な限り一定に保つために、&eCritical Chance&7を最優先にすべきです。"
+			]
+			hide_until_deps_visible: true
+			id: "4DEDEC176C36CFD0"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "05CA9018461B5A4B"
+				title: "ティアIIIのロックを解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eTier II &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "56952CF559FE81DF"
+					item: "wizards:fire_spell_book"
+					type: "item"
+				}
+				{
+					id: "7C69DACDA816EE79"
+					item: {
+						Count: 1
+						id: "wizards:staff_netherite_fire"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "459BBBAB550600AC"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D33E13D41AA3314"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BEED45BC95596FB"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38ACB00D4A357F20"
+					item: {
+						Count: 1
+						id: "wizards:fire_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e火の中へ"
+			x: 0.375d
+			y: 3.75d
+		}
+		{
+			dependencies: ["57B71888F2B87995"]
+			description: [
+				"&6難易度:&a 簡単 &7/ &e 中"
+				""
+				"&7タンクとしての次のアップグレードは、ダイヤモンドからネザライトへの切り替えです。"
+				""
+				"&eタレントの選択"
+				"&7DPS重視なら&9正義のハンマー&7、挑発効果付きの純粋な耐性なら&9ボーンアーマー&7を選択できます。"
+				""
+				"&7運命に関しては、常に&9スケラックの祝福&7を最優先にしましょう。"
+			]
+			hide_until_deps_visible: true
+			id: "4B450D0E26363D54"
+			rewards: [
+				{
+					count: 16
+					id: "7C2026ED6CAC4D58"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "1664C3677A95C8A1"
+					title: "&eTier III ガイドのロック解除"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eTier II &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "0610720EC628217C"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29535C21FB9F6FC4"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DCC25069B4DF0C6"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B1F49743156A5F4"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2837E131ADC9C3C7"
+					item: {
+						Count: 1
+						id: "paladins:netherite_kite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "持久力への鍵"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B450D0E26363D54"]
+			description: [
+				"&6難易度:&a 簡単"
+				""
+				"&7ネザライトからアップグレードする場合は、ネザライト・ダイヤモンドが推奨されます。その後、サファイアにアップグレードできます。"
+				""
+				"&e代替案"
+				"&7サファイアの低い防御力と高い体力よりも、もう少し体力のある強力な防具が欲しい場合は、&7ウォーデンアーマー&7を作成できますが、好みによります。"
+			]
+			hide_until_deps_visible: true
+			id: "42068E429EB7B74F"
+			rewards: [
+				{
+					count: 16
+					id: "04DF88CA29FA1498"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "309783E783EB0E8B"
+					title: "&eTier IVガイドのロック解除"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "02099611A2B1A294"
+					item: {
+						Count: 1
+						id: "advancednetherite:netherite_diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D09F2F7F67BB211"
+					item: {
+						Count: 1
+						id: "advancednetherite:netherite_diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BD3CCF50342D71B"
+					item: {
+						Count: 1
+						id: "advancednetherite:netherite_diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03FC14F28F5D6914"
+					item: {
+						Count: 1
+						id: "advancednetherite:netherite_diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E0DEDC13254DF93"
+					item: "jewelry:unique_tank_ring"
+					type: "item"
+				}
+				{
+					id: "5D9069FA94D2EEE4"
+					item: "jewelry:unique_tank_necklace"
+					type: "item"
+				}
+			]
+			title: "&eさらに強化?"
+			x: 3.375d
+			y: -0.375d
+		}
+		{
+			dependencies: [
+				"42068E429EB7B74F"
+				"4CF644BC0920C177"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+	"&7サファイアアーマーはネザーライト・ダイヤモンドから直接アップグレードできるアーマーです。総装甲値は低いものの、部位ごとに最大体力が20増加し、さらにダメージを反射するパッシブ効果も持ちます。つまり、最初から他のアーマーに比べて被ダメージが30%軽減されます。"
+]
+			hide_until_deps_visible: true
+			id: "080F23071FA8CFC9"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "6F7AA60792E047F5"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cTier IV &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "3B9A27A979E70E11"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65443C59FC715DF0"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31ED630D7CF605E0"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72187D782F7CAD6C"
+					item: {
+						Count: 1
+						id: "mythicupgrades:sapphire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BDBEBA46642A85A"
+					item: {
+						Count: 1
+						id: "prominent:fyralath"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eアーティファクトオプション: &6Fyr'alath &e(ブルーザー)"
+					type: "item"
+				}
+				{
+					id: "1519A8729A6F8854"
+					item: {
+						Count: 1
+						id: "prominent:frostmourne"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eアーティファクトオプション: &6フロストモーン &e(持続 - デスナイト)"
+					type: "item"
+				}
+				{
+					id: "60B3A4B08E3A36A6"
+					item: "prominent:vaazkar"
+					optional_task: true
+					title: "&eアーティファクトオプション: &6Vaazkar &e(タンク)"
+					type: "item"
+				}
+			]
+			title: "&6ほとんど難しくない"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D78B8D241B53C2A"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6難易度:&e 中 &7/ &c 難 &7(吟遊詩人の場合)"
+				""
+				"&7聖杖のアップグレードは、アーティファクト武器に移行する前に不可欠なステップです。"
+			]
+			hide_until_deps_visible: true
+			id: "59C45FA337989B0C"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "7553FEA7E0612654"
+				title: "&eTier IVガイドのロック解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "0C642D20C079F5C7"
+					item: {
+						Count: 1
+						id: "paladins:ruby_holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11DC29E0CB3D1AA7"
+					item: "jewelry:unique_healing_ring"
+					type: "item"
+				}
+				{
+					id: "405FE4976810273E"
+					item: "jewelry:unique_healing_necklace"
+					type: "item"
+				}
+			]
+			title: "聖なるルビー"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["59C45FA337989B0C"]
+			dependency_requirement: "one_completed"
+			description: [
+	"&7アーティファクト武器「エカヴァル」を入手し、アップグレード ツリーを使用して「アダネル、アインの秘密」に進化させます。"
+]
+			hide_until_deps_visible: true
+			id: "5728EF143DC9B7DB"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "1A808A37E17EACEF"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cTier IV &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "3D7208463E97F22F"
+					item: {
+						Count: 1
+						id: "prominent:ekavar_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A22AC684642D5D3"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AACD44289F7CC03"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CE5FAEC767F8D97"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD15B397B162AE0"
+					item: {
+						Count: 1
+						id: "paladins:netherite_prior_robe_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6アインの秘密"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5814C5C80022A343"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6難易度:&a 易 &7/&e 中 &7(吟遊詩人の場合)"
+				""
+				"- &eタレントの選択"
+				"&7運命のタレントを取得できるレベルに達したので、何よりも&9フロスト・アークメイジ&7を選ぶべきです。"
+			]
+			hide_until_deps_visible: true
+			id: "71EDD24DAB210B44"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "5567D2897EB9E780"
+				title: "ティアIVのロックを解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "3ED62E8F96814510"
+					item: {
+						Count: 1
+						id: "wizards:staff_smaragdant_frost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0175551E00536B1A"
+					item: "jewelry:unique_frost_ring"
+					type: "item"
+				}
+				{
+					id: "00B0D161FFBB6BB0"
+					item: "jewelry:unique_frost_necklace"
+					type: "item"
+				}
+			]
+			title: "スマラグダント"
+			x: 1.125d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4DEDEC176C36CFD0"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6難易度:&a 簡単"
+				""
+				"- &eタレントの選択"
+				"&7運命のタレントを取得できるレベルに達したので、何よりも&9ファイア・アークメイジ&7を選ぶべきです。"
+			]
+			hide_until_deps_visible: true
+			id: "0F83B1AC3CB766C9"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "627F3071A8CB5709"
+				title: "ティアIVのロックを解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "7BF684560B170F7C"
+					item: {
+						Count: 1
+						id: "wizards:staff_ruby_fire"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73AEA1630F2A905F"
+					item: "jewelry:unique_fire_ring"
+					type: "item"
+				}
+				{
+					id: "04E4F646F30E2E8A"
+					item: "jewelry:unique_fire_necklace"
+					type: "item"
+				}
+			]
+			title: "燃えるルビー"
+			x: 0.375d
+			y: 4.875d
+		}
+		{
+			dependencies: ["74B7050CA824F281"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6難易度:&a 簡単"
+				""
+				"- &eタレントの選択"
+				"&7運命のタレントを取得できるレベルに達したので、何よりも&9アーケイン・アークメイジ&7を選ぶべきです。"
+			]
+			hide_until_deps_visible: true
+			id: "6399A78B0AF2BCAE"
+			min_required_dependencies: 1
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "0F50E6150CD7445F"
+				title: "ティアIVのロックを解除"
+				type: "custom"
+			}]
+			shape: "circle"
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "2ADC7596FC7E13CC"
+					item: {
+						Count: 1
+						id: "wizards:staff_crystal_arcane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50E0848B1DD65A59"
+					item: "jewelry:unique_arcane_ring"
+					type: "item"
+				}
+				{
+					id: "741600F9A41BCE51"
+					item: "jewelry:unique_arcane_necklace"
+					type: "item"
+				}
+			]
+			title: "謎の結晶"
+			x: -0.375d
+			y: 4.875d
+		}
+		{
+			dependencies: ["4898E3ED8141DAFC"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6難易度:&e 中 &7/ &c 難 &7(アシュ＝エダール)"
+				""
+				"&7メイガスセットは、メイガスのドロップから作成できる防具のアップグレードです。メイガスはヴォイドの侵略第2章のボスなので、レベル50以降に推奨されます。"
+				""
+				"&7クリティカルダメージを優先したい場合は、メイジシーカーハットを使用できます。"
+				""
+				"&eアーティファクトの選択"
+				"&7多くのアーティファクトはスペルブレードとして使用できます。そのほとんどは何らかのスペルパワーも付与します。火属性なら&6アズハル&7、氷属性なら&6フロストモーン&7、火属性と秘術属性なら&6アシュ＝エダール&7、そしてアストラル属性なら&6スーパーノヴァ&7です。"
+			]
+			hide_until_deps_visible: true
+			id: "0DFD6849156C0709"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "780BEB98A98EEC11"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cTier IV &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "2BD7D9868A4DE3C5"
+					item: {
+						Count: 1
+						id: "spellbladenext:magus_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4868CA287BD86545"
+					item: {
+						Count: 1
+						id: "spellbladenext:magus_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A636C23E9F492B1"
+					item: {
+						Count: 1
+						id: "spellbladenext:magus_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C35C7599985640B"
+					item: {
+						Count: 1
+						id: "spellbladenext:magus_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40508F32A11A73AD"
+					item: {
+						Count: 1
+						id: "prominent:supernova"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eアーティファクトオプション: &6超新星&e(アストラル)"
+					type: "item"
+				}
+				{
+					id: "390C7D7FD95CDD00"
+					item: "prominent:ashedar_essence"
+					match_nbt: false
+					optional_task: true
+					title: "&eアーティファクトオプション: &6Ash'edar &e(火 \\& 秘術)"
+					type: "item"
+				}
+				{
+					id: "658142AF4622B6D9"
+					item: {
+						Count: 1
+						id: "prominent:azhar"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eアーティファクトオプション: &6A'zhar &e(ソウルファイア)"
+					type: "item"
+				}
+				{
+					id: "68FEBA665489253A"
+					item: {
+						Count: 1
+						id: "prominent:frostmourne"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eアーティファクトオプション: &6Frostmourne &e(Frost)"
+					type: "item"
+				}
+				{
+					id: "28C2343C4343EC34"
+					item: {
+						Count: 1
+						id: "spellbladenext:frozen_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&e代替帽子: &7魔法使い帽子 &e(クリティカル呪文)"
+					type: "item"
+				}
+			]
+			title: "&6星から鍛えられた"
+			x: -4.132142857142867d
+			y: 3.642857142857139d
+		}
+		{
+			dependencies: [
+				"0F83B1AC3CB766C9"
+				"71EDD24DAB210B44"
+				"2A4B84F063C78B09"
+				"6399A78B0AF2BCAE"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&e全ての魔術師にとっての最終選択は、偉大なるシンダーストーンの杖、エカヴァルです。"
+				""
+				"&7難易度は、Tier IIIで選択した以前の呪文書によって決まります。"
+			]
+			hide_until_deps_visible: true
+			id: "01F49526727B35F1"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "0F7C0A36A72724D5"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cTier IV &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "5E7CDB8B53AE46A6"
+					item: {
+						Count: 1
+						id: "prominent:ekavar_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02932AA3D096AABA"
+					item: {
+						Count: 1
+						id: "wizards:netherite_arcane_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79D1A56FFB55E37F"
+					item: {
+						Count: 1
+						id: "wizards:netherite_fire_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5A5B42DEFF31212E"
+					item: {
+						Count: 1
+						id: "wizards:netherite_frost_robe_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&6大杖"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["09CE7EB3045D5136"]
+			description: [
+				"&6難易度:&e 中 &7/ &c 難 &7(アシュエダール)"
+				""
+				"&7スペルブレードの次のアップグレードは、ルーンアーマーセットと、代替スペルブレード呪文書です。"
+			]
+			hide_until_deps_visible: true
+			id: "4898E3ED8141DAFC"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "2CA26DA2B863BBDB"
+				title: "&eTier IV ガイドのロック解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "39938277BAE69746"
+					item: {
+						Count: 1
+						id: "spellbladenext:runegleaming_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "388A94E4FC7172E6"
+					item: {
+						Count: 1
+						id: "spellbladenext:runefrosted_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63CB1C58C68ED7B6"
+					item: {
+						Count: 1
+						id: "spellbladenext:runeblazing_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "277C70D4B38B811F"
+					item: "spellbladenext:phoenix_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AFF23EEB391A75B"
+					item: "spellbladenext:runic_echoes_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28D8605EB4070B4D"
+					item: "spellbladenext:deathchill_spell_book"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "輝くが凍った炎"
+			x: -4.125d
+			y: 2.625d
+		}
+		{
+			dependencies: ["32AF5CAD14B2C8A7"]
+			description: [
+				"&6難易度:&c ハード"
+				""
+				"&eエレメンタルウィザードは、火、氷、秘術の3つの属性に精通しています。"
+				""
+				"&7熟練した魔法使いほど高いダメージを与えることはできませんが、非常に多才で、後には「アストラルマジック」と呼ばれる複数の属性を同時に唱える手段を習得します。"
+			]
+			hide_until_deps_visible: true
+			id: "0A4309730B50D9FF"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "593E54EFAB17BCD2"
+				title: "ティアIIIのロックを解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&eTier II &8- [ガイドを読むにはクリック]"
+			tasks: [{
+				id: "7A736CD3205D2748"
+				item: {
+					Count: 1
+					id: "wizards:staff_wizard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "エレメンタルウィザード"
+			x: -1.125d
+			y: 3.375d
+		}
+		{
+			dependencies: ["36B7ACAA73589366"]
+			description: [
+				"&6難易度:&a 簡単"
+				""
+				"&eウォリアーは、攻撃速度は遅いものの、強力な近接攻撃が可能なビルドです。"
+				""
+				"&7彼らはまさに「バースト」クラスの定義です。攻撃速度は遅いものの、DPSビルドほど安定してダメージを与えることはできません。"
+			]
+			hide_until_deps_visible: true
+			id: "5F05B907376828B4"
+			rewards: [
+				{
+					id: "238E240A6DF2EAA5"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "244D909F51F1F588"
+					title: "&eTier II ガイドのロック解除"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&7Tier I &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "10858C192A21EF7E"
+					item: {
+						Count: 1
+						id: "rogues:berserker_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01B796C89163927E"
+					item: {
+						Count: 1
+						id: "rogues:berserker_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "427A6F6C8E418C1C"
+					item: {
+						Count: 1
+						id: "rogues:berserker_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AC0768320EC60FE"
+					item: {
+						Count: 1
+						id: "rogues:berserker_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&eバーサーカーの道"
+			x: -2.625d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5F05B907376828B4"]
+			description: [
+				"&eWarriorsは、攻撃速度は遅いものの、強力な近接攻撃ビルドです。"
+				""
+				"&7彼らはまさに「バースト」クラスの定義です。攻撃速度は遅いものの、DPSビルドほど安定してダメージを与えることはできません。"
+			]
+			hide_until_deps_visible: true
+			id: "34D8C4E35FD1D7A4"
+			rewards: [
+				{
+					id: "387374FEB26537C7"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "6AE781C23ABEE36A"
+					title: "&eUnlock Tier II ガイド"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "13FB88C958CFAD8B"
+					item: {
+						Count: 1
+						id: "mcda:dark_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4587A1C14998CCBA"
+					item: {
+						Count: 1
+						id: "mcda:dark_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A03A0F74DFE9B50"
+					item: {
+						Count: 1
+						id: "mcda:dark_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03A675FA7C32C98F"
+					item: {
+						Count: 1
+						id: "mcda:dark_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43994E81B4A1DCAB"
+					item: "jewelry:unique_attack_ring"
+					type: "item"
+				}
+				{
+					id: "4438AE699E6E8E72"
+					item: "jewelry:unique_attack_necklace"
+					type: "item"
+				}
+			]
+			title: "すぐにダークロード"
+			x: -4.125d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0002A96D1F886FB3"]
+			description: [
+				"&6難易度:&e 中"
+				""
+				"&7ソウルダンサーは、このティアのどの防具セットよりも高いヘイストを付与するため、アサシンの次に強化すべきアップグレードです。"
+				""
+				"&e代替"
+				"&7ローグのもう一つの道は、拳武器を使用するモンクです。これらのビルドでは、フィスト・オブ・フューリーを入手できます。"
+			]
+			hide_until_deps_visible: true
+			id: "40C4C4072277E160"
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ironchests:item/lock"
+					}
+				}
+				id: "331708492CC28876"
+				title: "&eTier III ガイドのロック解除"
+				type: "custom"
+			}]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					consume_items: false
+					id: "19EF118E1C05D21C"
+					item: {
+						Count: 1
+						id: "archon:fist_of_fury"
+						tag: {
+							Damage: 0
+							archon: { }
+						}
+					}
+					optional_task: true
+					title: "&eMonk's Way: &7怒りの拳"
+					type: "item"
+				}
+				{
+					id: "14BCCCCFF5596C12"
+					item: "jewelry:unique_dex_ring"
+					type: "item"
+				}
+				{
+					id: "428E616B56EB901E"
+					item: "jewelry:unique_dex_necklace"
+					type: "item"
+				}
+			]
+			title: "&eA 急ぎのダンス"
+			x: -4.125d
+			y: 1.875d
+		}
+		{
+			dependencies: ["36B7ACAA73589366"]
+			description: [
+				"&6難易度:&e 中&7/ &c難&7"
+				""
+				"&eデスナイトは死の呼び声に堕ちた戦士です。"
+				""
+				"&7彼らは攻撃速度の高いDPS特化型（フロスト）か、バーストとAoE特化型（アンホーリー）のどちらかになります。"
+				"&7彼らのメイン武器はルーンブレードで、デスナイトの3つの力すべてを秘めています。"
+				""
+				"&e3番目は誰？"
+				"&73番目のデスナイトタイプはブラッドです。これはタンククラスなので、このパスには含まれていません。興味がある場合は、プロテクターのパスに進んでください。"
+			]
+			hide_until_deps_visible: true
+			id: "3A72E538D2A5B20C"
+			rewards: [
+				{
+					id: "0C6B22AE469862B0"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "7589CF9AA012B9BC"
+					title: "&eUnlock Tier II ガイド"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&eTier II &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "301E199F256584F4"
+					item: {
+						Count: 1
+						id: "death_knights:initiate_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F19462FB1D6A522"
+					item: {
+						Count: 1
+						id: "death_knights:initiate_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33FEFD41EF618745"
+					item: {
+						Count: 1
+						id: "death_knights:initiate_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C498B05ED087681"
+					item: {
+						Count: 1
+						id: "death_knights:initiate_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4759AEDE88114156"
+					item: {
+						Count: 1
+						id: "death_knights:diamond_runeblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33381AFD51B1899E"
+					item: {
+						Count: 1
+						id: "death_knights:great_diamond_runeblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&eデスナイト"
+			x: -2.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A72E538D2A5B20C"]
+			description: [
+				"&6難易度:&e 中&7/&c 難&7 (騎手)"
+				""
+				"&eアンホーリー・デスナイトはバーストと範囲攻撃に特化しています。"
+				""
+				"&7武器は両手持ちのグレート・ルーンブレードがおすすめです。防具はプレイグブリンガーセットを選びましょう。これは今後のティアでも引き続き使用できます。"
+			]
+			hide_until_deps_visible: true
+			id: "75E616FE0AAF9EF5"
+			rewards: [
+				{
+					id: "03DE2BE0C439DE80"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "73A40314C407F28B"
+					title: "&eUnlock Tier II ガイド"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "11E55B3701983086"
+					item: "death_knights:unholy_spell_book"
+					type: "item"
+				}
+				{
+					id: "1323F85F0824F095"
+					item: {
+						Count: 1
+						id: "death_knights:plaguebringer_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "169E5257AA5DF53C"
+					item: {
+						Count: 1
+						id: "death_knights:plaguebringer_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DE453EC1DDD06D4"
+					item: {
+						Count: 1
+						id: "death_knights:plaguebringer_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A6E81A0A9254B68"
+					item: {
+						Count: 1
+						id: "death_knights:plaguebringer_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79D75260EA6D5804"
+					item: "death_knights:unholy_dk_ring"
+					type: "item"
+				}
+				{
+					id: "4619573E4498BEF1"
+					item: "death_knights:unholy_dk_necklace"
+					type: "item"
+				}
+			]
+			title: "不浄な献身"
+			x: -3.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["3A72E538D2A5B20C"]
+			description: [
+				"&6難易度:&e 中 &7/ &c 難 &7(ブレス)"
+				""
+				"&e フロストデスナイトは、物理ダメージと氷結ダメージを融合させたDPSビルドです。"
+				""
+				"&7 推奨武器は片手ルーンブレードと、将来のティアのために取っておく「フローズン・チャンピオン」アーマーセットです。"
+			]
+			hide_until_deps_visible: true
+			id: "3B1F2D1CFA02F922"
+			rewards: [
+				{
+					id: "693641A763B1318C"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "0B62C850AEED495B"
+					title: "&eUnlock Tier II ガイド"
+					type: "custom"
+				}
+			]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "16242E0DE37D3E2A"
+					item: "death_knights:frost_spell_book"
+					type: "item"
+				}
+				{
+					id: "413979489FB1F99F"
+					item: {
+						Count: 1
+						id: "death_knights:frozen_champion_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "438DC5CBDE64E489"
+					item: {
+						Count: 1
+						id: "death_knights:frozen_champion_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39356F2DBCA12691"
+					item: {
+						Count: 1
+						id: "death_knights:frozen_champion_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EE0821B7E16CC9C"
+					item: {
+						Count: 1
+						id: "death_knights:frozen_champion_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05519A6AEB9F52B6"
+					item: {
+						Count: 1
+						id: "death_knights:aeternium_runeblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77A66DAA796DBF82"
+					item: "death_knights:frost_dk_ring"
+					type: "item"
+				}
+				{
+					id: "6D4A98968A46AC3D"
+					item: "death_knights:frost_dk_necklace"
+					type: "item"
+				}
+			]
+			title: "凍った献身"
+			x: -3.375d
+			y: -1.875d
+		}
+		{
+			dependencies: [
+				"75E616FE0AAF9EF5"
+				"3B1F2D1CFA02F922"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7防具はネザーライト級にアップグレードしましょう。ダメージと防御力に優れています。"
+				""
+				"&eアーティファクトオプション"
+				"&6フロストモーン&7はデスナイト向けに作られているため、あらゆるデスナイトビルドに最適です。"
+			]
+			hide_until_deps_visible: true
+			id: "1F1202929D2C5195"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "5C9320E15A5F1B66"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cTier IV &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "7B49C7D7CEA608F9"
+					item: {
+						Count: 1
+						id: "prominent:frostmourne"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F860E7A21105E90"
+					item: {
+						Count: 1
+						id: "death_knights:icebound_knight_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7E0BB9D906AA006A"
+					item: {
+						Count: 1
+						id: "death_knights:plaguebringer_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&6哀しみの刃"
+			x: -4.124999999999993d
+			y: -2.5357142857142705d
+		}
+		{
+			dependencies: ["4B450D0E26363D54"]
+			description: [
+				"&6難易度:&e 中"
+				""
+				"&eブラッドデスナイトは防御力は低いですが、体力と自己回復力は高いです。"
+				""
+				"&7これは完全な防御力を得る代わりに、吸血鬼の知識の書を使って自己回復に重点を置く方法です。"
+			]
+			hide_until_deps_visible: true
+			id: "4CF644BC0920C177"
+			rewards: [
+				{
+					count: 16
+					id: "75214764AF713411"
+					item: "minecells:health_flask"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "ironchests:item/lock"
+						}
+					}
+					id: "2E6A420A1EE4E09D"
+					title: "&eTier IVガイドのロック解除"
+					type: "custom"
+				}
+				{
+					count: 16
+					id: "7AFA2A2C3FEBDB01"
+					item: "death_knights:blood_stone"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "&6Tier III &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "6355C1049705E699"
+					item: "death_knights:blood_spell_book"
+					type: "item"
+				}
+				{
+					id: "3817D7122445295D"
+					item: {
+						Count: 1
+						id: "death_knights:great_ruby_runeaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "448F68013E78AF6F"
+					item: "death_knights:blood_dk_ring"
+					type: "item"
+				}
+				{
+					id: "165411CEF4A0190C"
+					item: "death_knights:blood_dk_necklace"
+					type: "item"
+				}
+				{
+					id: "7F877107BCC2176A"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_knight_armor_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "094B106B9F770F30"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_knight_armor_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B86CE99AD823295"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_knight_armor_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "525C7DEFBB9650A6"
+					item: {
+						Count: 1
+						id: "death_knights:crimson_knight_armor_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "血まみれの献身"
+			x: 3.0d
+			y: -1.125d
+		}
+		{
+			dependencies: [
+				"40C4C4072277E160"
+				"4898E3ED8141DAFC"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6難易度:&e 中"
+				""
+				"&eアーティファクトの選択"
+				"&7アーティファクトの選択については、モンクビルドの場合は&6千拳の激怒&7、ソードマンビルドの場合は&6アシュ＝エダー&7が利用可能です。ダガーアーティファクトは将来的に追加予定です。"
+			]
+			hide_until_deps_visible: true
+			id: "53391B7A86496FCB"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "34AFE2440701E126"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cTier IV &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "6D9D9481130AA919"
+					item: {
+						Count: 1
+						id: "prominent:fury_of_a_thousand_fists"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					title: "&eアーティファクトオプション: &6千拳の激怒&e(モンクの道)"
+					type: "item"
+				}
+				{
+					id: "07CAC3E8AAA5C765"
+					item: "prominent:ashedar_essence"
+					optional_task: true
+					title: "&eアーティファクトオプション: &6アシュエダール&e(ソードマンローグ)"
+					type: "item"
+				}
+				{
+					id: "1095B6816693242F"
+					item: {
+						Count: 1
+						id: "mcda:souldancer_robe_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25A44A4646F5754A"
+					item: {
+						Count: 1
+						id: "mcda:souldancer_robe_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E986DBE97C6A526"
+					item: {
+						Count: 1
+						id: "mcda:souldancer_robe_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12F59EBA7E872C0C"
+					item: {
+						Count: 1
+						id: "mcda:souldancer_robe_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71B2A84EC7CC961B"
+					item: {
+						Count: 1
+						id: "prominent:ghaj"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "&6無法者"
+			x: -4.982142857142854d
+			y: 2.1785714285714377d
+		}
+		{
+			dependencies: ["34D8C4E35FD1D7A4"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&eタイタンのシュラウド&7は、あなたの最優先事項である&6物理ダメージ&7ステータスが最も高いため、最も推奨される防具です。"
+				""
+				"&7アーティファクトの選択としては、&9戦士の献身&7の運命と直接相互作用する&6サンダーレイス&7が最適です。"
+				""
+				"- &e代替案"
+				"&7代替として&e英雄の鎧&7を作成することもできます。これは&e雷の力&7を提供し、サンダーレイスのアップグレード次第では役立つ可能性があります。"
+			]
+			hide_until_deps_visible: true
+			id: "6A594976300D5DCC"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "3C6BCB52D195EE75"
+				item: "prominent:infused_molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&cTier IV &8- [ガイドを読むにはクリック]"
+			tasks: [
+				{
+					id: "0ADE139E6E4D04D6"
+					item: {
+						Count: 1
+						id: "prominent:thunderwrath"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5057F08B49B2BCD2"
+					item: {
+						Count: 1
+						id: "mcda:titans_shroud_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20F8871AA234CF03"
+					item: {
+						Count: 1
+						id: "mcda:titans_shroud_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F50DDDE1D6F5E08"
+					item: {
+						Count: 1
+						id: "mcda:titans_shroud_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "149F950ED33D3C10"
+					item: {
+						Count: 1
+						id: "mcda:titans_shroud_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6タイタン"
+			x: -4.982142857142854d
+			y: -1.3214285714285552d
+		}
+		{
+			dependencies: [
+				"53391B7A86496FCB"
+				"0DFD6849156C0709"
+				"01F49526727B35F1"
+				"1F1202929D2C5195"
+				"080F23071FA8CFC9"
+				"6A594976300D5DCC"
+				"5728EF143DC9B7DB"
+				"1079F098AE98FCF6"
+			]
+			description: [
+	"&eTier IVビルドをすべて理解するのに十分な知識。よくやった。"
+]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "emi_loot:textures/gui/sword_diamond.png"
+				}
+			}
+			id: "74BA5C6954FEFCE8"
+			invisible: true
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftblibrary:icons/info"
+					}
+				}
+				id: "56AA5E5504D0E336"
+				title: "&eヒント:&7 ビルドはマスターできましたが、アーティファクトはどうですか？アーティファクトを使って、神話チャレンジに挑戦してみましょう。"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			size: 1.35d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				id: "1D0941FC33737AEB"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&dすべてのビルドのマスター"
+			x: 3.5d
+			y: 3.0d
+		}
+	]
+	title: "&eCombat \\& ギア"
+}

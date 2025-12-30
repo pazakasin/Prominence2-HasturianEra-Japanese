@@ -1,0 +1,445 @@
+{
+	autofocus_id: "73DA5990952CEA35"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "elhasturian_era"
+	group: "3DBADFFDA1FDAD84"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "eldritch_end:textures/mob_effect/hastur_presence.png"
+		}
+	}
+	id: "38345D0552E8A4AF"
+	images: [
+		{
+			height: 1.0d
+			image: "derelict:item/fancy_cobweb_with_spider_nest"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.2544642857142847d
+			y: -1.8125d
+		}
+		{
+			color: 15780692
+			dependency: "7E7462C4751E0C1B"
+			height: 2.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0089285714285623d
+			y: 3.7857142857142847d
+		}
+		{
+			click: "https://rpg.prominence.wiki/blog"
+			dependency: "53E148644BBD5E2F"
+			height: 1.0d
+			hover: ["Click Me To Get to the official Blog !"]
+			image: "eldritch_end:textures/mob_effect/hastur_presence.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependency: "53E148644BBD5E2F"
+			height: 1.0d
+			image: "prominent_talents:textures/frames/circle_selected.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			click: "https://youtu.be/QIwFXTVn-5o"
+			dependency: "53E148644BBD5E2F"
+			height: 1.0d
+			hover: ["Click Me to View the first Trailer!"]
+			image: "prominent:textures/text/skellak_highres.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 2.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&cVoid's Invasion のすべての章を完了して、この拡張のストーリーラインをアンロックします。"
+				""
+				"&8英語"
+				""
+				"{@pagebreak}"
+				"&c拡張機能を拡張するために、Void's Invasion の詳細を説明します。"
+				""
+				"&8スペイン語"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "eldritch_end:textures/mob_effect/hastur_presence.png"
+				}
+			}
+			id: "73DA5990952CEA35"
+			rewards: [{
+				advancement: "prominent:level_50"
+				auto: "enabled"
+				criterion: ""
+				id: "1D56AC4A22CDB24A"
+				title: "レベル51～65のロックを解除"
+				type: "advancement"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[クリックして説明を読む]"
+			tasks: [{
+				advancement: "prominent:end_of_voids_invasion"
+				criterion: ""
+				id: "190537CB8ABEDC05"
+				title: "&dヴォイド侵略キャンペーンを完了する"
+				type: "advancement"
+			}]
+			title: "ハストゥス朝時代"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73DA5990952CEA35"]
+			description: [
+				"&7&o幾億年も昔、スケラックはエルドリッチな存在と戦い、原初の存在クトゥルフを打ち破り、幽閉した。"
+				""
+				"&7&o信奉者たちが逃亡する一方で、異母兄弟である背の高いフードを被り触手を持つ怪物を捕らえていた鎖は解けた。スケラックは彼の逃亡を止めることができず、幾億年もの間、二度とクトゥルフの姿を見ることはなかった。"
+				""
+				"&8英語 (1/2)"
+				"{@pagebreak}"
+				"&7&o残された虚空の勢力による支配の試みの後、今に至るまで、あらゆる領域はかつてないほど弱体化している。"
+				""
+				"&e&o黄衣の王が復活し、あらゆる領域が彼の新たな支配に屈するまで、止まることはないだろう。"
+				""
+				"&8英語 (2/2)"
+				"{@pagebreak}"
+				"&7&oHace eones、S'kellak luchó contra los seres ancestrales、derrotando y encarcelando al ser primordial C'thulhu。"
+				""
+				"&7&oMientras sus seguidores escapaban, las cadenas que aprisionaban a su medio Hermano, un monstruo alto encapuchado con tentáculos, se rompieron.スケラックのプドー・デテナー・ス・エスケープ、デュランテ・オネス・ノ・ロ・ヴォルヴィオ・バージョン。"
+				""
+				"&8スペイン語 (1/2)"
+				"{@pagebreak}"
+				"&7&oこれは、支配の目的を達成するための目的であり、休暇を過ごすために必要な措置を講じる必要があります。"
+				""
+				"&e&oEl レイ デ アマリロは、新しい命を救うために、新しい命を待ち望んでいます。"
+				""
+				"&8スペイン語 (2/2)"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "ftbquests:book"
+			id: "579138B8DB19724C"
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "&8[クリックして詳細を読む]"
+			tasks: [{
+				id: "3E72FE8109B34FDF"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "&6&l第1章: &e&l地平線の下の影"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["579138B8DB19724C"]
+			description: [
+				"&8シンダーストーンの書簡にはこう記されている。"
+				""
+				"&7&o「チャンピオン、こんにちは。"
+				""
+				"&7&oそれがハスター、あらゆる不浄なるものの始原の存在である彼だと確認しました。"
+				""
+				"&7&oオーバーワールドは安全ではありません。ハスターは他人の心を歪めるのに長けています。彼の歪んだ奴隷の一人があなたを追ってくる前に、できるだけ早くヴァーズへ来てください。"
+				""
+				"&7&oオーバーワールドでこのビーコンを使用すれば、ヴァーズへ連れて行きます。"
+				""
+				"&7&o武器にスマイトを付与してください。ハスターの信奉者はアンデッドです。最悪の事態に備えておきましょう。」"
+				""
+				"&8英語"
+				"{@pagebreak}"
+				"&8ラ・ミシバ・デ・ピエドラセニザ・ダイス:"
+				""
+				"&7&o「サルドス、私のこと、"
+				""
+				"&7&o彼は、ハスターとのつながりを確認します。"
+				""
+				"&7&oEl オーバーワールドは一斉射撃ではなく、専門家によるレトルサー ラス メンテス デ ロス セレスです。必要な場合は、Vaaz のイベントをすぐに実行し、安全なイベントを実行する必要があります。"
+				""
+				"&7&oUsa は、オーバーワールドで最も美しいものを見つけ、Vaaz を追跡します。"
+				""
+				"&7&oTambién encanta tu arma con Castigo, los seguidores de Hastur Son no-muertos.デベス・エスター・プレパラド・パラ・ペオール。」"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:paper"
+			id: "440126C71C47DB94"
+			rewards: [{
+				id: "3BA7B87E636751B8"
+				item: "prominent:beacon_of_hope"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "&8[クリックしてメッセージを読む]"
+			tasks: [{
+				id: "2FDEA9ADE1778463"
+				title: "続く"
+				type: "checkmark"
+			}]
+			title: "S'kellakからのメッセージ"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E7462C4751E0C1B"]
+			description: [
+				"&e必要レベル: 60"
+				""
+				"&7かつて大魔道士であり、呪術の指導者であった彼は、ヴァーズの勇者たちの手によって命を落としたが、ハスター自身によって復活した。"
+				""
+				"&7今やカルトの一員となり、ハスターの力を与えられた彼は、スケラックの計画を妨害するために選ばれた。シンダーストーン深淵へ向かおうとする者を誘拐し、殺害するのだ。"
+				""
+				"&e必要な呪文力が足りない場合は、スマイトを使って彼のバリアを破壊しよう！"
+				""
+				"&8英語"
+				"{@pagebreak}"
+				"&e必要レベル: 65"
+				""
+				"&7かつて大魔道士であり、呪術の指導者であった彼は、ヴァーズの勇者たちの手によって命を落とし、ハスターの手によって復活した。"
+				""
+				"&7ああ、ハスターのカルトの部分と資金を集めて、スケラックの飛行機を妨害するためにエレギドを持ってください。ピエドラセニザのプロフンディダデスを経由して、安全な計画を立ててください。"
+				""
+				"&eUsa Castigo パラ ロンパース ス バレラ シ ノ ティネス エル ポダー デ ヘチゾ レケリド!"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2D24C45915E27222"
+			rewards: [
+				{
+					count: 3
+					id: "6E0F1E016DBC1DDF"
+					item: "prominent:infused_molten_remnant"
+					type: "item"
+				}
+				{
+					id: "1130E573AFE26B87"
+					item: "prominent:cinderstone_trophy"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "&8[クリックして伝承と兆候を読む]"
+			tasks: [{
+				entity: "sbprom:hasturmagus"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "eldritch_end:item/hastur_crown"
+					}
+				}
+				id: "3247325A58CE070C"
+				title: "&e復活した魔術師グマスを倒す"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&f &6堕ちた大魔道士グマス"
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["440126C71C47DB94"]
+			description: [
+				"&7オーバーワールドにあるこのビーコンに信号を送って、ヴァーズに行き、スケラックに会いに行きます。"
+				""
+				"&8英語"
+				"{@pagebreak}"
+				"&7Llama は、Vaaz と S'kellak の契約を結んだオーバーワールド パラのファロを作成します。"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			icon: "prominent:beacon_of_hope"
+			id: "7E7462C4751E0C1B"
+			rewards: [{
+				id: "289A62D9E5C0F7C8"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "&8[クリックして指示を読む]"
+			tasks: [{
+				advancement: "prominent:beacon_of_hope"
+				criterion: ""
+				icon: "prominent:beacon_of_hope"
+				id: "52B65A162D7F91D6"
+				title: "希望の灯台を使ってヴァーツへ旅しましょう"
+				type: "advancement"
+			}]
+			title: "&eヴァーズ王国"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["579138B8DB19724C"]
+			description: [
+				"&7&o腐敗注入は防具に腐敗を付与するために使用でき、腐敗に応じた能力に有効です。"
+				""
+				"&7&oタレントツリーのアクティブアビリティは、腐敗に応じて特殊効果とスケーリング効果を持ちます。"
+				""
+				"&7腐敗注入テンプレートはエンドシティで戦利品として入手できます。"
+				""
+				"&e鍛冶台で、必要なアイテムと素材と一緒に使用します。"
+				""
+				"&e以下の素材を注入できます。"
+				"&7- 異形の手足 &8(+10)"
+				"&7- 異形の心臓 &8(+20)"
+				"&7- 顔のない目 X'al &8(+35)"
+				""
+				"&8英語"
+				"{@pagebreak}"
+				"&7&o腐敗注入は防具に腐敗を付与するために使用できます。腐敗に応じてスケーリングされた能力に有効です。"
+				""
+				"&7&oLas Habilidades Activas del Árbol de Talentos の特別な効果と腐敗に対するエスカラン。"
+				""
+				"&7El の不正行為は、終わりの原因となっています。"
+				""
+				"&eUsa en una Mesa de Herreria junto con el arma or armadura、y unmaterial."
+				""
+				"&ePuedes infusionar los siguientesmateriales:"
+				"&7- テンタクロ デ アベラシオン &8(+10)"
+				"&7- コラソン・デ・アベラシオン &8(+20)"
+				"&7- シャル、エル オホ イグノト &8(+35)"
+				""
+				"&8スペイン語"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "34CA824A855AF82F"
+			rewards: [{
+				id: "54A81371F005122B"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "&8[クリックして指示を読む]"
+			tasks: [{
+				id: "14FE830D52563C60"
+				item: "eldritch_end:corruption_upgrade_pattern"
+				type: "item"
+			}]
+			title: "腐敗への道：注入"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["579138B8DB19724C"]
+			description: [
+				"&7&oエティル注入は、防具に腐敗耐性を付与するために使用できます。この耐性は、あなたの腐敗量に比例します。"
+				""
+				"&7&oアビリティは腐敗度に応じて増加しますが、悪影響はあなたの「合計腐敗度」に基づいており、これはあなたの「エティル」を考慮に入れます。"
+				""
+				"&7エティル注入テンプレートは、エンドシティで戦利品として入手できます。"
+				""
+				"&e鍛冶台で、必要なアイテムと材料と一緒に使用します。"
+				""
+				"&e以下のアイテムに注入できます。"
+				"&7- エティルインゴット &8(+10)"
+				"{@pagebreak}"
+				"&7&oエティル注入は、防具に腐敗耐性を付与するために使用できます。あなたの腐敗度に比例します。"
+				""
+				"&7&oMientras que las habilidades escalan con la Corrupción, los efectos negativos se basan en tu &nCorrupción Total&r&7&o, quetiene en cuenta tu Etyr."
+				""
+				"&7El Molde de Infusión de Etyr se puede encontrar como botín en las ciudades del End."
+				""
+				"&eUsa en una Mesa de Herreria junto con la armadura y unmaterial."
+				""
+				"&ePuedes infusionar los siguientes objetos:"
+				"&7- リンゴテ・デ・エテュル &8(+10)"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "66FA883FD0CBC7E7"
+			rewards: [{
+				id: "0CF598B77802C9EA"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[クリックして指示を読む]"
+			tasks: [{
+				id: "40986AEC7D527067"
+				item: "eldritch_end:etyr_upgrade_pattern"
+				type: "item"
+			}]
+			title: "&eエティルへの道：インフュージョン"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D24C45915E27222"]
+			description: [
+				"&7希望の灯台は壊れており、スケラックとの連絡手段もないため、自力でヴァーズへ向かう方法を見つける必要があります。"
+				""
+				"&eこのクエストラインは、シンダーストーン・デプス次元とヴァーズ王国と共に、v4.0で登場します！"
+				""
+				"&6乞うご期待！それまでは、悲しみを飲み干しましょう。"
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "prominent:cinderstone_trophy"
+			id: "5E4919750C5CE35D"
+			rewards: [{
+				id: "698955D6962FE85A"
+				item: "brewery:whiskey_jojannik"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&8[クリックして物語を読む]"
+			tasks: [{
+				id: "4E642DE8B7E544A0"
+				type: "checkmark"
+			}]
+			title: "ヴァーツへの旅"
+			x: 5.0535714285714235d
+			y: 3.732142857142861d
+		}
+		{
+			dependencies: ["5E4919750C5CE35D"]
+			description: [""]
+			icon: "prominent:broken_beacon_of_hope"
+			id: "53E148644BBD5E2F"
+			rewards: [{
+				id: "084B8B62840230CC"
+				item: "croptopia:banana"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "4.0 の開発についてもっと詳しく知りたいのに、まだご存知でない方は、すでにブログ投稿があります。リンクは Wiki 上、またはこのクエストの上にあるリンクをコピーして見つけることができます。"
+			tasks: [{
+				id: "3BD28AF38278E1E3"
+				title: "ブログ投稿"
+				type: "checkmark"
+			}]
+			title: "ブログ投稿"
+			x: 5.035714285714292d
+			y: 2.6785714285714235d
+		}
+	]
+	title: "ハストゥス朝"
+}

@@ -1,0 +1,19 @@
+{
+  "config.citresewn.title": "CIT 再縫製構成",
+  "config.citresewn.configure": "設定",
+  "config.citresewn.enabled.title": "有効",
+  "config.citresewn.enabled.tooltip": "CIT ResewnはリソースパックからCITをロードして挿入する必要がありますか？",
+  "config.citresewn.mute_errors.title": "読み込みエラーをミュートする",
+  "config.citresewn.mute_errors.tooltip": "CIT Resewn は CIT エラーをログに記録しない必要があります",
+  "config.citresewn.mute_warns.title": "読み込み警告をミュートする",
+  "config.citresewn.mute_warns.tooltip": "CIT ResewnはCIT警告を記録しないべきでしょうか",
+  "config.citresewn.broken_paths.title": "リソースパック内の壊れたパスを許可する",
+  "config.citresewn.broken_paths.tooltip": "不正なリソースパスを持つパックの読み込みを許可します。\n問題が発生する可能性があります。",
+  "config.citresewn.cache_ms.title": "キャッシュ",
+  "config.citresewn.cache_ms.tooltip": "cit キャッシュを更新する頻度。\n値を大きくするとパフォーマンスが向上します。\n値を小さくすると cit の更新が速くなります。\nREALTIME はキャッシュを完全に削除し、\nアイテムはフレームごとに cit をチェックします。",
+  "config.citresewn.cache_ms.ticks.0": "リアルタイム",
+  "config.citresewn.cache_ms.ticks.1": "刻々と",
+  "config.citresewn.cache_ms.ticks.any": "%sごとに刻々と",
+  "pack.incompatible.broken_paths": "（壊れたパスが含まれています）",
+  "pack.incompatible.confirm.broken_paths": "このパックには壊れたパスが含まれており、将来的にサポートが中止される可能性があります。この警告を削除するには、パックの作者に連絡してください。(~ CIT Resewn)"
+}

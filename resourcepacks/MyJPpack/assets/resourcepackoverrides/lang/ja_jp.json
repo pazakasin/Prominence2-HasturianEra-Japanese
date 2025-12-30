@@ -1,0 +1,11 @@
+{
+  "packAction.copyId.description": "%sを押したままコピー",
+  "packAction.copyId.success": "コピーしました！",
+  "packAction.copyId.title": "コピーパックID",
+  "packAction.reloadSettings.description": "%sを押し続けるとリロードします",
+  "packAction.reloadSettings.success": "リロードしました！",
+  "packAction.reloadSettings.title": "設定を再読み込み",
+  "packAction.toggleDebug.description": "%sを押し続けると切り替わります",
+  "packAction.toggleDebug.success": "切り替えました！",
+  "packAction.toggleDebug.title": "パックIDを切り替える"
+}

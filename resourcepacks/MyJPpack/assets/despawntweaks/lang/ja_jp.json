@@ -1,0 +1,7 @@
+{
+  "despawntweaks.configuration.Structures": "構造",
+  "despawntweaks.configuration.StructuresMods": "構造Mods",
+  "despawntweaks.configuration.allowEquipmentDrops": "装備ドロップを許可する",
+  "despawntweaks.configuration.allowMobsSpawnedBySpawnersToDespawn": "スポーンによって生成されたMobsがデスポーンしないようにする",
+  "despawntweaks.configuration.enableLetMeDespawnOptimization": "EnableLetMeDespawnOptimization"
+}

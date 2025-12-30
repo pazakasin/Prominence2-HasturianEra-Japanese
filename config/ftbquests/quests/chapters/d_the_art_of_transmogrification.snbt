@@ -1,0 +1,104 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "d_the_art_of_transmogrification"
+	group: "244F516C4853FD2F"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "zenith:items/gems/endersurge"
+		}
+	}
+	id: "0EF4DA402B0EFC8E"
+	images: [
+		{
+			height: 1.0d
+			image: "simplyswords:item/lichblade_eyes"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "botania:block/purple_mystical_flower"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.062159863945574045d
+			y: -3.5918367346938815d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				""
+				"「変身」は、あらゆる物体の機能を変えずに「形を変える」魔法の一種で、武器や防具などのアイテムを別の形に変化させることができます。見た目を変える以外に、特にメリットはありません。"
+			]
+			icon: "minecraft:amethyst_cluster"
+			id: "1F3A415DDF6355EE"
+			shape: "hexagon"
+			subtitle: "&8[クリックして情報を読む]"
+			tasks: [{
+				id: "138402A5BE9F444A"
+				title: "変身の芸術"
+				type: "checkmark"
+			}]
+			title: "変身術"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F3A415DDF6355EE"]
+			description: [
+				""
+				"&7まずは&d変身台&7を作る必要があります。この魔法は&dアメジスト&7で作動するため、アイテムを変身させるたびに&dアメジスト&7が必要になります。"
+				""
+				"アイテムは消費されませんが、形を変えるには、目的のアイテムを所有している必要があります。"
+			]
+			id: "09C318161E20A39E"
+			rewards: [{
+				id: "5E60EBADBFED48BC"
+				type: "xp"
+				xp: 90
+			}]
+			shape: "diamond"
+			subtitle: "&8[クリックして情報を読む]"
+			tasks: [{
+				id: "07DDEFBFD93B4F74"
+				item: "transmog:transmogrification_table"
+				type: "item"
+			}]
+			title: "&dトランスモグ！"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09C318161E20A39E"]
+			description: [
+				"&7防具や武器を表示したくない場合は、アイテムを非表示にすることができます！"
+				""
+				"&7「虚空の欠片」を変化素材として使用することで"
+			]
+			id: "6A69BEA7C1E7E1FD"
+			rewards: [{
+				id: "0778651DAD1A18EA"
+				type: "xp"
+				xp: 120
+			}]
+			shape: "diamond"
+			subtitle: "&8[クリックして情報を読む]"
+			tasks: [{
+				id: "0D1D91DEF701EFDA"
+				item: "transmog:void_fragment"
+				type: "item"
+			}]
+			title: "&d何もないという幻想"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "&d 変身"
+}

@@ -1,0 +1,16 @@
+{
+  "ae2-emi-crafting.category_condenser": "物質凝縮器",
+  "ae2-emi-crafting.category_inscriber": "刻印者",
+  "ae2-emi-crafting.category_attunement": "P2Pトンネル調整",
+  "ae2-emi-crafting.category_transform": "ワールド内変換",
+  "ae2-emi-crafting.category_charger": "充電器",
+  "ae2-emi-crafting.category_entropy_manipulator": "エントロピーマニピュレーター",
+  "ae2-emi-crafting.error.crafting.storage_terminal": "MEストレージターミナルを使用して作成することはできません",
+  "text.autoconfig.ae2-emi-crafting.title": "AE2 EMIクラフト統合",
+  "text.autoconfig.ae2-emi-crafting.category.emi": "EMI",
+  "text.autoconfig.ae2-emi-crafting.category.integration": "Mod統合",
+  "text.autoconfig.ae2-emi-crafting.option.bomsync": "部品表の同期",
+  "text.autoconfig.ae2-emi-crafting.option.bomsync.@Tooltip": "EMIがMEシステムの内容を読み取ることを可能にする",
+  "text.autoconfig.ae2-emi-crafting.option.exmi": "追加のMod統合",
+  "text.autoconfig.ae2-emi-crafting.option.exmi.@Tooltip": "ExMI AE2レシピを登録から削除します"
+}

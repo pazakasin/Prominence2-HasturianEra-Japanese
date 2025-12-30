@@ -1,0 +1,20 @@
+{
+  "attribute.thermoo.generic.min_temperature": "最低気温",
+  "attribute.thermoo.generic.max_temperature": "最高気温",
+  "attribute.thermoo.generic.frost_resistance": "耐凍性",
+  "attribute.thermoo.generic.heat_resistance": "耐熱性",
+  "commands.thermoo.temperature.exception.not_living_entity": "ターゲットは生物ではありません!",
+  "commands.thermoo.temperature.get.scale.success": "%s の温度スケールは %d です",
+  "commands.thermoo.temperature.get.max.success": "%s の最高温度は %d です",
+  "commands.thermoo.temperature.get.min.success": "%s の最低気温は %d です",
+  "commands.thermoo.temperature.get.current.success": "%s の現在の気温は %d です",
+  "commands.thermoo.temperature.add.success.single": "%s に %d 温度を追加しました (現在 %d)",
+  "commands.thermoo.temperature.add.success.multiple": "%d 個のエンティティに %d 個の温度を追加しました",
+  "commands.thermoo.temperature.remove.success.single": "%s から %d 個の温度を削除しました (現在 %d)",
+  "commands.thermoo.temperature.remove.success.multiple": "%d 個のエンティティから %d 個の温度を削除しました",
+  "commands.thermoo.temperature.set.success.single": "%s の温度を %d に設定します",
+  "commands.thermoo.temperature.set.success.multiple": "%s エンティティの温度を %d に設定",
+  "commands.thermoo.environment.printcontroller.success": "コントローラーがコンソールにログインしました",
+  "commands.thermoo.environment.checktemperature.success": "%s、%s、%s (%s) での受動温度変化は %s です",
+  "commands.thermoo.environment.checktemperature.unit.success": "%s、%s、%s (%s) の気温は %s°%s です"
+}

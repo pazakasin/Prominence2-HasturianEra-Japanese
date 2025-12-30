@@ -1,0 +1,14 @@
+{
+  "item.moretotems.explosive_totem_of_undying": "不死の爆発トーテム",
+  "item.moretotems.stinging_totem_of_undying": "不死の刺すトーテム",
+  "item.moretotems.teleporting_totem_of_undying": "不死のテレポートトーテム",
+  "item.moretotems.ghastly_totem_of_undying": "不死の不気味なトーテム",
+  "item.moretotems.skeletal_totem_of_undying": "不死の骸骨トーテム",
+  "item.moretotems.tentacled_totem_of_undying": "不死の触手トーテム",
+  "item.moretotems.rotting_totem_of_undying": "不死の腐ったトーテム",
+  "effect.moretotems.sniper": "スナイパー",
+  "effect.moretotems.necrosis": "壊死",
+  "effect.moretotems.cephalopod": "頭足動物",
+  "entity.moretotems.summoned_bee": "トーテムビー",
+  "entity.moretotems.summoned_zombie": "トーテムゾンビ"
+}

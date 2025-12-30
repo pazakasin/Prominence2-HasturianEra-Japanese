@@ -1,0 +1,14 @@
+{
+  "midnightlib.overview.title": "MidnightConfigの概要",
+  "midnightlib.midnightconfig.title": "MidnightLib 設定",
+  "midnightlib.midnightconfig.config_screen_list": "設定画面リストを有効にする",
+  "midnightlib.midnightconfig.enum.ConfigButton.TRUE": "§aはい",
+  "midnightlib.midnightconfig.enum.ConfigButton.FALSE": "§cいいえ",
+  "midnightlib.midnightconfig.enum.ConfigButton.MODMENU": "§bModメニュー",
+  "midnightlib.midnightconfig.background_texture": "設定画面の背景のテクスチャ",
+  "midnightlib.modrinth": "モドリンス",
+  "midnightlib.curseforge": "カースフォージ",
+  "midnightlib.wiki": "ウィキ",
+  "modmenu.descriptionTranslation.midnightlib": "Team MidnightDust の MOD 用共通ライブラリ。\n設定 API、他の MOD との自動統合、共通ユーティリティ、コスメティック機能を提供します。",
+  "modmenu.summaryTranslation.midnightlib": "Team MidnightDust の MOD 用の共通ライブラリ。"
+}

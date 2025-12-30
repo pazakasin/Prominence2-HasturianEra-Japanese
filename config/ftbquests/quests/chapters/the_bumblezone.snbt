@@ -1,0 +1,949 @@
+{
+	autofocus_id: "4E9477A4D0A322D5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_bumblezone"
+	group: "3E586F2160161EEA"
+	icon: "minecraft:bee_nest"
+	id: "59490AFCD9D1F93B"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:bee_nest"
+			id: "4E9477A4D0A322D5"
+			rewards: [{
+				id: "33CEE00F7B27A684"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "ようこそ、好奇心旺盛な冒険者さん！どうやってここに来たのかお聞きしたいところですが、とにかく、目の前に広がるのは蜂の世界です。この世界を探検して、蜂の文化についてどんなことを学べるか、ぜひ見てください。"
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "minecraft:bee_nest"
+				id: "094A0B7C390130EF"
+				title: "バンブルゾーンへ行こう"
+				type: "dimension"
+			}]
+			title: "蜂と蜂蜜の世界"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "3E195E8F90C499C7"
+			rewards: [{
+				id: "41D06D62CC1ADED4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "ここの空気はどうなってるの？花粉だらけだし、アレルギー体質の人には絶対ダメだと思う！"
+			tasks: [
+				{
+					count: 16L
+					id: "5FB4790B5A75A619"
+					item: { Count: 16, id: "the_bumblezone:pollen_puff" }
+					type: "item"
+				}
+				{
+					id: "2E5575CFFCE45B18"
+					item: "the_bumblezone:honey_bucket"
+					type: "item"
+				}
+				{
+					id: "542F425043E03CD5"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+				{
+					id: "35C784BBDFFE6055"
+					item: "the_bumblezone:honeycomb_brood_block"
+					type: "item"
+				}
+			]
+			title: "ハイブの空気汚染"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "460A03C99A92EEC3"
+			rewards: [
+				{
+					id: "448BA6E8977A39EA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2E6EAED412766865"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+				{
+					id: "7745D7DA6B275327"
+					item: {
+						Count: 1
+						id: "the_bumblezone:flower_headwear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "そうですね、ミツバチが作った実際のジャムはありませんが、少なくとも聴くための音楽ディスクはあります。"
+			tasks: [
+				{
+					id: "396393F172D13E1E"
+					item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+					type: "item"
+				}
+				{
+					id: "448232F200BD55B9"
+					item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+					type: "item"
+				}
+				{
+					id: "3C818F63CCF6A572"
+					item: "the_bumblezone:music_disc_la_bee_da_loca"
+					type: "item"
+				}
+				{
+					id: "2191708BFD890424"
+					item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
+					type: "item"
+				}
+				{
+					id: "033A2F7ADDD1FDB4"
+					item: "the_bumblezone:music_disc_bee_ware_of_the_temple"
+					type: "item"
+				}
+				{
+					id: "57C6689D0FCBF1E4"
+					item: "the_bumblezone:music_disc_knowing_renren"
+					type: "item"
+				}
+				{
+					id: "06B0F17D87E2E4E7"
+					item: "the_bumblezone:music_disc_radiance_renren"
+					type: "item"
+				}
+				{
+					id: "5FA8513DC9F76FC5"
+					item: "the_bumblezone:music_disc_life_renren"
+					type: "item"
+				}
+			]
+			title: "ビージャム"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B067E92666610FF"]
+			id: "1ACFAAF917E5016A"
+			rewards: [
+				{
+					id: "3E977BE907EFAC07"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 10
+					id: "7DC3F1D7635BDB43"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+			]
+			subtitle: "ミツバチはどうやって武器を思いついたのでしょうか？針は自分で？蜂蜜は自分で？"
+			tasks: [
+				{
+					id: "119C263D70857316"
+					item: "the_bumblezone:bee_stinger"
+					type: "item"
+				}
+				{
+					id: "4BCAF18A0B87E5F7"
+					item: {
+						Count: 1
+						id: "the_bumblezone:stinger_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49FE029CAD2D437C"
+					item: {
+						Count: 1
+						id: "the_bumblezone:crystal_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73D16FF74DB5B2C9"
+					item: {
+						Count: 1
+						id: "the_bumblezone:honey_crystal_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "蜂の武器"
+			x: 3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "214A1041439A5560"
+			rewards: [{
+				id: "59DCBB128700B922"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "どうして蜂蜜でできたコンパスがあるんだろう？もしかしたら、この大きな巣箱の中の重要な場所へ繋がっているのかもしれない…でも、どうして私の手にくっついているんだろう？"
+			tasks: [{
+				id: "314E0B959B386388"
+				item: {
+					Count: 1
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "1B067E92666610FF"
+			rewards: [{
+				id: "5526DD379D3336E1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "迷路？とても危険そうだから、安全第一で入るべきじゃないと思う。"
+			tasks: [
+				{
+					id: "72B19162E39280E2"
+					item: "the_bumblezone:honey_crystal_shards"
+					type: "item"
+				}
+				{
+					id: "5B59CBA3443A9183"
+					item: "the_bumblezone:honey_cocoon"
+					type: "item"
+				}
+				{
+					id: "636514D255F669A2"
+					item: "the_bumblezone:honey_crystal"
+					type: "item"
+				}
+				{
+					id: "0D57ED6E562A93E9"
+					item: "the_bumblezone:carvable_wax"
+					type: "item"
+				}
+				{
+					icon: "the_bumblezone:honey_crystal_shards"
+					id: "1D3FC21D04DF05B2"
+					structure: "the_bumblezone:cell_maze"
+					title: "細胞迷路を見つける"
+					type: "structure"
+				}
+			]
+			title: "細胞迷路？"
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "49EA7F3135E2CC74"
+			rewards: [{
+				id: "7BCD6AE0E5B198D5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:essence_calming"
+					tag: {
+						abilityUseRemaining: 600
+					}
+				}
+				id: "026654F5006802CE"
+				structure: "the_bumblezone:sempiternal_sanctum_blue"
+				title: "永遠の聖域ブルーを見つける"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "54AAA9079FF8E65B"
+			rewards: [{
+				id: "45688EE3468BC71A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:essence_life"
+					tag: {
+						abilityUseRemaining: 1000
+					}
+				}
+				id: "70CF21FB5F2B81C3"
+				structure: "the_bumblezone:sempiternal_sanctum_green"
+				title: "セムピルテルナル・サンクタム・グリーンを見つける"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "7B8261F4787E6EA7"
+			rewards: [{
+				id: "7485D599A5869B88"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:essence_knowing"
+					tag: {
+						abilityUseRemaining: 1200
+					}
+				}
+				id: "21800782215F1EBF"
+				structure: "the_bumblezone:sempiternal_sanctum_purple"
+				title: "セムピルテルナル・サンクタム・パープルを見つける"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "45FE520AC009290F"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:essence_raging"
+					tag: {
+						abilityUseRemaining: 28
+					}
+				}
+				id: "1069ECE91757590C"
+				structure: "#the_bumblezone:honey_compass/sempiternal_sanctums/red"
+				title: "永遠の聖域レッドを見つける"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "42C94ED483CD4AB8"
+			rewards: [{
+				id: "61735069A1BDB5C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:essence_continuity"
+					tag: {
+						abilityUseRemaining: 1
+					}
+				}
+				id: "24ADA1FE7305C9C6"
+				structure: "the_bumblezone:sempiternal_sanctum_white"
+				title: "永遠の聖域ホワイトを見つける"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0F8FD241817376AE"]
+			id: "6BADAB3BD0E50555"
+			rewards: [{
+				id: "3B59AE8D040B8549"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:essence_radiance"
+					tag: {
+						abilityUseRemaining: 4800
+					}
+				}
+				id: "63BEA72E5A7DCF1F"
+				structure: "the_bumblezone:sempiternal_sanctum_yellow"
+				title: "永遠の聖域を見つける 黄色"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "7B767822A0B3B19A"
+			rewards: [{
+				id: "30E75C4EF6D6997B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "多くの蜂戦士が倒れており、この神社には、史上最も著名な蜂戦士の一人の毒針の槍とともに、倒れた戦士たちが捧げられています。"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:stinger_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60EBEED85691EF2F"
+				structure: "the_bumblezone:stinger_spear_shrine"
+				title: "スティンガースピア神殿を見つける"
+				type: "structure"
+			}]
+			title: "スティンガースピア神殿"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "60E941719D226AD0"
+			rewards: [{
+				id: "507B630BDE2E1FDB"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "この技術の近代性を考えると、ミツバチが地下鉄に乗っているというのは場違いに思えますが、少なくとも旅行は楽しいです。"
+			tasks: [{
+				icon: "the_bumblezone:windy_air"
+				id: "64FC28F523C427D2"
+				structure: "the_bumblezone:subway"
+				title: "地下鉄を探す"
+				type: "structure"
+			}]
+			title: "地下鉄"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B067E92666610FF"]
+			id: "2F9D5C546F713DDC"
+			rewards: [{
+				id: "190D852CDF497C71"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "女王蜂陛下に会いましょう。女王陛下は公平な立場で、あなたとアイテムを交換し、やりがいのある仕事を任せてくれるかもしれません。"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				id: "2118C4EF58105BEB"
+				structure: "the_bumblezone:throne_pillar"
+				title: "玉座の柱を見つける"
+				type: "structure"
+			}]
+			title: "女王蜂の玉座"
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2F9D5C546F713DDC"]
+			id: "0F8FD241817376AE"
+			rewards: [
+				{
+					id: "42AB5752837026CF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3EC68765E4BC9613"
+					item: "the_bumblezone:bee_soup"
+					type: "item"
+				}
+				{
+					id: "1D62A6277DF11F3E"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+				{
+					id: "7F1D592625D7C214"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "おめでとうございます。女王蜂の好意を得ました！これであなたも女王蜂の仲間となり、蜂に襲われることもなくなりました。でも、まだ探索すべき場所が残っているかもしれません。"
+			tasks: [{
+				id: "1885038F0C08454B"
+				item: "the_bumblezone:essence_of_the_bees"
+				type: "item"
+			}]
+			title: "私たちの仲間だ！私たちの仲間だ！"
+			x: -0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["1B067E92666610FF"]
+			id: "394A179160EB4AE8"
+			rewards: [
+				{
+					id: "6D08D28EFD2D4982"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 10
+					id: "4F7A8CFF28114CF1"
+					item: "the_bumblezone:bee_bread"
+					type: "item"
+				}
+			]
+			subtitle: "蜂の戦士たちが身に着けている鎧は、なんとも荘厳なものです。威力はそれほど高くありませんが、見た目は素晴らしいです。"
+			tasks: [
+				{
+					id: "27A36C84442BD4A7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/helmets"
+						}
+					}
+					title: "ビーヘルメット"
+					type: "item"
+				}
+				{
+					id: "1E4B0AAE235A44EB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/chestplates"
+						}
+					}
+					title: "ビーチェストプレート"
+					type: "item"
+				}
+				{
+					id: "7A026460FAE4A947"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/leggings"
+						}
+					}
+					title: "ビーレギンス"
+					type: "item"
+				}
+				{
+					id: "7474B92AA308F8FD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "the_bumblezone:armors/boots"
+						}
+					}
+					title: "ビーブーツ"
+					type: "item"
+				}
+			]
+			title: "ビーアーマー"
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "152E438018A29730"
+			subtitle: "受粉の小川？何のためにこんな場所を作るのかは分からないが、使える花粉と砂糖水はたっぷりある。"
+			tasks: [{
+				icon: "the_bumblezone:sugar_water_bucket"
+				id: "39BD856AE9E09B33"
+				structure: "the_bumblezone:pollinated_stream"
+				title: "受粉した小川を見つける"
+				type: "structure"
+			}]
+			title: "受粉した小川"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "106F26F32315FB56"
+			rewards: [{
+				id: "5E8C00B5375AF75C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "これは蜂の贅沢な暮らし方、蜂蜜を中心としたホテルですね！一晩泊まるといくらかかるんだろう。"
+			tasks: [{
+				icon: "the_bumblezone:royal_jelly_block"
+				id: "06A852BC383BFB22"
+				structure: "the_bumblezone:honitel"
+				title: "Honitelを探す"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "2F56A01E1713C492"
+			rewards: [{
+				id: "02FCC90814275935"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "すごく気になるんだけど、巣箱の中でハニースライムを育てている村人がいるんだよね？どうしてここに来たんだろう？もしかしたら、ミツバチと仲良くなったのかも。"
+			tasks: [{
+				icon: "minecraft:slime_ball"
+				id: "49280FF78B9CAD65"
+				structure: "the_bumblezone:honey_slime_ranch"
+				title: "スライム牧場を探す"
+				type: "structure"
+			}]
+			title: "スライムランチ"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "3E267F949FEA4C9C"
+			rewards: [{
+				id: "3891B36CE3C3B094"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "もうおかしな話だ。海賊蜂なんているの？一体何を盗もうとしているんだ？"
+			tasks: [{
+				icon: "minecraft:yellow_banner"
+				id: "521C68398D00E371"
+				structure: "the_bumblezone:pirate_ship"
+				title: "海賊船を探す"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "3D3C60805844101B"
+			rewards: [{
+				id: "0D4E2DCB1F6642DC"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "巣にこんな大きな花が！地上では普通か小さいサイズなのかもしれないけど、どうしてこんなに大きくなったんだろう。"
+			tasks: [{
+				icon: "the_bumblezone:honey_crystal"
+				id: "40377F875E7C6A21"
+				structure: "the_bumblezone:overgrown_flower"
+				title: "生い茂った花を見つける"
+				type: "structure"
+			}]
+			title: "生い茂った花"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "59ABBBAC6DBDB649"
+			rewards: [{
+				id: "165D98865A29684E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "ミツバチはこのようにして最初に発見され、人間のように氷の中に閉じ込められて現在まで連れてこられたのだろうか。"
+			tasks: [{
+				icon: "minecraft:blue_ice"
+				id: "3F2FE2E19E44F4F1"
+				structure: "the_bumblezone:ice_monolith"
+				title: "氷のモノリスを見つける"
+				type: "structure"
+			}]
+			title: "氷のモノリス"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "6671FBBE199FF79B"
+			rewards: [{
+				id: "6795911945BD9C29"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "飛べるなら、なぜミツバチにパルクールコースが必要なのでしょうか？ まあ、少なくとも頂上まで登って何かを見つけようと努力することはできます。"
+			tasks: [{
+				icon: "the_bumblezone:super_candle_red"
+				id: "2A1BC2AB647871D2"
+				structure: "the_bumblezone:candle_parkour"
+				title: "キャンドルパルクールを探す"
+				type: "structure"
+			}]
+			title: "キャンドルパルクール"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			description: [
+				"など(!) 使用するにはレベル65以上が必要です！"
+				""
+				"&7 クリスタルフラワーは、輝くハニークリスタルの上に置くことができます。アイテムを捧げることで、花を成長させることができます。成長した花には、特定のエンチャントを本に込めることができます。"
+			]
+			id: "1712E7D12BFC9F90"
+			rewards: [{
+				id: "5561A8AFBDDD31A5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "女王蜂は、魔法の力を与える特別な花があるような庭園の世話をしていたに違いありません。"
+			tasks: [
+				{
+					icon: "the_bumblezone:crystalline_flower"
+					id: "00347893AE03252D"
+					structure: "the_bumblezone:hanging_garden"
+					title: "空中庭園を見つける"
+					type: "structure"
+				}
+				{
+					id: "346EDE41A61A502B"
+					item: "the_bumblezone:glistering_honey_crystal"
+					type: "item"
+				}
+				{
+					id: "220700F6746286E7"
+					item: "the_bumblezone:crystalline_flower"
+					type: "item"
+				}
+			]
+			title: "クリスタルフラワー"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "the_bumblezone:bee_queen_spawn_egg"
+			id: "4E6687341EFF200B"
+			rewards: [{
+				id: "1DDFCCF75BEC40EC"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "ミツバチが巣の中に巣を作れるなんて、誰が知ってた？ 巣が本物のミツバチの形をしているなんて、ちょっと変だけど。ミツバチの邪魔をしてないかな。"
+			tasks: [{
+				id: "56EA7542F4676A4B"
+				structure: "the_bumblezone:bee_house"
+				title: "ビーハウスを探す"
+				type: "structure"
+			}]
+			title: "ビーハウス？！"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "the_bumblezone:ancient_wax_bricks"
+			id: "7568E66D2457DA53"
+			rewards: [{
+				id: "3236855D77CD66B3"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "見た目から判断すると、昔はミツバチがこの輪の周りを飛び回っていたようですが、今ではこの巣箱の中では単なる過去の遺物となっています。"
+			tasks: [{
+				id: "41597F4CBF0C7E52"
+				structure: "the_bumblezone:ancient_hoops"
+				title: "古代の輪を見つける"
+				type: "structure"
+			}]
+			title: "古代のフープ"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "41F8F8AC81CF1B18"
+			rewards: [{
+				id: "519A97ADE9B72899"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "こうして彼らは音楽を作り、また踊りもするのです。"
+			tasks: [{
+				icon: "the_bumblezone:carvable_wax_music"
+				id: "6A445E2CE2DD0C21"
+				structure: "the_bumblezone:dance_floor"
+				title: "ダンスフロアを見つける"
+				type: "structure"
+			}]
+			title: "ダンスフロア"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "4C1276D733165FCE"
+			subtitle: "とても小さな巣の神殿。ミツバチたちにとってもう一つの崇拝の場だったに違いありません。"
+			tasks: [{
+				icon: "minecraft:honey_block"
+				id: "4FAAC46C321AE79F"
+				structure: "the_bumblezone:hive_temple"
+				title: "ハイブ寺院を見つける"
+				type: "structure"
+			}]
+			title: "ハイブ寺院"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "minecraft:honey_bottle"
+			id: "1FE844E12BA3660A"
+			subtitle: "蜂蜜の噴水があるんですね。これも蜂の蜂蜜への愛情を示す一つの方法なのでしょう。"
+			tasks: [{
+				id: "4B90BFEC05C6179C"
+				structure: "the_bumblezone:honey_fountain"
+				type: "structure"
+			}]
+			title: "ハニーファウンテン"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "4ABD922D3A02416E"
+			rewards: [{
+				id: "4FE4DC28C4D3C701"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "ミツバチたちは、飛び道具を使えるように訓練しているのでしょうか？本当に賢いですね。"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "the_bumblezone:bee_cannon"
+					tag: {
+						BeesStored: [ ]
+						Damage: 0
+					}
+				}
+				id: "7E0AC99F6EF65E3A"
+				structure: "the_bumblezone:cannon_range"
+				title: "大砲射撃場を探す"
+				type: "structure"
+			}]
+			title: "砲台"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "1CC0687E11F5A51B"
+			rewards: [{
+				id: "17CE8943141CC8A7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "蜂蜜が多すぎる！ミツバチはどうやって疲れずに蜂蜜を作り続けるんだろう？将来は「政府蜂蜜」って呼ぶといいかもね。"
+			tasks: [{
+				icon: "the_bumblezone:honey_bucket"
+				id: "16A4D6926C4FE612"
+				structure: "the_bumblezone:honey_cave_room"
+				title: "ハニーケーブルームを探す"
+				type: "structure"
+			}]
+			title: "ハニーケーブルーム"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "the_bumblezone:carvable_wax_bricks"
+			id: "6B36C80F052D476A"
+			rewards: [{
+				id: "6040CC46F4BF5548"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "バトルキューブは巨大なクモの巣で覆われた一種のクモのダンジョンのようですが、おそらくこれは後のタスクで役立つでしょう。"
+			tasks: [{
+				id: "63D7913F49061453"
+				structure: "the_bumblezone:battle_cubes"
+				title: "バトルキューブを探す"
+				type: "structure"
+			}]
+			title: "バトルキューブ"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			icon: "the_bumblezone:ancient_wax_bricks"
+			id: "5B7EB596194B40DA"
+			rewards: [{
+				id: "18DCFCBAE6192C79"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "うーん…古代の神社？ミツバチたちは女王蜂をこうやって崇拝しているのだろうか…"
+			tasks: [{
+				id: "02982EB50F5338C0"
+				structure: "the_bumblezone:ancient_shrine"
+				title: "古代の神社を見つける"
+				type: "structure"
+			}]
+			title: "古代の神社"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E9477A4D0A322D5"]
+			id: "085633C89B01DBD9"
+			subtitle: "どうしてこの巣箱に大きな桜の木があるのでしょう？外の世界でこの大きさがどのくらいなのか、とても興味があります。"
+			tasks: [{
+				icon: "minecraft:cherry_sapling"
+				id: "562748B9BD91F4FE"
+				structure: "the_bumblezone:cherry_veteran_tree"
+				title: "桜の木を探す"
+				type: "structure"
+			}]
+			title: "チェリーベテランツリー"
+			x: 3.0d
+			y: 1.0d
+		}
+	]
+	title: "&6バンブルゾーン"
+}

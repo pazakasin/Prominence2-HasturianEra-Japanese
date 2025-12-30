@@ -1,0 +1,923 @@
+{
+	autofocus_id: "6AD67E7C8CD78371"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifact_reforging"
+	group: "3DBADFFDA1FDAD84"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "prominent:item/molten_core"
+		}
+	}
+	id: "13D4D78DE7B38A80"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependency: "3453FD3CA0E3233A"
+			height: 1.0d
+			image: "decorative_blocks:block/bonfire_x_alt"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.0357142857142847d
+			y: 1.8642857142857139d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/blank"
+			rotation: 0.0d
+			width: 0.1d
+			x: 0.0d
+			y: 17.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6「ヴォイドの侵略」の&n第1章&r&6を完了する必要があります。"
+				""
+				"&7「モルテン・コア」は、シンダーストーン火山「ヴァーズ」の奥深くから作られた強力なアーティファクトです。"
+				"&7これを使用することで、特別な能力を持ち、魂に結び付けられた強力でユニークなアーティファクト武器を作成できます。これらの武器は、それを鍛造した者だけが使用できます。"
+				""
+				"&b「エンケースド・レムナント」&7は、これらの武器を修理および再鍛造するために使用できます。また、武器を壊れにくくするために「硬化触媒」&7を作成する必要があります。"
+			]
+			icon: "prominent:molten_core"
+			id: "6AD67E7C8CD78371"
+			rewards: [
+				{
+					id: "5562501929CD8443"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "369B6883C30000A8"
+					item: "prominent:encased_remnant"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "&8[クリックして説明と説明を読む]"
+			tasks: [
+				{
+					id: "035441107821B3C1"
+					item: "prominent:molten_core"
+					type: "item"
+				}
+				{
+					id: "56A625D024CDB2DE"
+					item: "things:hardening_catalyst"
+					title: "硬化クリスタルを作る"
+					type: "item"
+				}
+			]
+			title: "&cS'kellakの鍛冶場"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"&e憤怒のエッセンスと覚醒したリッチブレード、そしてモルテン・コアを使って鍛造できます。"
+				""
+				""
+				"&8このアイテムはWorld of Warcraftのフロストモーンへのオマージュです。"
+			]
+			id: "341DB238063321BF"
+			shape: "hexagon"
+			subtitle: "永遠の冬の力を宿す呪われた剣。フロストモーンは、魂の霜の魔法が込められたルーンアーティファクトです。伝説によれば、これを振るう者はデスナイトの支配者、リッチキングとなると言われています。"
+			tasks: [{
+				id: "7F239D03EBB09534"
+				item: {
+					Count: 1
+					id: "prominent:frostmourne"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"&eモルテンエッジ2個とモルテンコアを使用することで鍛造できます。"
+				""
+				""
+				"&8このアイテムはWorld of WarcraftのFyr'alathへのオマージュです。"
+			]
+			id: "6D1B83D633AB7558"
+			shape: "hexagon"
+			subtitle: "使用者に強力な耐性を与える、苦痛を与えるソウルファイア武器。タンク向きだが、火炎ダメージも大きい。"
+			tasks: [{
+				id: "52D24DAEDFD19F9A"
+				item: {
+					Count: 1
+					id: "prominent:fyralath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+	"&eは、Molten Core とともに、Demonic Essence と Soulrender を使用して鍛造できます。"
+]
+			id: "5D03084D09D2A997"
+			shape: "hexagon"
+			subtitle: "&7A'zhar は S'kellak によって鋳造された大鎌の中に閉じ込められた悪魔であり、このソウルファイア武器は味方ではありません。使用時には裏切ろうとするため注意してください。"
+			tasks: [{
+				id: "43F5AAA9405EE27D"
+				item: {
+					Count: 1
+					id: "prominent:azhar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+	"&e栄光のエッセンスとスターフォージ、そしてモルテン コアを使用して鍛造できます。"
+]
+			id: "1CE7763C1889255C"
+			shape: "hexagon"
+			subtitle: "死にゆく星の残骸から作られたスーパーノヴァは、あらゆる魔法の要素を使用してダメージを与え、アストラルバーストであらゆるターゲットを消滅させることができるアストラル武器です。"
+			tasks: [{
+				id: "6B6E9C04C7D69E89"
+				item: {
+					Count: 1
+					id: "prominent:supernova"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+	"&e憤怒のエッセンスと怒りの拳、そして溶鉱炉核を使って鍛造することができます。"
+]
+			id: "211326D6B6C33A25"
+			shape: "hexagon"
+			subtitle: "このソウルファイア フィストは、姉妹武器であるフューリー フィストも使用している場合、誰をも激怒させることができます。そのため、敵の魂を燃やす強力なパンチを使用するこのフィストは、格闘家にとって致命的な選択肢となります。"
+			tasks: [{
+				id: "3D838C3D611886A5"
+				item: {
+					Count: 1
+					id: "prominent:fury_of_a_thousand_fists"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+	"&eは、悪魔のエッセンスとサンダーブランド、そしてモルテンコアを使用して鍛造できます。"
+]
+			id: "50EB37F863EA810B"
+			shape: "hexagon"
+			subtitle: "かつてセルコニド族のリーダーであった人物が使用した、シンダーストーンとノクティスチールで作られ、雷を込めた溶けたポールアーム。"
+			tasks: [{
+				id: "22CACA94593603A7"
+				item: {
+					Count: 1
+					id: "prominent:thunderwrath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+	"&e栄光のエッセンスと憤怒のエッセンスを使って鍛造できる。双剣を放つにはアシュダールのエッセンスが必要だ。"
+]
+			id: "29425DCD7396CE49"
+			shape: "hexagon"
+			subtitle: "&7 秘術と火の力を使って、太陽と月の力を利用する一対の星の双剣。"
+			tasks: [{
+				id: "37DE8677AEA5721E"
+				item: "prominent:ashedar_essence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"&e栄光のエッセンスとウィザードの杖、そしてモルテン・コアを使って鍛造できます。"
+				""
+				"&cアップグレードツリー内のアーケイン、ファイア、フロスト、ホーリー、アストラルの魔術師向けの5つの強力なバージョンのいずれかに進化します。"
+			]
+			icon: {
+				Count: 1
+				id: "prominent:ekavar_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6313DD656A95E8C0"
+			shape: "hexagon"
+			subtitle: "&7はるか遠くの星々から採取した素材を用いて作られた古代のアーティファクト。力を注入されると、より強力なものへと進化する。"
+			tasks: [{
+				id: "133C7DC53BD48F85"
+				item: {
+					Count: 1
+					id: "prominent:ekavar_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+	""
+]
+			icon: "prominent:orion"
+			id: "4C2EFCB93288D047"
+			shape: "hexagon"
+			subtitle: "&7オリオン座の星々の力を注入した宇宙の弓。"
+			tasks: [{
+				id: "3068576CA6850BF1"
+				item: "prominent:orion"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+				"&8あなたは全てのアーティファクト武器を鍛造し、その熟練度を解放しました。あなたはあらゆる力を手にしました。さて、この知識をどう活かすつもりですか？"
+				""
+				"&7Once you forge your own Artifact, you will unlock its Upgrade Tree. You can access it by pressing &6N&7, and pressing the Molten Core icon at the top left."
+				""
+				"&7All Upgrade Trees have up to &67 nodes&7 you can select, with different paths to take."
+				""
+				"&7To unlock nodes, you will need to empower you artifact using &6Molten Remnants&7, which are rewarded in quests, or craftable using Mythical Essences."
+			]
+			icon: "prominent:molten_remnant"
+			id: "3453FD3CA0E3233A"
+			rewards: [{
+				id: "76103A7FBD55037B"
+				item: "prominent:molten_remnant"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.65d
+			subtitle: "&8[クリックして説明を読む]"
+			tasks: [
+				{
+					id: "559B1BA85C721A6D"
+					title: "続く"
+					type: "checkmark"
+				}
+				{
+					id: "7F2A2E7F3E7BF665"
+					item: "prominent:infused_molten_remnant"
+					title: "キャンペーンから注入された溶融残骸を入手します。"
+					type: "item"
+				}
+			]
+			title: "アーティファクトのアップグレード"
+			x: 0.0d
+			y: 2.475d
+		}
+		{
+			dependencies: [
+				"29425DCD7396CE49"
+				"50EB37F863EA810B"
+				"211326D6B6C33A25"
+				"6313DD656A95E8C0"
+				"3453FD3CA0E3233A"
+				"4C2EFCB93288D047"
+				"341DB238063321BF"
+				"5D03084D09D2A997"
+				"6AD67E7C8CD78371"
+				"6D1B83D633AB7558"
+				"1CE7763C1889255C"
+				"077B4D52C71E918E"
+				"6999531248BA0AB3"
+				"3310DA8006063D56"
+				"3D8ECB6FDDF81AD9"
+				"61CEEB526443BFBE"
+				"0B892A8A2394EB7C"
+				"1D001B61D62F0C01"
+				"78AAA28EC532AD64"
+				"0B7839A1622323AE"
+				"7E00ACC74ECC5E1D"
+				"5D6E6FEA75B80066"
+				"5B27C3D3E677563D"
+				"0ACF3A88C52C2F6E"
+				"36916D6575BB39B7"
+			]
+			description: [
+	"&eああおばあちゃん、これおいしいよ！"
+]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "the_bumblezone:item/essence/knowing"
+				}
+			}
+			id: "6357A4EEEB4B98EF"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "the_bumblezone:item/essence/knowing"
+					}
+				}
+				id: "0EED6BD5D17E433F"
+				title: "&d永遠の知識の一部"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&8秘密の知識"
+			tasks: [{
+				id: "46488029B9E64840"
+				title: "知識を学びました。"
+				type: "checkmark"
+			}]
+			title: "&d永遠の知識: &e永遠の鍛冶場について"
+			x: 0.0d
+			y: -17.25d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+	""
+]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "prominent:item/artifacts/vaazkar/vaazkar_item"
+				}
+			}
+			id: "077B4D52C71E918E"
+			shape: "hexagon"
+			subtitle: "&7ヴァーズ市の最高位の守護者が使用する、生きた像のシンボルが刻まれた溶岩の盾"
+			tasks: [{
+				id: "4FA80A031C7448BD"
+				item: "prominent:vaazkar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [
+	"&eThunderwrathで10のMythical Challengesをクリアして、自分の価値を証明しました"
+]
+			icon: {
+				Count: 1
+				id: "prominent:skillet"
+				tag: {
+					Damage: 0
+					boundArtifact: [I;
+						-509841217
+						1799570245
+						-1395779439
+						-155772242
+					]
+				}
+			}
+			id: "6999531248BA0AB3"
+			invisible: true
+			rewards: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:item/cinderstone_trophy"
+					}
+				}
+				id: "74C384DBFEA6CF28"
+				title: "&d+1 永遠の挑戦完了"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				id: "5E0FF5030814F464"
+				item: {
+					Count: 1
+					id: "prominent:skillet"
+					tag: {
+						Damage: 0
+						boundArtifact: [I;
+							-509841217
+							1799570245
+							-1395779439
+							-155772242
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1CE7763C1889255C"]
+			description: [
+	"&eあなたは10の神話チャレンジをクリアして、エカヴァルで自分の価値を証明しました"
+]
+			id: "7E00ACC74ECC5E1D"
+			invisible: true
+			rewards: [{
+				id: "7AB2264D08A2B514"
+				item: "prominent:illusion_of_supernova"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "689F97A82495BC11"
+				stat: "prominent:hck_supernova"
+				title: "スーパーノヴァで完了したミシックチャレンジ"
+				type: "stat"
+				value: 10
+			}]
+			title: "&d超新星のマスター"
+			x: 3.375d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50EB37F863EA810B"]
+			description: [
+	"フロストモーンで10の神話チャレンジをクリアして自分の価値を証明しました"
+]
+			id: "1D001B61D62F0C01"
+			invisible: true
+			rewards: [{
+				id: "6874C841A9DBA8C8"
+				item: "prominent:illusion_of_thunderwrath"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "3A9375419742883C"
+				stat: "prominent:hck_thunderwrath"
+				title: "&dThunderwrathで完了したMythic Challenges"
+				type: "stat"
+				value: 10
+			}]
+			title: "&dサンダーレイスのマスター"
+			x: 2.625d
+			y: -2.625d
+		}
+		{
+			dependencies: ["6313DD656A95E8C0"]
+			description: [
+	"&eFury of a Thousand Fistsで10の神話チャレンジをクリアし、自分の価値を証明しました"
+]
+			id: "0B7839A1622323AE"
+			invisible: true
+			rewards: [{
+				id: "7F85E2A737B11837"
+				item: "prominent:illusion_of_ekavar_staff"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "114FC153EA628253"
+				stat: "prominent:hck_ekavar"
+				title: "&dEkavarで完了した神話チャレンジ"
+				type: "stat"
+				value: 10
+			}]
+			title: "&dエカヴァルの習得"
+			x: -1.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["341DB238063321BF"]
+			description: [
+	"&eあなたはヴァーズカーで10の神話チャレンジをクリアして自分の価値を証明しました"
+]
+			id: "0B892A8A2394EB7C"
+			invisible: true
+			rewards: [{
+				id: "37FC16AE87800195"
+				item: "prominent:illusion_of_frostmourne"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "34D1DFEFC3811ACF"
+				stat: "prominent:hck_frostmourne"
+				title: "&dフロストモーンで完了したミシックチャレンジ"
+				type: "stat"
+				value: 10
+			}]
+			title: "&dフロストモーンの習得"
+			x: -2.625d
+			y: -2.625d
+		}
+		{
+			dependencies: ["211326D6B6C33A25"]
+			description: [
+	"&eオリオンで10の神話チャレンジをクリアして自分の価値を証明しました"
+]
+			id: "61CEEB526443BFBE"
+			invisible: true
+			rewards: [{
+				id: "5F1AB87437C9214A"
+				item: "prominent:illusion_of_fury_of_a_thousand_fists"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "2D509079109121BC"
+				stat: "prominent:hck_fury_of_a_thousand_fists"
+				title: "&d千拳の激怒で完了した神話チャレンジ"
+				type: "stat"
+				value: 10
+			}]
+			title: "&d千拳の怒りの習得"
+			x: -3.375d
+			y: -1.5d
+		}
+		{
+			dependencies: ["077B4D52C71E918E"]
+			description: [
+	"&eあなたは10の神話チャレンジをクリアしてアシュエダールで自分の価値を証明しました"
+]
+			id: "78AAA28EC532AD64"
+			invisible: true
+			rewards: [{
+				id: "2D37907A06C8F7C3"
+				item: "prominent:illusion_of_vaazkar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "174961978515852E"
+				stat: "prominent:hck_vaazkar"
+				title: "&dVaazkarで完了したミシックチャレンジ"
+				type: "stat"
+				value: 10
+			}]
+			title: "&dヴァーズカーの熟練度"
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4C2EFCB93288D047"]
+			description: [
+	"&eあなたは10の神話チャレンジをクリアし、Fyr'alathで自分の価値を証明しました"
+]
+			id: "5B27C3D3E677563D"
+			invisible: true
+			rewards: [{
+				id: "532ED5976A9851CC"
+				item: "prominent:illusion_of_orion"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "362AF7764A395640"
+				stat: "prominent:hck_orion"
+				title: "&dオリオンで完了したミシックチャレンジ"
+				type: "stat"
+				value: 10
+			}]
+			title: "&dオリオンのマスター"
+			x: 3.75d
+			y: -0.375d
+		}
+		{
+			dependencies: ["29425DCD7396CE49"]
+			description: [
+	"&eあなたは10の神話チャレンジをクリアして、アズハルで自分の価値を証明しました"
+]
+			id: "3310DA8006063D56"
+			invisible: true
+			rewards: [
+				{
+					id: "4CDC2FBE0C91D9E9"
+					item: "prominent:illusion_of_ash"
+					type: "item"
+				}
+				{
+					id: "2CEC30568A5F85E4"
+					item: "prominent:illusion_of_edar"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "4AE9CB829D6B6111"
+				stat: "prominent:hck_ashedar"
+				title: "&dアシュエダールで完了したミシックチャレンジ"
+				type: "stat"
+				value: 10
+			}]
+			title: "&dアシュエダールの熟達"
+			x: 3.375d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6D1B83D633AB7558"]
+			description: [
+	"&eあなたは10の神話チャレンジをクリアしてGh'ajの価値を証明しました"
+]
+			id: "3D8ECB6FDDF81AD9"
+			invisible: true
+			rewards: [{
+				id: "4F2B8D07B90C58EE"
+				item: "prominent:illusion_of_fyralath"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "6F71CF32ABA0F784"
+				stat: "prominent:hck_fyralath"
+				title: "&dFyr'alathで完了した神話チャレンジ"
+				type: "stat"
+				value: 10
+			}]
+			title: "&dFyr'alathの熟練度"
+			x: -3.75d
+			y: -0.375d
+		}
+		{
+			dependencies: ["5D03084D09D2A997"]
+			description: [
+	"&eあなたは10の神話チャレンジをクリアしてアポフィスで自分の価値を証明しました"
+]
+			id: "5D6E6FEA75B80066"
+			invisible: true
+			rewards: [{
+				id: "2F8ADED4DAA330BE"
+				item: "prominent:illusion_of_azhar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "7D91B899C686279C"
+				stat: "prominent:hck_azhar"
+				title: "&dA'zharで完了したミシックチャレンジ"
+				type: "stat"
+				value: 10
+			}]
+			title: "&dアズハルの習得"
+			x: -3.375d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [""]
+			id: "4775EFD3B854946E"
+			shape: "hexagon"
+			subtitle: "邪悪なる存在ガジの力に染まった、堕落した短剣。正気を失う代わりに、高い速攻力を得る。"
+			tasks: [{
+				id: "319EB24C08B33386"
+				item: {
+					Count: 1
+					id: "prominent:ghaj"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4775EFD3B854946E"]
+			description: ["&eYou proved your worth with Gh'aj by defeating 10 Mythical Challenges"]
+			id: "1E19147A29D45714"
+			invisible: true
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "6A182FF8D6012B23"
+				stat: "prominent:hck_ghaj"
+				title: "&dGh'ajで完了した神話チャレンジ"
+				type: "stat"
+				value: 10
+			}]
+			title: "&dガジの習得"
+			x: 0.0d
+			y: -4.267857142857146d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			id: "1DE119EAC2B8E757"
+			shape: "hexagon"
+			tasks: [{
+				id: "0EDBBD5EC242CAAA"
+				title: "&d&k解放"
+				type: "custom"
+			}]
+			title: "&d近日公開"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AD67E7C8CD78371"]
+			description: [""]
+			id: "0ACF3A88C52C2F6E"
+			shape: "hexagon"
+			subtitle: "栄光と誓いから生まれた偉大なる鎚。最強のパラディンが振るい、仲間をあらゆる脅威から守る。"
+			tasks: [{
+				id: "1E3C6D4ED246A31F"
+				item: {
+					Count: 1
+					id: "prominent:apophis"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0ACF3A88C52C2F6E"]
+			description: ["&eYou proved your worth with Apophis by defeating 10 Mythical Challenges"]
+			id: "36916D6575BB39B7"
+			invisible: true
+			rewards: [{
+				id: "652ADD700A1DAFCF"
+				item: "prominent:illusion_of_apophis"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.75d
+			subtitle: "&6永遠の挑戦"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "prominent:textures/icon/mythic_bosses/mythic.png"
+					}
+				}
+				id: "404CB33532E2BFA8"
+				stat: "prominent:hck_apophis"
+				title: "&dアポフィスで完了したミシックチャレンジ"
+				type: "stat"
+				value: 10
+			}]
+			title: "&dアポフィスの習得"
+			x: -2.857142857142854d
+			y: 2.1964285714285765d
+		}
+	]
+	title: "&c&l スケラックの鍛冶場"
+}

@@ -1,0 +1,12 @@
+{
+  "satisfying_buttons.configuration.AnimationEnabled": "アニメーションを有効にする",
+  "satisfying_buttons.configuration.DarkenButtonOnHover": "ホバー時にボタンを暗くする",
+  "satisfying_buttons.configuration.DarkenButtonOnHoverTime": "ホバー時に暗くなる時間",
+  "satisfying_buttons.configuration.DarkenButtonColor": "色を暗くする",
+  "satisfying_buttons.configuration.FadeInVanillaWidgetTexture": "バニラテクスチャのフェードイン",
+  "satisfying_buttons.configuration.FadeInVanillaWidgetTextureOnHoverTime": "フェードイン・バニラタイム",
+  "satisfying_buttons.configuration.SoundEnabled": "サウンド有効",
+  "satisfying_buttons.configuration.ButtonUnhoverSoundEnabled": "ホバー解除サウンドが有効",
+  "satisfying_buttons.configuration.ButtonSoundVolume": "音量",
+  "satisfying_buttons.configuration.ButtonSoundPitch": "音の高さ"
+}

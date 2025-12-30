@@ -1,0 +1,19 @@
+{
+  "text.allthetrims.material": "%s マテリアル",
+  "tooltip.elytratrims.missing": "§cトリムをレンダリングするにはElytra Trimsが必要",
+  "emi.category.allthetrims.smithing": "アーマートリミング",
+  "item.allthetrims.dummy_armour": "任意の鎧",
+  "item.allthetrims.dummy_trimmed_armour": "トリムされたアーマー",
+  "item.allthetrims.dummy_material": "あらゆる素材",
+  "item.allthetrims.dummy_trim_template": "任意のトリムテンプレート",
+  "yacl.allthetrims.title": "すべてのトリム構成",
+  "yacl.allthetrims.category.general": "一般的な",
+  "yacl.allthetrims.tooltip.general": "一般設定",
+  "yacl.allthetrims.group.main": "主要",
+  "yacl.allthetrims.description.main": "メイン設定",
+  "yacl.allthetrims.description.debug1": "デバッグモードを切り替える",
+  "yacl.allthetrims.description.debug2": "有効にすると、ゲームフォルダにデバッグファイルが生成されます",
+  "yacl.allthetrims.description.debug3": "§cデバッグファイルを生成するには再起動とワールドへの参加が必要です",
+  "yacl.allthetrims.name.debug": "デバッグ",
+  "allthetrims.website": "私のウェブサイト"
+}

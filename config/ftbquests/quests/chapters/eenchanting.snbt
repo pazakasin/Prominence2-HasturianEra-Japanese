@@ -1,0 +1,1068 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eenchanting"
+	group: "5EA21B61C2E147CB"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecraft:item/enchanted_book"
+		}
+	}
+	id: "472AF31E92BAA1CC"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7 エンチャントを始めるには、まず基本を理解し、エンチャントテーブルを入手しましょう。"
+				""
+				"&7 エンチャントテーブルを使用すると、下部に3つのバーが表示されます。エテルナ、クアンタ、アルカナです。"
+				""
+				"&7 &aエテルナ&7 - エンチャントテーブルのレベルを制御します。レベルによってコストだけでなく、取得できるエンチャントも変化します。経験値レベルはエテルナの2倍なので、50エテルナでエンチャントに必要なレベルは100になります。"
+				""
+				"&7 &4クアンタ&7 - 純粋なカオスです。クアンタを多く持つほど、すべてがランダムになります。最大限に活用することはお勧めしません。"
+				""
+				"&7 &5アルカナ&7 - このステータスはエンチャントのレア度と数を変化させます。プロテクションやサンファイアなどのアイテムを取得するために、最大限に活用する必要はありません。"
+			]
+			id: "2F8B1BF5905F954D"
+			rewards: [{
+				id: "55EED9C1AD97DB82"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "pentagon"
+			subtitle: "ギアをさらに強化する"
+			tasks: [{
+				id: "29BBF4C4493B2D31"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "魔法のテーブル"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+				"&7旅を続けるには、次のステップはシーシェルフかヘルシェルフのどちらかです。これでエンチャントに必要な最初のステータスを獲得できます。完全に始めるには合計15個、または両方が必要です。"
+				"&7どちらかをもう少し作って、エンチャント効果を付与しましょう！"
+			]
+			hide_until_deps_complete: true
+			id: "379C7E6854F4F226"
+			rewards: [{
+				id: "21C7579D17F3F929"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "さあ、始めましょう！"
+			tasks: [{
+				count: 5L
+				id: "7CFE22664BFEA884"
+				item: "zenith:seashelf"
+				type: "item"
+			}]
+			title: "はじめに、シーシェルフ"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+				"&7旅を続けるには、次のステップはシーシェルフかヘルシェルフのどちらかです。これでエンチャントに必要な最初のステータスを獲得できます。完全に始めるには合計15個、または両方が必要です。"
+				"&7どちらかをもう少し作って、エンチャント効果を付与しましょう！"
+			]
+			hide_until_deps_complete: true
+			id: "52D4F78DE9C64FF3"
+			rewards: [{
+				id: "38792BBCB5C18018"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "さあ、始めましょう！"
+			tasks: [{
+				count: 5L
+				id: "3945BAB14D78B572"
+				item: { Count: 5, id: "zenith:hellshelf" }
+				type: "item"
+			}]
+			title: "はじめに、ヘルシェルブス"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"52D4F78DE9C64FF3"
+				"379C7E6854F4F226"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+	"&7これもたくさん作る必要があります。&45-10&7、多めでも大丈夫ですが、足りないよりは多めに作るほうがよいでしょう。"
+]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2B99DDA42BB7716C"
+			rewards: [{
+				id: "561CFBB9B1F0D4CA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "ヴァーズほど熱くない"
+			tasks: [{
+				count: 5L
+				id: "44D305E5285AAEE1"
+				item: { Count: 5, id: "zenith:infused_hellshelf" }
+				type: "item"
+			}]
+			title: "以前より暑くなった"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"52D4F78DE9C64FF3"
+				"379C7E6854F4F226"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+	"&7これらをいくつか作成し、後で使用するためにさらに 2、3 個作成します。&45-10&7 があれば将来的には十分なはずです。"
+]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "75D6FF466F4DA932"
+			rewards: [{
+				id: "64CBDD9BE4077D57"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "わからないよ、私はただのインターンだから"
+			tasks: [{
+				count: 5L
+				id: "4C5147D7218117A8"
+				item: "zenith:infused_seashelf"
+				type: "item"
+			}]
+			title: "棚か貝殻か？"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75D6FF466F4DA932"]
+			description: [
+				"&7以下の棚のうち、少なくとも2つが必要です：クリスタリンシーシェルフ、ハートフォージドシーシェルフ、ブレイジングヘルシェルフ、グローイングヘルシェルフ。"
+				"&7これにより、15個のインフューズドシェルフと、より高レベルなものを2個作成でき、この手順を踏めばエテルナを30個獲得できるはずです。"
+			]
+			id: "55DC0E4792D27682"
+			rewards: [{
+				id: "2DD241DDC4714A0E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "愛を込めて作りました <3"
+			tasks: [{
+				id: "39013B63D1996B34"
+				item: "zenith:heart_seashelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["75D6FF466F4DA932"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7以下の棚のうち、少なくとも2つが必要です：クリスタリンシーシェルフ、ハートフォージドシーシェルフ、ブレイジングヘルシェルフ、グローイングヘルシェルフ。"
+				"&7これにより、15個のインフューズドシェルフと、より高レベルなものを2個作成でき、この手順を踏めばエテルナを30個獲得できるはずです。"
+			]
+			id: "4011B9F44111D91E"
+			rewards: [{
+				id: "5F0672AF47DC0643"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "ピカピカ！！！"
+			tasks: [{
+				id: "0250CC346A0DD595"
+				item: "zenith:crystal_seashelf"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B99DDA42BB7716C"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7以下の棚のうち、少なくとも2つが必要です：クリスタリンシーシェルフ、ハートフォージドシーシェルフ、ブレイジングヘルシェルフ、グローイングヘルシェルフ。"
+				"&7これにより、15個のインフューズドシェルフと、より高レベルなものを2個作成でき、この手順を踏めばエテルナを30個獲得できるはずです。"
+			]
+			hide_dependent_lines: true
+			id: "760BEB0339ED65A9"
+			rewards: [{
+				id: "17F855382C24A86F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "暑くなってきました！"
+			tasks: [{
+				id: "15378E2783A5AAB3"
+				item: "zenith:blazing_hellshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B99DDA42BB7716C"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7以下の棚のうち、少なくとも2つが必要です：クリスタリンシーシェルフ、ハートフォージドシーシェルフ、ブレイジングヘルシェルフ、グローイングヘルシェルフ。"
+				"&7これにより、15個のインフューズドシェルフと、より高レベルなものを2個作成でき、この手順を踏めばエテルナを30個獲得できるはずです。"
+			]
+			hide_dependent_lines: true
+			id: "7F5414CC388648FC"
+			rewards: [{
+				id: "73E6B66E82C0771C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "放射線ではないことを祈ります"
+			tasks: [{
+				id: "65876EEF7C4D9EA6"
+				item: "zenith:glowing_hellshelf"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0250CC346A0DD595"
+				"0250CC346A0DD595"
+				"760BEB0339ED65A9"
+				"7F5414CC388648FC"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+	"&7これが次のステップです。まだ夢中かどうかによって、嫌いになるか好きになるかが変わります。古代都市からすべて持ち帰るようにしてください。本当に必要ですよ。エコーの破片は次のステップでかなり重要になります。"
+]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "3638B82292E58322"
+			rewards: [{
+				id: "7613C7BF62A57A0F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "眠っているが、死んではいない"
+			tasks: [{
+				count: 5L
+				id: "21B4339658E55FEF"
+				item: { Count: 5, id: "zenith:dormant_deepshelf" }
+				type: "item"
+			}]
+			title: "ZZZZZZZZZZZZZZZ"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3638B82292E58322"]
+			description: [
+	"&7 心配しないでください。噛むことはありません。これらは次のステップですが、主にクラフトに使用されます。8 個くらい作れるまで、できるだけたくさん作ってください。"
+]
+			id: "181E4D8DC20A161F"
+			rewards: [{
+				id: "1A26975999222863"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "目覚めよ！"
+			tasks: [{
+				count: 5L
+				id: "7DA53A17D1F442CF"
+				item: { Count: 5, id: "zenith:deepshelf" }
+				type: "item"
+			}]
+			title: "棚が深ければ深いほど、あなたのポケットは深くなります"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["181E4D8DC20A161F"]
+			description: [
+	"&7 目的の場所に到達するには、これらとその他のもの、注入、および優れたエンチャントが 8 つ必要になります。"
+]
+			id: "14688027AF83AD58"
+			rewards: [{
+				id: "7667E39FE00B63FD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "どこかで心臓がドクドクと音を立てているような遠くの音。"
+			tasks: [{
+				id: "415BC1C4DB113498"
+				item: "zenith:echoing_deepshelf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["181E4D8DC20A161F"]
+			description: [
+	"&7 目的の場所に到達するには、これらとその他のもの、注入、および優れたエンチャントが 8 つ必要になります。"
+]
+			id: "7BE41C566915CAC0"
+			rewards: [{
+				id: "3C1E9BFF3F769D2E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "何かに触れたような気がするが、そんなはずはない…"
+			tasks: [{
+				id: "79ED4BC5C5C5D852"
+				item: "zenith:soul_touched_deepshelf"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1B0F69F532F25CED"]
+			description: [
+				"&7多くの書物は様々な用途があります。簡単に説明します。"
+				""
+				"&7スクラップと抽出の書物は、主にアイテムからエンチャントを解除するために使用されます。"
+				""
+				"&7様々な装備の書物は、フェザーフォールリングなど、特定の装備セットや防具にのみ付与可能な特定のエンチャントを取得するために使用できます。"
+			]
+			id: "3DCC7DFC27102E56"
+			rewards: [
+				{
+					count: 8
+					id: "21DEA676A6696DFF"
+					item: "zenith:scrap_tome"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4F49EBEDED48949C"
+					item: "zenith:pickaxe_tome"
+					type: "item"
+				}
+				{
+					id: "6B1BE2D2621D208D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "書物"
+			tasks: [{
+				id: "67A155F5E166C842"
+				type: "checkmark"
+			}]
+			title: "Tomes とは何ですか?"
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5D65F9ABAFC04598"]
+			dependency_requirement: "one_completed"
+			description: [
+	"&7 &4Tomes&7を注入できます。Tomesは装備からエンチャントを抽出するのに非常に便利です。例えば、Splitting&7のエンチャントを付与した&eAnvilを使えば、本を各コンポーネントに分割できます。何か面白いものを見つけたけど武器がダメだった、そんな時にとても便利です！使用する前に必ず読んでください。中には、使用中のアイテムを失くしてしまうものもあります。"
+]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:enchanting_table"
+			id: "1B0F69F532F25CED"
+			rewards: [{
+				id: "4EBEBE754EDFD150"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "pentagon"
+			subtitle: "楽しそうですね、それは何ですか？"
+			tasks: [
+				{
+					count: 3L
+					id: "0FE9FC98DF5C07A0"
+					item: { Count: 3, id: "zenith:melonshelf" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2269676675535AEF"
+					item: { Count: 3, id: "minecraft:bookshelf" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "158A742BA6990074"
+					item: { Count: 8, id: "zenith:echoing_sculkshelf" }
+					type: "item"
+				}
+			]
+			title: "最初の輸液セットアップ"
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["14688027AF83AD58"]
+			description: [
+	"&7 今作った棚をアップグレードします。次のステップで必要になります。"
+]
+			id: "5D65F9ABAFC04598"
+			rewards: [{
+				id: "61E5B6DC54ED44D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "ハミング..."
+			tasks: [{
+				count: 8L
+				id: "0195AEE90B3A28AD"
+				item: "zenith:echoing_sculkshelf"
+				type: "item"
+			}]
+			title: "深淵からの響き。"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+	"&7 呪いを与えるアイテムに遭遇することがあります。これらの呪いは通常の方法では解除できず、特別なクモの巣が必要です。そうでないと呪いは解除されません。"
+]
+			id: "39501B35F8A9520C"
+			rewards: [
+				{
+					count: 4
+					id: "3DE9DD8EFDD49D8D"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					id: "335DEF7D39E00FDA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "くそ！"
+			tasks: [{
+				id: "1DD01687EDBB66CA"
+				item: "zenith:prismatic_web"
+				type: "item"
+			}]
+			title: "呪いよ！"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B0F69F532F25CED"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7歯科医でなければドラゴンの息を入手するのは難しいですが、2つの方法があります。"
+				""
+				"&7&9戦闘中にドラゴンから奪う&7。簡単な方法は、たくさんの瓶を持ってドラゴンの息を集めるだけです。"
+				""
+				"&7&9錬金術師の村人&7も販売できますが、取引ランクは高くなります。"
+				""
+				"&7あまり確実とは言えませんが、シラーズなどのダンジョンを略奪するのも良いでしょう。確率は高いですが、ゼロになることはありません。"
+			]
+			id: "3CC8482AB27413C3"
+			rewards: [{
+				id: "3071D1638FAAAF49"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "ミント！"
+			tasks: [{
+				id: "306E3015FF1A27CA"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			title: "遠足：ドラゴンの息吹"
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3CC8482AB27413C3"]
+			id: "6D97D1472D47E236"
+			rewards: [{
+				count: 3
+				id: "2446D43D8683AF42"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			subtitle: "さらにミント味"
+			tasks: [{
+				count: 3L
+				id: "0F2CE0A37D163724"
+				item: { Count: 3, id: "zenith:infused_breath" }
+				type: "item"
+			}]
+			title: "注入されたドラゴンの息"
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"2B99DDA42BB7716C"
+				"75D6FF466F4DA932"
+				"181E4D8DC20A161F"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7 これは間違いなく、エンチャントに使える最高のアイテムです！ &4すべてのエンチャントが1つのブロックに保存され、AE2にも対応しています！ さらに、ストレージバスを接続すれば、お気に入りのエンチャントや呪文をすべて利用できるようになります！"
+				""
+				"&7 &4採掘可能&r"
+			]
+			hide_dependency_lines: true
+			id: "01683B1B161E67AB"
+			rewards: [{
+				count: 2
+				id: "169ABD5DBB70C2A2"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "たっぷり入ります！"
+			tasks: [{
+				id: "1F1F4DA2AB2D3456"
+				item: "zenith:library"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01683B1B161E67AB"]
+			description: [
+	"&7これは同じ機能ですが、私に言わせれば、より大きく、より豪華です。"
+]
+			id: "6E555092C38226CC"
+			subtitle: "そして燃えてしまったと思ったのですが..."
+			tasks: [{
+				id: "1B100A9D48825486"
+				item: "zenith:ender_library"
+				type: "item"
+			}]
+			title: "アレクサンドリア図書館"
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3CBCFFD3B30E10E0"
+				"5CC063470E38D1AA"
+				"286D2A30B3320935"
+			]
+			description: [
+	"&7これはアレクサンドリア図書館で必要になります。すべてではないにしても大部分は次のステップでも必要になりますので、ご心配なく。"
+]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:enchanting_table"
+			id: "01B622F25CE780AF"
+			rewards: [{
+				id: "7AC10A78B3C3FF62"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			shape: "pentagon"
+			subtitle: "もうすぐ終わりです！"
+			tasks: [
+				{
+					count: 5L
+					id: "150113F1F7073B09"
+					item: { Count: 5, id: "zenith:endshelf" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1EE3757E1307E447"
+					item: { Count: 2, id: "zenith:treasure_shelf" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6ECF86FB20B46A79"
+					item: { Count: 4, id: "zenith:echoing_sculkshelf" }
+					type: "item"
+				}
+			]
+			title: "大型銃とほぼ同じ大きさの魔法をかける方法"
+			x: 11.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1B0F69F532F25CED"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2684EE4739B501F6"
+			rewards: [{
+				id: "53B2CC2AB2A44EDC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "混沌とした性質"
+			tasks: [{
+				count: 5L
+				id: "7CAD7E899B740A3C"
+				item: { Count: 5, id: "zenith:endshelf" }
+				type: "item"
+			}]
+			title: "ラストマイル - エンドシェルフ"
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2684EE4739B501F6"]
+			description: [
+	"&7ドラコニック・エンドシェルフと同様に、これも複数必要になります。常に2、3個余分に作っておくのがベストです。エンドロッドはエンドシティでクラフトしたり見つけたりできるので、問題なく見つかるはずです！"
+]
+			id: "5CC063470E38D1AA"
+			rewards: [{
+				id: "56673431B588EF62"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "真珠のような白さ！"
+			tasks: [{
+				count: 4L
+				id: "168712189D4FFCD1"
+				item: { Count: 4, id: "zenith:pearl_endshelf" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2684EE4739B501F6"]
+			description: [
+	"&7 エンダー ドラゴンの頭は船上で見つかります。後でこれらの棚がいくつか必要になります。頭を余らせられる場合は、5 ～ 6 個ほど作るのが最適です。"
+]
+			id: "286D2A30B3320935"
+			rewards: [{
+				id: "680672A17BE230CA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "うわー！"
+			tasks: [{
+				id: "180727F1CD0353E7"
+				item: "zenith:draconic_endshelf"
+				type: "item"
+			}]
+			title: "ドラコニックエンドシェルフ"
+			x: 9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2684EE4739B501F6"]
+			description: [
+	"&7 高価ですが、ステータスも効果も優れているので、避けて通ることはできません。資源に余裕があれば、いくつか作っておくと良いでしょう。"
+]
+			id: "3CBCFFD3B30E10E0"
+			rewards: [{
+				id: "75459C34259B5713"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "ケバケバ！"
+			tasks: [{
+				count: 2L
+				id: "79D4CEE65DF64B8D"
+				item: { Count: 2, id: "zenith:treasure_shelf" }
+				type: "item"
+			}]
+			title: "ピカピカ！"
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["56C00181CBB95EB0"]
+			description: [
+	"&7 いずれかの設定を使用してチャームを注入します。"
+]
+			icon: "minecraft:enchanting_table"
+			id: "379E8A63DC6E5A5C"
+			rewards: [{
+				id: "6CADEC76C9C4EDEF"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "ついに！"
+			tasks: [
+				{
+					count: 7L
+					id: "43379A33C0312849"
+					item: { Count: 7, id: "zenith:melonshelf" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7207A14D2D67BE6F"
+					item: { Count: 6, id: "zenith:blazing_hellshelf" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6C5E55FCEA69891F"
+					item: { Count: 5, id: "zenith:pearl_endshelf" }
+					type: "item"
+				}
+				{
+					id: "578078FD7001177F"
+					item: "zenith:draconic_endshelf"
+					type: "item"
+				}
+			]
+			title: "魅力注入：壊れない魅力をつける方法 I"
+			x: 11.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["56C00181CBB95EB0"]
+			description: [
+	"&7 どちらかの設定を使用してチャームを注入できるようにします。"
+]
+			icon: "minecraft:enchanting_table"
+			id: "049AF60D64091458"
+			rewards: [{
+				id: "5617603B2193CC5B"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "ついに！"
+			tasks: [
+				{
+					count: 5L
+					id: "6648BAF04E1A79DA"
+					item: { Count: 5, id: "zenith:draconic_endshelf" }
+					type: "item"
+				}
+				{
+					id: "7683F506288E5E74"
+					item: "zenith:treasure_shelf"
+					type: "item"
+				}
+				{
+					id: "2B9DE408A58CB038"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "4CEA3A10F9008019"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:candles"
+						}
+					}
+					title: "#minecraft:candles のいずれか"
+					type: "item"
+				}
+			]
+			title: "チャーム注入：壊れない魅力を身につける方法 II"
+			x: 13.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["01B622F25CE780AF"]
+			description: [
+	"&7 必要なのはこれだけです。全てを最大限まで強化しましょう。「海底濾過」の「シーシェルフ」で濾過すれば、好きなだけ増やせます。「プロテクション」や「サンファイア」のようなクラスエンチャントが必要な場合は、アルカナを下げましょう。まとめてエンチャントして、全てエンチャントライブラリにまとめておくのがベストです。"
+]
+			icon: "minecraft:enchanting_table"
+			id: "6D36893D5374B38B"
+			rewards: [
+				{
+					id: "1D92906E686EF072"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "6C919A3AAD22C952"
+					item: "prominent:molten_remnant"
+					type: "item"
+				}
+			]
+			subtitle: "魅惑的な最大"
+			tasks: [
+				{
+					count: 5L
+					id: "22C42D5B6451D475"
+					item: { Count: 5, id: "zenith:soul_touched_sculkshelf" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7CC672CE8358F354"
+					item: { Count: 4, id: "zenith:echoing_sculkshelf" }
+					type: "item"
+				}
+				{
+					id: "630F2837F2F63237"
+					item: "zenith:draconic_endshelf"
+					type: "item"
+				}
+				{
+					id: "16FA226E9105028E"
+					item: "zenith:treasure_shelf"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "08F4523E38C248C7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:candles"
+						}
+					}
+					title: "#minecraft:candles のいずれか"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2713D3D1E03B8E88"
+					item: { Count: 3, id: "zenith:rectifier_t3" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "467CB71A2261B501"
+					item: { Count: 2, id: "zenith:sightshelf_t2" }
+					type: "item"
+				}
+				{
+					id: "287901607B616925"
+					item: "zenith:filtering_shelf"
+					type: "item"
+				}
+			]
+			title: "すべてのエンチャントの母"
+			x: 15.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["01B622F25CE780AF"]
+			description: [
+	"&7 これは、以前約束したように、最終的にそれらを破壊不可能にできる瞬間です。次の 2 つのクエストで、最適なオプションが表示されます。"
+]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "56C00181CBB95EB0"
+			rewards: [{
+				id: "32A05BF7E1EBA11D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "square"
+			subtitle: "今すぐ壊れないようにしましょう！"
+			tasks: [{
+				id: "4D5C7C609F415DBB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "trinkets:hand/charm"
+					}
+				}
+				title: "#小物:手/チャーム"
+				type: "item"
+			}]
+			title: "チャームズ II: エレクトリック・ブーガルー"
+			x: 12.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+				"&7 チャームは、ポーションの効果を長持ちさせるのに最適です。効果の持続時間が短いものもありますが、ほとんどは存在します。これらは常に同じポーション3つから作成され、耐久力があるため、壊れないようにする方法がいくつかあります。"
+				""
+				"&7 - 耐久力と修繕を組み合わせると、かなり長持ちさせることができます。"
+				""
+				"&7 - 硬化触媒。今は高価だとは思いますが、チャーム用に1つ用意しておきましょう。現在使用しているチャームに使用する場合は、慎重に選びましょう。"
+				""
+				"&7 - 注入。これについては後ほど説明します。準備が整うまで、クエストラインをもう少し進めていきましょう！"
+			]
+			id: "0D3EA083E83FE6AF"
+			rewards: [{
+				id: "428763DDFC7E1739"
+				item: "things:hardening_catalyst"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "魅力的ですね！"
+			tasks: [{
+				id: "10EBBFF3F2982BD8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "trinkets:hand/charm"
+					}
+				}
+				title: "#小物:手/チャーム"
+				type: "item"
+			}]
+			title: "チャームI"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+	"&7エンダーリードを使えば、&4ほとんど、いや、ほとんど全てのパッシブモブを捕獲できます。&r、&e敵対者、そして他のプレイヤーは捕獲できません&7。そのためにはSpatialIOが必要です。愛するペットや、拠点に連れ帰りたい羊、あるいは水槽を埋め尽くすためにも、このツールをお使いください。"
+]
+			id: "7E791BE2C0D74016"
+			rewards: [{
+				id: "4E675E0EE80B1604"
+				item: {
+					Count: 1
+					id: "zenith:ender_lead"
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "これはモンスターボールではありません!"
+			tasks: [{
+				id: "0313B2BB589AD702"
+				item: {
+					Count: 1
+					id: "zenith:ender_lead"
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "ポケボールは商標登録されている"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+				"&7レベルアップに使えるアイテムがいくつかあります。以下にリストアップしました。"
+				""
+				"&7&9鎧&7: ソウルダンサー、クォーツトリム（ランダム鍛冶テンプレート + クォーツ）で完全に装飾済み。"
+				""
+				"&7&9アクセサリー&7: ゴールデンフックと迷信帽子"
+				""
+				"&7&9バックパック&7: ラピスラズリのバックパック"
+				""
+				"&7&9役立つ武器エンチャント&7: ルート、スカベンジャー、ソウルデバウアー、そして時代の知識（これはアイテムをXPに変換するので、ボスには使用しないでください）"
+				""
+				"&7&9鎧エンチャント&7: 魂の袋"
+				""
+				"&7これらすべてが必要なわけではありません。XPを獲得する方法は他にもあります。これらのアイテムの中から、実際に必要なものを選んで作成してください。"
+			]
+			id: "15AF68754CE02E4A"
+			rewards: [{
+				id: "5D49BC2EC790F43C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "たくさん必要になりますよ!"
+			tasks: [{
+				id: "09987381BB96DE43"
+				title: "レベルを取得する方法"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F8B1BF5905F954D"]
+			description: [
+	"&7Anvils には Obliteration と Splitting のエンチャントを施すことができます。Splitting は、入手した大きなエンチャントの本を小さな本に分割するのに非常に便利です。これは、武器や本から一部のエンチャントだけを抽出する数少ない方法の 1 つです。"
+]
+			id: "5D62225195633904"
+			rewards: [{
+				id: "59493EE82EBCFA4B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "カチャン！"
+			tasks: [{
+				id: "31F16606F96454B7"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "金床エンチャント"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52D4F78DE9C64FF3"]
+			dependency_requirement: "one_started"
+			description: [
+	"&7ガストの涙は、ネザーダンジョンで時々見つかる旅人錬金術師から入手できます。ガストの出現率は低い傾向があるので、幸運を祈ります。"
+]
+			id: "65967FFB6D25BD30"
+			rewards: [{
+				id: "24EA0CB52EC9C2CA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "なぜ泣くの？"
+			tasks: [{
+				id: "3EC1DC3EF9D96059"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "ガストの涙の入手"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["379C7E6854F4F226"]
+			dependency_requirement: "all_started"
+			description: [
+	"&7これら2体は、魂の炎の前で、ケース入りの扇風機と手回しクランクのような回転力を得る手段があれば、バルク・ホーントから脱出できます。この方法は、アンデッドソウルのために馬をバルク・ホーントするのにも使えます。"
+]
+			id: "0AACB9207417BB72"
+			rewards: [{
+				id: "325B504046C091EB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "記念碑が遠すぎる場合"
+			tasks: [
+				{
+					id: "1EE29D15B252AEDB"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					id: "0E3D15DF3DFC8600"
+					item: "minecraft:prismarine_crystals"
+					type: "item"
+				}
+			]
+			title: "プリズマリン"
+			x: -2.0d
+			y: -3.5d
+		}
+	]
+	title: "エンチャント"
+}

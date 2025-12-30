@@ -1,0 +1,13 @@
+{
+  "mavapi.mod.mavm": "MAVM",
+  "mavapi.variant.mavm.lucia": "ルシア",
+  "mavapi.variant.mavm.wilder": "ワイルダー",
+  "mavapi.variant.mavm.golden": "ゴールデン",
+  "mavapi.variant.mavm.green": "緑",
+  "mavapi.variant.mavm.skulk": "スカルク",
+  "mavapi.variant.mavm.black": "黒",
+  "mavapi.variant.mavm.red": "赤",
+  "mavapi.variant.mavm.glowxolotl": "グロウショロトル",
+  "mavapi.variant.mavm.white": "白",
+  "mavapi.variant.mavm.cyanide": "シアン化物"
+}

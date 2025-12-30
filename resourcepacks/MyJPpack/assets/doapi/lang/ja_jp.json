@@ -1,0 +1,23 @@
+{
+  "block.doapi.standard": "コンプリショニストバナー",
+  "block.doapi.wall_standard": "コンプリショニストウォールバナー",
+  "sound.doapi.cabinet_close": "閉会内閣",
+  "sound.doapi.cabinet_open": "オープニングキャビネット",
+  "sound.doapi.drawer_close": "引き出しを閉じる",
+  "sound.doapi.drawer_open": "引き出しを開ける",
+  "sound.doapi.cake_cut": "ケーキカット",
+  "sound.doapi.typewriter": "タイプライターで入力する",
+  "sound.doapi.dinner_bell": "夕食のベルが鳴る",
+  "sound.doapi.brewstation_ambient": "ブリューステーション・ハム",
+  "sound.doapi.brewstation_oven": "オーブンのカリカリ音",
+  "sound.doapi.brewstation_timer": "刻々と進むタイマー",
+  "sound.doapi.brewstation_kettle": "泡をはじく",
+  "sound.doapi.brewstation_whistle": "口笛",
+  "sound.doapi.breath": "呼吸",
+  "sound.doapi.beer_elemental_death": "酒が死ぬ",
+  "sound.doapi.beer_elemental_ambient": "酒の雰囲気",
+  "sound.doapi.beer_elemental_hurt": "酒は有害",
+  "sound.doapi.beer_elemental_attack": "酒攻撃",
+  "sound.doapi.timer_ticking": "刻々と進むタイマー",
+  "pack.source.builtinMod": "組み込み: %s"
+}

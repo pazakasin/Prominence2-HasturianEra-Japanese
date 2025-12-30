@@ -1,0 +1,13 @@
+{
+  "item.onlyexcavators.wooden_excavator": "木製掘削機",
+  "item.onlyexcavators.stone_excavator": "石材掘削機",
+  "item.onlyexcavators.iron_excavator": "鉄掘削機",
+  "item.onlyexcavators.gold_excavator": "金採掘機",
+  "item.onlyexcavators.lapis_excavator": "ラピス掘削機",
+  "item.onlyexcavators.redstone_excavator": "レッドストーン掘削機",
+  "item.onlyexcavators.diamond_excavator": "ダイヤモンド掘削機",
+  "item.onlyexcavators.emerald_excavator": "エメラルド掘削機",
+  "item.onlyexcavators.obsidian_excavator": "黒曜石掘削機",
+  "item.onlyexcavators.netherite_excavator": "ネザーライト掘削機",
+  "itemGroup.onlyexcavators.onlyexcavators": "掘削機のみ"
+}

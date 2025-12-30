@@ -1,0 +1,9 @@
+{
+  "attribute.name.ranged_weapon.damage": "遠距離ダメージ",
+  "attribute.name.ranged_weapon.haste": "描画速度",
+  "attribute.name.ranged_weapon.pull_time": "秒プル時間",
+  "item.modifiers.both_hands": "開催時:",
+  "effect.ranged_weapon.damage": "インパクト",
+  "effect.ranged_weapon.haste": "ラピッドファイア",
+  "item.ranged_weapon.pull_time": "%1$秒のプル時間"
+}

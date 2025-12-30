@@ -1,0 +1,17 @@
+{
+  "amecs.key.categories.skin_layers": "アメックススキンレイヤー",
+  "key.amecs.toggle_auto_jump": "自動ジャンプの切り替え",
+  "key.amecs.toggle_cape": "トグルケープ",
+  "key.amecs.toggle_hat": "トグルハット",
+  "key.amecs.toggle_jacket": "トグルジャケット",
+  "key.amecs.toggle_left_pants_leg": "パンツの左脚を切り替える",
+  "key.amecs.toggle_left_sleeve": "左袖の切り替え",
+  "key.amecs.toggle_right_pants_leg": "パンツの右脚を切り替える",
+  "key.amecs.toggle_right_sleeve": "右袖切り替え",
+  "key.amecs.alternative_escape": "エスケープ（代替キー）",
+  "amecs.toggled.on": "有効 %s",
+  "amecs.toggled.off": "無効 %s",
+  "amecs.toggled.auto_jump": "自動ジャンプ",
+  "amecs.search.placeholder": "検索... (\u003d キーで検索、\u003d%% 競合の場合)",
+  "amecs.search.no_results": "結果が見つかりませんでした"
+}

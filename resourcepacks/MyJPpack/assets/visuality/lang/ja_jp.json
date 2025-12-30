@@ -1,0 +1,19 @@
+{
+  "modmenu.descriptionTranslation.visuality": "多数の新しいパーティクルを追加することで、見た目が少し改善されました。",
+  "config.visuality.title": "視覚設定",
+  "config.visuality.general": "一般的な",
+  "config.visuality.option.slime": "スライムブロブが有効",
+  "config.visuality.option.charge": "チャージパーティクル有効",
+  "config.visuality.option.sparkle": "スパークルパーティクル有効",
+  "config.visuality.option.soul": "ソウルパーティクル有効",
+  "config.visuality.option.waterCircle": "ウォーターサークルが有効",
+  "config.visuality.option.waterCircle.colored": "水の円の色",
+  "config.visuality.option.waterCircle.density": "水円密度",
+  "config.visuality.option.waterCircle.radius": "水円の半径",
+  "config.visuality.option.hitParticles": "ヒットパーティクル有効",
+  "config.visuality.option.hitParticles.entries": "ヒットパーティクルエントリー",
+  "config.visuality.option.shinyArmor": "光沢のある鎧が有効",
+  "config.visuality.option.shinyArmor.entries": "光沢のある鎧のエントリー",
+  "config.visuality.option.shinyBlocks": "光沢のあるブロックが有効",
+  "config.visuality.option.shinyBlocks.entries": "シャイニーブロックエントリー"
+}
