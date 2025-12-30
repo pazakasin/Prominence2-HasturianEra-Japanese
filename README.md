@@ -9,7 +9,7 @@ Prominence II: Hasturian Eraの日本語翻訳ファイルを提供するプロ�
 
 このリポジトリは、Minecraft ModPack「**Prominence II: Hasturian Era**」に含まれる各MODとクエストの日本語翻訳ファイルを提供します。
 
-- **対応バージョン**: Prominence II: Hasturian Era v3.9.12
+- **対応バージョン**: Prominence II: Hasturian Era v3.9.12 [[Link]](https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era)
 - **Minecraftバージョン**: 1.20.1
 - **翻訳状況**: クエスト100% / MODほぼ100%
 
@@ -59,8 +59,8 @@ resourcepacks/MyJPpack/                  # リソースパック形式翻訳フ�
 
 ## 🙏 クレジット
 
-- **Prominence II: Hasturian Era**: [Link](https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era)
-- **翻訳者**: Prominence II: Hasturian Era 日本語化プロジェクト（https://github.com/pazakasin/Prominence2-HasturianEra-Japanese）
+- **ModPack作者**: [Prominence II: Hasturian Era](https://www.curseforge.com/minecraft/modpacks/prominence-2-hasturian-era)
+- **翻訳者**: [Prominence II: Hasturian Era 日本語化プロジェクト](https://github.com/pazakasin/Prominence2-HasturianEra-Japanese)
 - **各MOD作者**: 素晴らしいMODを提供してくださった全ての作者様に感謝
 
 ## ⚠️ 免責事項
